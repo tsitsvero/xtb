@@ -33,6 +33,8 @@ module xtb_type_setvar
    public :: reactor_setvar
    public :: path_setvar
 
+   public :: prob_metadyn
+
    private
    integer,private :: idum
 
@@ -252,6 +254,14 @@ module xtb_type_setvar
       procedure :: allocate => allocate_metadyn
       procedure :: deallocate => deallocate_metadyn
    end type metadyn_setvar
+
+!! -----------------------------
+! prob_xtb mod for Metadynamics
+type :: prob_metadyn
+      real(wp) :: alpha = 1.0_wp
+      real(wp) :: k = 0.0_wp
+end type
+!! -----------------------------   
 
 !! ------------------------------------------------------------------------
 !  biased path finder based on RMSD criteria
