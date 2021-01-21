@@ -1214,6 +1214,10 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
 
       case('--coffee')
          coffee = .true.
+      
+      case('--prob')
+         write(stdout,'(a)') "Lalala"
+         write(*,*) "Lalala"
 
       case('-a', '--acc')
          call args%nextArg(sec)

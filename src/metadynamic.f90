@@ -88,6 +88,14 @@ subroutine metadynamic(metavar,nat,at,xyz,ebias,g)
 
 end subroutine metadynamic
 
+! FUNCTION func_name(a, b)
+!    INTEGER :: func_name
+!    INTEGER :: a
+!    REAL    :: b
+!    func_name = (2*a)+b
+!    RETURN
+! END FUNCTION
+
 subroutine load_metadynamic(metavar,nat,at,xyz)
    use xtb_mctc_io, only : stdout
    use xtb_mctc_accuracy, only : wp

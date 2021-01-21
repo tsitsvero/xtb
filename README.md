@@ -13,12 +13,18 @@ This is the fork from offical repository of the `xtb` program package developed 
 
 .................................
 
-## Quick compilation with Intel API
+## Quick compilation and run with Intel API
 
 ```
 . /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc && meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure
 
 ninja -C build install
+
+cd ~/Desktop/xtb/bin
+
+ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10
+
+./xtb --coffee
 ```
 
 ## Installation
