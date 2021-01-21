@@ -11,6 +11,7 @@ This is the offical repository of the `xtb` program package developed by the Gri
 <img src="./assets/logo/xtb.svg" alt="Extended Tight Binding" width="220">
 </div>
 
+.................................
 
 ## Installation
 
