@@ -351,6 +351,7 @@ subroutine xtbMain(env, argParser)
    call init_constr(mol%n,mol%at)
    call init_scan
    call init_walls
+   call init_pcem
    if (runtyp.eq.p_run_bhess) then
       call init_bhess(mol%n)
    else
@@ -1164,8 +1165,12 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
       case(     '--define')
          call set_define
 
-   !$ case('-P','--parallel')
-   !$    call args%nextArg(sec)
+      case('-P','--parallel')
+   !$    if (.false.) then
+            call env%warning('Program compiled without threading support', source)
+   !$    endif
+         ! Always remove next argument to keep argument parsing consistent
+         call args%nextArg(sec)
    !$    if (allocated(sec)) then
    !$    if (getValue(env,sec,idum)) then
    !$       nproc = omp_get_num_threads()
