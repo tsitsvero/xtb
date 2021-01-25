@@ -13,7 +13,7 @@ This is the fork from offical repository of the `xtb` program package developed 
 
 .................................
 
-## Quick compilation and run with Intel API
+## Q uick compilation and run with Intel API
 
 ```
 . /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc && meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure
@@ -142,7 +142,7 @@ features reality:
 - S. Dohm ([@thch-dohm](https://github.com/thch-dohm))
 - S. Ehlert ([@awvwgk](https://github.com/awvwgk))
 - S. Ehrlich
-- I. Gerasimov ([@FulgurIgor](https://github.com/fulgur/igor))
+- I. Gerasimov ([@FulgurIgor](https://github.com/fulgurigor))
 - [S. Grimme](https://www.chemie.uni-bonn.de/pctc/mulliken-center/grimme/) ([@stefangrimme](https://github.com/stefangrimme))
 - J. Koopman ([@JayTheDog](https://github.com/jaythedog))
 - C. Lavinge ([@clavinge](https://github.com/clavinge))
