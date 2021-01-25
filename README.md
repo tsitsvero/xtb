@@ -26,7 +26,8 @@ ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 &&
 
 ./xtb --coffee
 ```
-$y = f(x)$ hello $$y = f(X)$$
+
+<img src="https://render.githubusercontent.com/render/math?math= y = f(X-x)">
 
 ## Installation
 
