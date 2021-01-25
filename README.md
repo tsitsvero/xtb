@@ -26,6 +26,7 @@ ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 &&
 
 ./xtb --coffee
 ```
+$y = f(x)$ hello $$y = f(X)$$
 
 ## Installation
 
