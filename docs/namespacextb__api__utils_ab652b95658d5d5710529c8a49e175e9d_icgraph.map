@@ -1,0 +1,10 @@
+<map id="xtb_api_utils::c_f_character" name="xtb_api_utils::c_f_character">
+<area shape="rect" id="node1" title=" " alt="" coords="228,201,360,243"/>
+<area shape="rect" id="node2" href="$namespacextb__api__calculator.html#a9d6feb3a53eb3b2edb400109a7158040" title=" " alt="" coords="22,5,163,47"/>
+<area shape="rect" id="node3" href="$namespacextb__api__calculator.html#a880727e8708090d0d366d861124c0d48" title=" " alt="" coords="22,71,163,112"/>
+<area shape="rect" id="node4" href="$namespacextb__api__calculator.html#a382f3cb8f313fadf0cccd4dea5df7ba6" title=" " alt="" coords="22,136,163,177"/>
+<area shape="rect" id="node5" href="$namespacextb__api__calculator.html#a6d6689e12fc963d1bc325f687a8d7d5d" title=" " alt="" coords="22,201,163,243"/>
+<area shape="rect" id="node6" href="$namespacextb__api__environment.html#a9ceff47ae14b410feeeccca873b261c0" title="Bind output from this environment." alt="" coords="13,267,173,308"/>
+<area shape="rect" id="node7" href="$namespacextb__api__calculator.html#a995caa38fe4c40aa8ffbe52994794c40" title="Add a solvation model to calculator (requires loaded parametrisation)" alt="" coords="22,332,163,373"/>
+<area shape="rect" id="node8" href="$namespacextb__api__environment.html#a2148af3ae9c2ab1364edc87d5d448ddd" title="Show and empty error stack." alt="" coords="5,397,180,439"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="xtb_param_vdwradd3::getvanderwaalsradd3::getvanderwaalsradd3symbol" name="xtb_param_vdwradd3::getvanderwaalsradd3::getvanderwaalsradd3symbol">
+<area shape="rect" id="node1" title="Get van&#45;der&#45;Waals radius for species with a given symbol." alt="" coords="5,5,224,61"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="272,20,487,47"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="535,20,797,47"/>
+</map>

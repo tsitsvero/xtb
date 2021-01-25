@@ -1,0 +1,4 @@
+<map id="xtb_disp_coordinationnumber::ncoordneighs" name="xtb_disp_coordinationnumber::ncoordneighs">
+<area shape="rect" id="node1" title="Actual implementation of the coordination number, takes a generic counting." alt="" coords="268,13,483,54"/>
+<area shape="rect" id="node2" href="$interfacextb__disp__coordinationnumber_1_1getcoordinationnumber.html#ae4bc7047d85e1e85a2a084c543029c11" title="Geometric fractional coordination number, supports both error function." alt="" coords="5,5,220,61"/>
+</map>
