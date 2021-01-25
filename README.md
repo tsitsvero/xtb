@@ -27,6 +27,7 @@ ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 &&
 ./xtb --coffee
 ```
 
+
 ## Installation
 
 [![Build Status](https://img.shields.io/github/workflow/status/grimme-lab/xtb/CI)](https://github.com/grimme-lab/xtb/actions)
