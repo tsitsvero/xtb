@@ -1,0 +1,27 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,588,60,615"/>
+<area shape="rect" id="node2" href="$namespaceassertion.html#a733cabc48fbce9210a5fa3007db521f1" title=" " alt="" coords="128,5,259,32"/>
+<area shape="rect" id="node3" href="$xtb_8h.html#a48fa83ac35ef895a6c23c8b70ca6a96f" title="Check current status of calculation environment." alt="" coords="108,56,279,83"/>
+<area shape="rect" id="node4" href="$xtb_8h.html#a2f58116973c2325e271c5c2c08f13b58" title="Delete calculator object." alt="" coords="125,107,261,133"/>
+<area shape="rect" id="node5" href="$xtb_8h.html#a29141d79f20895410e6c9d84cd3d895c" title="Delete a xtb calculation environment object." alt="" coords="117,157,270,184"/>
+<area shape="rect" id="node6" href="$xtb_8h.html#a96d62d9dcb03806225a14a4e8e1c07e3" title="Delete molecular structure data." alt="" coords="129,208,258,235"/>
+<area shape="rect" id="node7" href="$xtb_8h.html#ae7ec79b54f7bddf3b7690401a40c65da" title="Delete singlepoint results object." alt="" coords="134,259,253,285"/>
+<area shape="rect" id="node8" href="$xtb_8h.html#adc94d9f1bca891561d336cdebc9c94ed" title="Returns API version as 10000 * major + 100 * minor + 1 * patch." alt="" coords="123,309,263,336"/>
+<area shape="rect" id="node9" href="$xtb_8h.html#ac06ba1617630a32a2504dbdd11fd7ef1" title="Query singlepoint results object for bond orders." alt="" coords="120,360,267,387"/>
+<area shape="rect" id="node10" href="$xtb_8h.html#aabb63c63bd094a644007e38d5da0d491" title="Query singlepoint results object for partial charges in e." alt="" coords="131,411,255,437"/>
+<area shape="rect" id="node11" href="$xtb_8h.html#a583d1f7e17480a9af276f61df5aa4e0b" title="Query singlepoint results object for dipole in e Bohr." alt="" coords="137,461,250,488"/>
+<area shape="rect" id="node12" href="$xtb_8h.html#a3af77db254af417d95b125dcda6b79bf" title="Query singlepoint results object for energy in Hartree." alt="" coords="135,512,251,539"/>
+<area shape="rect" id="node13" href="$xtb_8h.html#ac7960dddfbf51f1dbf707ca8c3f332c3" title="Return and empty error stack." alt="" coords="142,563,245,589"/>
+<area shape="rect" id="node14" href="$xtb_8h.html#a6b66845d3c764667bfafaf2860095601" title="Load GFN2&#45;xTB calculator." alt="" coords="124,613,263,640"/>
+<area shape="rect" id="node15" href="$xtb_8h.html#a5afd85f9cc00a068b2884b18741be86d" title="Create new calculator object." alt="" coords="122,664,265,691"/>
+<area shape="rect" id="node16" href="$xtb_8h.html#ae7ceb5e298c642dcdf5689218f2fffab" title="Create new xtb calculation environment object." alt="" coords="113,715,273,741"/>
+<area shape="rect" id="node17" href="$xtb_8h.html#a05c713b283bbc5f7f9718fbf5574a555" title="Create new molecular structure data (quantities in Bohr)" alt="" coords="125,765,261,792"/>
+<area shape="rect" id="node18" href="$xtb_8h.html#a62b596449b3a0f38a890a39f4d30b7f4" title="Create new singlepoint results object." alt="" coords="131,816,256,843"/>
+<area shape="rect" id="node19" href="$xtb_8h.html#a39744bbaa002c7761472cbb650ac3621" title="Set numerical accuracy of calculator in the range of 1000 to 0.0001." alt="" coords="129,867,258,893"/>
+<area shape="rect" id="node20" href="$xtb_8h.html#a8f3229e9b0959891d423543fb24e046a" title="Set electronic temperature for level filling in tight binding calculators in K." alt="" coords="109,917,278,944"/>
+<area shape="rect" id="node21" href="$xtb_8h.html#a127453aec31f0c2571199544ea8b9de9" title="Set maximum number of iterations for self&#45;consistent TB calculators." alt="" coords="133,968,253,995"/>
+<area shape="rect" id="node22" href="$xtb_8h.html#ab2d726ad0e78c71cc066f2511fefadf8" title="Add a solvation model to calculator (requires loaded parametrisation)" alt="" coords="134,1019,253,1045"/>
+<area shape="rect" id="node23" href="$xtb_8h.html#a0057bb4fc8a609bfa04db338bdce429f" title="Set verbosity of calculation output." alt="" coords="128,1069,259,1096"/>
+<area shape="rect" id="node24" href="$xtb_8h.html#aa25145bd569e5d9c2829d767a634a8e7" title="Show and empty error stack." alt="" coords="110,1120,277,1147"/>
+<area shape="rect" id="node25" href="$xtb_8h.html#af94e06413f19a5578e5a485c09a6a5f9" title="Perform singlepoint calculation." alt="" coords="132,1171,255,1197"/>
+</map>

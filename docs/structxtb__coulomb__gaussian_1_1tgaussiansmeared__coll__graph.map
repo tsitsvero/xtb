@@ -1,0 +1,7 @@
+<map id="xtb_coulomb_gaussian::tgaussiansmeared" name="xtb_coulomb_gaussian::tgaussiansmeared">
+<area shape="rect" id="node1" title=" " alt="" coords="72,291,243,332"/>
+<area shape="rect" id="node2" href="$structxtb__type__coulomb_1_1tcoulomb.html" title="Base point charge electrostatics evaluator." alt="" coords="52,215,263,241"/>
+<area shape="rect" id="node3" href="$structxtb__type__latticepoint_1_1tlatticepoint.html" title="Lattice point generator." alt="" coords="5,96,165,137"/>
+<area shape="rect" id="node4" href="$structxtb__type__wignerseitzcell_1_1twignerseitzcell.html" title="Wigner&#45;Seitz cell based on the infrastructure for the neighbour list." alt="" coords="189,96,373,137"/>
+<area shape="rect" id="node5" href="$structxtb__type__neighbourlist_1_1tneighbourlist.html" title="Static neighbour list." alt="" coords="196,5,367,47"/>
+</map>

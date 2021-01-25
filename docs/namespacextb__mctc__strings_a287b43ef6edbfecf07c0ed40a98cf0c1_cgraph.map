@@ -1,0 +1,4 @@
+<map id="xtb_mctc_strings::insertstr" name="xtb_mctc_strings::insertstr">
+<area shape="rect" id="node1" title="Inserts the string &#39;strins&#39; into the string &#39;str&#39; at position &#39;loc&#39;. Characters in &#39;str&#39; starting at ..." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#ab881cd2b179de37630f25c2bc39fa1ad" title="Shifts characters in in the string &#39;str&#39; n positions (positive values denote a right shift and negati..." alt="" coords="248,5,435,32"/>
+</map>

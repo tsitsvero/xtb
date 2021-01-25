@@ -1,0 +1,8 @@
+<map id="xtb_type_molecule::wrap_back" name="xtb_type_molecule::wrap_back">
+<area shape="rect" id="node1" title="wrap cartesian coordinates back into cell" alt="" coords="5,39,160,80"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#aecf941b359092ea66d4242b845f39335" title="transform from fractional coordinates into cartesian coordinates" alt="" coords="208,5,351,47"/>
+<area shape="rect" id="node3" href="$namespacextb__pbc__tools.html#a3180f2e86effe2e8ed638f7b0cbb5138" title="transform from cartesian coordinates into fractional coordinates" alt="" coords="208,71,351,112"/>
+<area shape="rect" id="node4" href="$namespacextb__pbc__tools.html#ad22c96cf682e0afadb811494da08cde4" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="399,37,546,79"/>
+<area shape="rect" id="node6" href="$namespacextb__pbc__tools.html#aca754d689c3f40bdf7f4a5082830a045" title="shift back fractional coordinates into the range [0,1)" alt="" coords="399,103,547,144"/>
+<area shape="rect" id="node5" href="$namespacextb__pbc__tools.html#af5c425099fa1f9ef165278c21e54d8b7" title="determinat of 3×3 matrix" alt="" coords="595,37,741,79"/>
+</map>

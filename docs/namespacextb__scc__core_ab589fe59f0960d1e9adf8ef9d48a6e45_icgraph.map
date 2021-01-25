@@ -1,0 +1,13 @@
+<map id="xtb_scc_core::shellpoly" name="xtb_scc_core::shellpoly">
+<area shape="rect" id="node1" title=" " alt="" coords="748,129,921,156"/>
+<area shape="rect" id="node2" href="$namespacextb__scc__core.html#a283a0b5552f059cc1b825cf6f29bc47b" title=" " alt="" coords="522,5,691,32"/>
+<area shape="rect" id="node3" href="$namespacextb__xtb__hamiltonian.html#a9f0d8be35a4ef0f2dbbbafd2ef873d64" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="529,57,685,98"/>
+<area shape="rect" id="node4" href="$namespacextb__xtb__hamiltonian__gpu.html#aee3ffc022ae0b9686cef17ce77e6b117" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="521,122,692,163"/>
+<area shape="rect" id="node5" href="$namespacextb__peeq.html#a88e7865d904c0f99f485a16db19d88aa" title=" " alt="" coords="513,188,700,215"/>
+<area shape="rect" id="node11" href="$namespacextb__peeq.html#a9e3625eb7bd9b7e395c110aacfe6eaeb" title=" " alt="" coords="515,239,698,265"/>
+<area shape="rect" id="node6" href="$namespacextb__peeq.html#ac2d6fc22b842455765bdb4f69279095c" title=" " alt="" coords="343,213,465,240"/>
+<area shape="rect" id="node7" href="$namespacextb__xtb__calculator.html#a75c96263c235c99dfeeda3e865f9898c" title=" " alt="" coords="152,147,295,189"/>
+<area shape="rect" id="node8" href="$TESTSUITE_2gfn0_8f90.html#ac2abd1dbadf75b71866d509eaad7957d" title=" " alt="" coords="171,213,276,240"/>
+<area shape="rect" id="node10" href="$peeq_8f90.html#a5122d9bd07a3f4377ee140a5991d1325" title=" " alt="" coords="169,264,277,291"/>
+<area shape="rect" id="node9" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,239,104,265"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="xtb_io_reader_turbomole::readmoleculecoord" name="xtb_io_reader_turbomole::readmoleculecoord">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,191,171"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#aecf941b359092ea66d4242b845f39335" title="transform from fractional coordinates into cartesian coordinates" alt="" coords="275,5,417,47"/>
+<area shape="rect" id="node3" href="$namespacextb__pbc__tools.html#a78401582977ddf8f87d315e54a350129" title="convert cell parameters to direct lattice" alt="" coords="275,71,417,112"/>
+<area shape="rect" id="node5" href="$io_2reader_2turbomole_8f90.html#a082f3f13693ff13102e215b4454f7cb4" title=" " alt="" coords="299,137,393,163"/>
+<area shape="rect" id="node6" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="239,187,453,214"/>
+<area shape="rect" id="node8" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="322,238,370,265"/>
+<area shape="rect" id="node4" href="$namespacextb__pbc__tools.html#aa6debe70834a4136aa3c12c27dc5dc59" title="calculate the cell volume from the cell parameters" alt="" coords="561,71,704,112"/>
+<area shape="rect" id="node7" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="501,187,764,214"/>
+</map>

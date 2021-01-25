@@ -1,0 +1,18 @@
+<map id="xtb_topology::checktopology" name="xtb_topology::checktopology">
+<area shape="rect" id="node1" title=" " alt="" coords="5,133,215,160"/>
+<area shape="rect" id="node2" href="$namespacextb__topology.html#a54456fbae5694b5dfa7667970fcb22ef" title=" " alt="" coords="263,25,523,52"/>
+<area shape="rect" id="node4" href="$namespacextb__mctc__filetypes.html#a6d6f519e0adf250b7b577fb1aea6b42f" title=" " alt="" coords="320,97,465,138"/>
+<area shape="rect" id="node5" href="$namespacextb__topology.html#aa7d5e9658292f4e2bc042ec235f08beb" title=" " alt="" coords="273,163,512,189"/>
+<area shape="rect" id="node6" href="$namespacextb__io__writer.html#ae62f58fb1a818b9986af6af30a759ba8" title=" " alt="" coords="289,253,497,280"/>
+<area shape="rect" id="node3" href="$namespacextb__topology.html#a642b4024b46ebfe96033e3552598fd03" title=" " alt="" coords="571,5,840,32"/>
+<area shape="rect" id="node7" href="$namespacextb__io__writer__turbomole.html#a4270ca3b27d08bb4922f89cff2235d17" title=" " alt="" coords="615,57,796,98"/>
+<area shape="rect" id="node8" href="$namespacextb__io__writer__gaussian.html#a9df0a62fac40dffa6026163978a2aea3" title=" " alt="" coords="588,122,823,163"/>
+<area shape="rect" id="node9" href="$namespacextb__io__writer__genformat.html#a1810561c53a9646168270599b5046a16" title=" " alt="" coords="610,187,801,229"/>
+<area shape="rect" id="node12" href="$namespacextb__io__writer__ctfile.html#afcf1f6ca4ca1f775bab1bc35095c9c96" title=" " alt="" coords="911,307,1079,349"/>
+<area shape="rect" id="node13" href="$namespacextb__io__writer__pdb.html#ab658efa17e9ab62a5fa3a7bf3f0d77ea" title=" " alt="" coords="632,305,779,346"/>
+<area shape="rect" id="node14" href="$namespacextb__io__writer__ctfile.html#a39f1d7f48d4f01457ff55762ce271c74" title=" " alt="" coords="632,370,779,411"/>
+<area shape="rect" id="node15" href="$namespacextb__io__writer__vasp.html#a45bc87da9ec805202211f72cc76e5c47" title=" " alt="" coords="628,435,783,477"/>
+<area shape="rect" id="node16" href="$namespacextb__io__writer__xyz.html#a130169646af16f130bb7cecff27bfb16" title=" " alt="" coords="633,501,778,542"/>
+<area shape="rect" id="node10" href="$namespacextb__mctc__symbols.html#abe837ad333242b4dd3073c5747c13e28" title="Convert atomic number to element symbol." alt="" coords="888,195,1101,221"/>
+<area shape="rect" id="node11" href="$namespacextb__mctc__symbols.html#a79bd74e1e6f1eae5387d103d33088dc8" title="Convert atomic number to element symbol." alt="" coords="1149,195,1412,221"/>
+</map>

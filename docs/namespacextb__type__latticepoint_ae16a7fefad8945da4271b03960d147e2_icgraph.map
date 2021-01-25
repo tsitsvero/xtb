@@ -1,0 +1,5 @@
+<map id="xtb_type_latticepoint::getrangespbc3d" name="xtb_type_latticepoint::getrangespbc3d">
+<area shape="rect" id="node1" title="Calculate the range of images of the central cell that interact." alt="" coords="213,39,373,80"/>
+<area shape="rect" id="node2" href="$interfacextb__type__latticepoint_1_1init.html#a8368442a4741ddc241ff3d9fafb14239" title="Initializes lattice point generator." alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node3" href="$namespacextb__type__latticepoint.html#a6d69b8c50c439de06971864f0146e802" title="Update lattice point generator." alt="" coords="5,71,165,112"/>
+</map>

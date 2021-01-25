@@ -1,0 +1,5 @@
+<map id="xtb_type_coulomb::tcoulomb" name="xtb_type_coulomb::tcoulomb">
+<area shape="rect" id="node1" title="Base point charge electrostatics evaluator." alt="" coords="91,5,301,32"/>
+<area shape="rect" id="node2" href="$structxtb__coulomb__gaussian_1_1tgaussiansmeared.html" title=" " alt="" coords="5,80,176,121"/>
+<area shape="rect" id="node3" href="$structxtb__coulomb__klopmanohno_1_1tklopmanohno.html" title=" " alt="" coords="200,80,403,121"/>
+</map>

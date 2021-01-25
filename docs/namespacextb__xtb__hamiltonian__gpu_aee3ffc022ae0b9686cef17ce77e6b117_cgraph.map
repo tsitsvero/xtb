@@ -1,0 +1,15 @@
+<map id="xtb_xtb_hamiltonian_gpu::build_sdqh0_gpu" name="xtb_xtb_hamiltonian_gpu::build_sdqh0_gpu">
+<area shape="rect" id="node1" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="5,229,176,270"/>
+<area shape="rect" id="node2" href="$namespacextb__intgrad.html#a221d8f15f3cb047b495acc86f9e54a37" title=" " alt="" coords="463,54,599,95"/>
+<area shape="rect" id="node5" href="$namespacextb__intgrad.html#a3123173ad7d8c3991074f793fdc9c593" title=" " alt="" coords="252,236,387,263"/>
+<area shape="rect" id="node6" href="$namespacextb__intgrad.html#aee9600380d10f057eefb0773b7fb2b06" title=" " alt="" coords="224,131,415,157"/>
+<area shape="rect" id="node10" href="$namespacextb__intgrad.html#a61582fac6cd8cc05eb76d4ced531ef6e" title="calculates a partial overlap in one cartesian direction" alt="" coords="660,224,800,251"/>
+<area shape="rect" id="node11" href="$namespacextb__scc__core.html#a136cd39a28befead4338400b448fddc3" title="H0 off&#45;diag scaling." alt="" coords="241,287,397,313"/>
+<area shape="rect" id="node12" href="$constrain__pot_8f90.html#ac62613d43f31c7bfa652ee80083b400b" title=" " alt="" coords="300,337,339,364"/>
+<area shape="rect" id="node13" href="$namespacextb__scc__core.html#ab589fe59f0960d1e9adf8ef9d48a6e45" title=" " alt="" coords="233,388,406,415"/>
+<area shape="rect" id="node3" href="$namespacextb__intgrad.html#a5bc6f86d12b5b4734f597a88800d8330" title=" " alt="" coords="662,57,798,98"/>
+<area shape="rect" id="node4" href="$namespacextb__intgrad.html#a040b47e4b45c55028569fcad9704172a" title=" " alt="" coords="659,5,801,32"/>
+<area shape="rect" id="node7" href="$namespacextb__intgrad.html#aa938e4391a764ecf662013cd966899ba" title=" " alt="" coords="463,119,599,161"/>
+<area shape="rect" id="node8" href="$namespacextb__intgrad.html#a1f9cf61176ecca277a73a81137c39a39" title=" " alt="" coords="647,173,813,200"/>
+<area shape="rect" id="node9" href="$namespacextb__intgrad.html#a49b854bf505ac013ac50d12edb2e0de5" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="649,123,811,149"/>
+</map>

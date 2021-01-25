@@ -1,0 +1,4 @@
+<map id="xtb_pbc_tools::mat_inv_3x3" name="xtb_pbc_tools::mat_inv_3x3">
+<area shape="rect" id="node1" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#af5c425099fa1f9ef165278c21e54d8b7" title="determinat of 3×3 matrix" alt="" coords="200,5,347,47"/>
+</map>

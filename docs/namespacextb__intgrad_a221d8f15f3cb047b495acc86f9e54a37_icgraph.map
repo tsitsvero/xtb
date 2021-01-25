@@ -1,0 +1,5 @@
+<map id="xtb_intgrad::build_sdq_ints_gpu" name="xtb_intgrad::build_sdq_ints_gpu">
+<area shape="rect" id="node1" title=" " alt="" coords="228,35,364,76"/>
+<area shape="rect" id="node2" href="$namespacextb__xtb__hamiltonian__gpu.html#aee3ffc022ae0b9686cef17ce77e6b117" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="7,5,178,47"/>
+<area shape="rect" id="node3" href="$namespacextb__intgrad.html#acfb80861031d50fbbfc7f6a4d203b94f" title="Computes the overlap dipole and quadrupole integrals." alt="" coords="5,71,180,98"/>
+</map>

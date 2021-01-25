@@ -1,0 +1,12 @@
+<map id="xtb_io_reader_genformat::readmoleculegenformat" name="xtb_io_reader_genformat::readmoleculegenformat">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,192,156"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#aecf941b359092ea66d4242b845f39335" title="transform from fractional coordinates into cartesian coordinates" alt="" coords="276,5,419,47"/>
+<area shape="rect" id="node3" href="$reader_2genformat_8f90.html#aa2a6ca831ced15826f80a1b85478863a" title=" " alt="" coords="306,71,389,98"/>
+<area shape="rect" id="node4" href="$namespacextb__mctc__strings.html#a5272db42d49f38098924d2587c9e9a78" title="Parses the string &#39;str&#39; into arguments args(1), ..., args(nargs) based on the delimiters contained in..." alt="" coords="259,122,436,149"/>
+<area shape="rect" id="node8" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="240,173,455,199"/>
+<area shape="rect" id="node10" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="323,223,371,250"/>
+<area shape="rect" id="node5" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="813,97,1011,123"/>
+<area shape="rect" id="node6" href="$namespacextb__mctc__strings.html#ac1ac14e68e16e450995779028bd6566f" title="Removes backslash () characters. Double backslashes (\) are replaced by a single backslash." alt="" coords="525,97,743,123"/>
+<area shape="rect" id="node7" href="$namespacextb__mctc__strings.html#a01f52f6293684260e59260ff5790e5c3" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="549,147,719,174"/>
+<area shape="rect" id="node9" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="503,198,765,225"/>
+</map>
