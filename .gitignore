@@ -36,6 +36,7 @@ bin
 build
 modules
 CODECHECK
+docs
 
 # files produces by the documentation
 man/*.pdf
