@@ -37,6 +37,7 @@ build
 modules
 CODECHECK
 docs
+src/latex
 
 # files produces by the documentation
 man/*.pdf
