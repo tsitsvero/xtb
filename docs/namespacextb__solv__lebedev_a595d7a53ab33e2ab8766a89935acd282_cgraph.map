@@ -1,0 +1,9 @@
+<map id="xtb_solv_lebedev::ld1202" name="xtb_solv_lebedev::ld1202">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,192,159"/>
+<area shape="rect" id="node2" href="$namespacextb__solv__lebedev.html#a3a72086d50f3732015e5e975181edd44" title="generate 6 new points with Oh symmetry from (0,0,1)" alt="" coords="240,5,431,32"/>
+<area shape="rect" id="node3" href="$namespacextb__solv__lebedev.html#acadbdc67891ca38db7a5337c91a301b3" title="Generate 12 new points with Oh symmetry from (0,a,a), a=1/sqrt(2)" alt="" coords="240,56,431,83"/>
+<area shape="rect" id="node4" href="$namespacextb__solv__lebedev.html#a30aebd3b6ab2b86d08745405b1880cb4" title="Generate 8 new points with Oh symmetry from (a,a,a), a=1/sqrt(3)" alt="" coords="240,107,431,133"/>
+<area shape="rect" id="node5" href="$namespacextb__solv__lebedev.html#ace2dca4641a6c8cd95f71841438c9e37" title="Generate 24 new points with Oh symmetry from (a,a,b), b=sqrt(1&#45;2 a^2)" alt="" coords="240,157,431,184"/>
+<area shape="rect" id="node6" href="$namespacextb__solv__lebedev.html#a32325297326761ee01acf33626f7467e" title="Generate 24 new points with Oh symmetry from (a,b,0), b=sqrt(1&#45;a^2)" alt="" coords="240,208,431,235"/>
+<area shape="rect" id="node7" href="$namespacextb__solv__lebedev.html#a014651a2f9d456bf5f41b8bd209f809f" title="Generate 48 new points with Oh symmetry from (a,b,c), c=sqrt(1&#45;a^2&#45;b^2)" alt="" coords="240,259,431,285"/>
+</map>

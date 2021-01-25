@@ -1,0 +1,9 @@
+<map id="xtb_solv_gbsa::addgradient" name="xtb_solv_gbsa::addgradient">
+<area shape="rect" id="node1" title="Calculate derivatives of solvation energy." alt="" coords="5,107,207,133"/>
+<area shape="rect" id="node2" href="$namespacextb__solv__gbsa.html#a4bd63c5dbed0e569986efdee37180b31" title=" " alt="" coords="279,5,489,32"/>
+<area shape="rect" id="node4" href="$namespacextb__solv__gbsa.html#af4d6a5f19ac25ed4f4bf71e6d834bece" title="Compute contributions to energy and gradient for hydrogen bonding correction." alt="" coords="263,56,505,83"/>
+<area shape="rect" id="node5" href="$namespacextb__solv__kernel.html#a2bd0038d5edaaecc47cb85e13ae5cb58" title=" " alt="" coords="267,107,501,133"/>
+<area shape="rect" id="node6" href="$namespacextb__solv__kernel.html#a5954469d5003b60f0453bdc1feb57d28" title=" " alt="" coords="255,157,513,184"/>
+<area shape="rect" id="node7" href="$namespacextb__solv__kernel.html#a8d918f78ee386883484081121a706355" title=" " alt="" coords="267,208,501,235"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="561,5,764,32"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="xtb_xtb_data::txtbdata" name="xtb_xtb_data::txtbdata">
+<area shape="rect" id="node1" title="Parametrisation data for the xTB method." alt="" coords="651,157,821,184"/>
+<area shape="rect" id="node2" href="$structxtb__xtb__data_1_1tcoulombdata.html" title="Data for the evalutation of the Coulomb interactions." alt="" coords="304,5,509,32"/>
+<area shape="rect" id="node3" href="$structxtb__xtb__data_1_1thalogendata.html" title="Data for halogen bond correction." alt="" coords="306,56,507,83"/>
+<area shape="rect" id="node4" href="$structxtb__xtb__data_1_1tdispersiondata.html" title="Data for the dispersion contribution." alt="" coords="299,107,515,133"/>
+<area shape="rect" id="node5" href="$structxtb__type__param_1_1dftd__parameter.html" title=" " alt="" coords="22,67,183,109"/>
+<area shape="rect" id="node6" href="$structxtb__type__dispersionmodel_1_1tdispersionmodel.html" title=" " alt="" coords="5,133,200,174"/>
+<area shape="rect" id="node7" href="$structxtb__xtb__data_1_1tmultipoledata.html" title="Data for the evaluation of the multipole electrostatics." alt="" coords="301,157,512,184"/>
+<area shape="rect" id="node8" href="$structxtb__xtb__data_1_1thamiltoniandata.html" title="Data for the evaluation of the xTB core Hamiltonian." alt="" coords="293,208,520,235"/>
+<area shape="rect" id="node9" href="$structxtb__xtb__data_1_1tshortrangedata.html" title="Short range basis correction." alt="" coords="297,259,516,285"/>
+<area shape="rect" id="node10" href="$structxtb__xtb__data_1_1trepulsiondata.html" title="Data for the repulsion contribution." alt="" coords="302,309,511,336"/>
+</map>
