@@ -1,4 +1,0 @@
-<map id="xtb_coulomb_ewald::getmaxg" name="xtb_coulomb_ewald::getmaxg">
-<area shape="rect" id="node1" title="Returns the longest reciprocal vector which gives a bigger contribution to." alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="213,5,373,47"/>
-</map>

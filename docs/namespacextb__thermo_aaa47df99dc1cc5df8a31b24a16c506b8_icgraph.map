@@ -1,8 +1,0 @@
-<map id="xtb_thermo::chg_switching" name="xtb_thermo::chg_switching">
-<area shape="rect" id="node1" title=" " alt="" coords="559,56,756,83"/>
-<area shape="rect" id="node2" href="$namespacextb__thermo.html#a3fb6db9d7faae3155841d1c2385abe67" title=" " alt="" coords="335,5,510,32"/>
-<area shape="rect" id="node3" href="$namespacextb__thermo.html#ad6ca7c6a05627f3a93a4eb4272260189" title=" " alt="" coords="337,56,509,83"/>
-<area shape="rect" id="node4" href="$namespacextb__thermo.html#a2bc496861f25686ce7adee4c0d886777" title=" " alt="" coords="335,107,511,133"/>
-<area shape="rect" id="node5" href="$TESTSUITE_2thermo_8f90.html#a160584aab23feea2451ed5391e6e4ebf" title=" " alt="" coords="152,107,287,133"/>
-<area shape="rect" id="node6" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,107,104,133"/>
-</map>

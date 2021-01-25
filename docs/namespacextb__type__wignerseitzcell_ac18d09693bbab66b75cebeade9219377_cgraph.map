@@ -1,6 +1,0 @@
-<map id="xtb_type_wignerseitzcell::generate" name="xtb_type_wignerseitzcell::generate">
-<area shape="rect" id="node1" title="Generate Wigner&#45;Seitz cell." alt="" coords="5,57,189,98"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__sort.html#a3d098fc47a8fd9df4e787cbf81110a57" title="Real case heap sort returning an index." alt="" coords="237,5,452,32"/>
-<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a906a00bea6876d979f03d8a6480cc565" title="Reallocate arrays which depends on the maximal nr. of all atoms." alt="" coords="259,57,430,98"/>
-<area shape="rect" id="node4" href="$namespacextb__type__neighbourlist.html#a30e93a8369f0e1598a01e26dbfa6f670" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="259,122,430,163"/>
-</map>

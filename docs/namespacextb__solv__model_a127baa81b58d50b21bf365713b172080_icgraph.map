@@ -1,6 +1,0 @@
-<map id="xtb_solv_model::paramtomodel" name="xtb_solv_model::paramtomodel">
-<area shape="rect" id="node1" title=" " alt="" coords="509,31,739,57"/>
-<area shape="rect" id="node2" href="$namespacextb__solv__model.html#ad12159e8fbc4ee0b16646feae1616d90" title="Load internal parameters, if no parameter file is present." alt="" coords="208,5,461,32"/>
-<area shape="rect" id="node4" href="$namespacextb__solv__model.html#ab689ca99e0b6905258798d94f485db80" title=" " alt="" coords="223,56,447,83"/>
-<area shape="rect" id="node3" href="$interfacextb__solv__model_1_1init.html#a37e1fd9e006e5887c3978a6f6a3858c8" title="Initialize solvation model from input." alt="" coords="5,23,160,65"/>
-</map>

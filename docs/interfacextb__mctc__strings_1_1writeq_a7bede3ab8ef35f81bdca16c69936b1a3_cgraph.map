@@ -1,4 +1,0 @@
-<map id="xtb_mctc_strings::writeq::writeq_si" name="xtb_mctc_strings::writeq::writeq_si">
-<area shape="rect" id="node1" title="Writes a string of the form &lt;name&gt; = ivalue to unit." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#a398e8bd8f13e3cf748b1415938e2b602" title="Deletes nonsignificant trailing zeroes from number string str. If number string ends in a decimal poi..." alt="" coords="236,13,432,39"/>
-</map>

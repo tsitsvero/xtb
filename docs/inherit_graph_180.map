@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structxtb__type__calculator_1_1tcalculator.html" title="Base calculator." alt="" coords="5,71,156,112"/>
-<area shape="rect" id="node2" href="$structxtb__gfnff__calculator_1_1tgffcalculator.html" title="Calculator interface for xTB based methods." alt="" coords="210,5,361,47"/>
-<area shape="rect" id="node3" href="$structxtb__type__dummycalc_1_1tdummycalculator.html" title="Base calculator." alt="" coords="204,71,367,112"/>
-<area shape="rect" id="node4" href="$structxtb__xtb__calculator_1_1txtbcalculator.html" title="Calculator interface for xTB based methods." alt="" coords="214,136,357,177"/>
-</map>

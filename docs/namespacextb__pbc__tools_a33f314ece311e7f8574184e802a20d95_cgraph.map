@@ -1,4 +1,0 @@
-<map id="xtb_pbc_tools::cell_to_rlat" name="xtb_pbc_tools::cell_to_rlat">
-<area shape="rect" id="node1" title="convert cell parameters to reciprocal lattice" alt="" coords="5,5,148,47"/>
-<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#aa6debe70834a4136aa3c12c27dc5dc59" title="calculate the cell volume from the cell parameters" alt="" coords="196,5,339,47"/>
-</map>

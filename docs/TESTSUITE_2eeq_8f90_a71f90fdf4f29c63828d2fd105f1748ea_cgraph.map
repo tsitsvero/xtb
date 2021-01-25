@@ -1,7 +1,0 @@
-<map id="test_eeq_ewald" name="test_eeq_ewald">
-<area shape="rect" id="node1" title=" " alt="" coords="5,75,129,102"/>
-<area shape="rect" id="node2" href="$namespacextb__disp__coordinationnumber.html#a3f340f97e1a0e73151e9c03d0cbae264" title="Cutoff function for large coordination numbers." alt="" coords="177,39,392,80"/>
-<area shape="rect" id="node5" href="$error_8f90.html#a48d4e8f6658873a149a70800afa89704" title=" " alt="" coords="241,105,328,131"/>
-<area shape="rect" id="node3" href="$namespacextb__disp__coordinationnumber.html#a8cb125805581107239d02e3005bca6c1" title="Cutting function for the coordination number." alt="" coords="440,5,655,47"/>
-<area shape="rect" id="node4" href="$namespacextb__disp__coordinationnumber.html#aec17fcc5044caee4d221ce47cf2aff03" title="Derivative of the cutting function w.r.t. coordination number." alt="" coords="440,71,655,112"/>
-</map>

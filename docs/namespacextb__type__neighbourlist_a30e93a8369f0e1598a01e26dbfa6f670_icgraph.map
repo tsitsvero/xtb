@@ -1,6 +1,0 @@
-<map id="xtb_type_neighbourlist::resizeneigh" name="xtb_type_neighbourlist::resizeneigh">
-<area shape="rect" id="node1" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="456,39,627,80"/>
-<area shape="rect" id="node2" href="$namespacextb__type__wignerseitzcell.html#ac18d09693bbab66b75cebeade9219377" title="Generate Wigner&#45;Seitz cell." alt="" coords="224,5,408,47"/>
-<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a89b0c04a773e11daabce1f9be0f371a4" title="Generate neighbour list in serial." alt="" coords="231,71,401,112"/>
-<area shape="rect" id="node4" href="$namespacextb__type__neighbourlist.html#acaa307048b83c8565e2232654f5c189a" title="Generate neighbour list." alt="" coords="5,71,176,112"/>
-</map>

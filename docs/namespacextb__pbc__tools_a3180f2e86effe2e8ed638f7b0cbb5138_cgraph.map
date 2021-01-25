@@ -1,6 +1,0 @@
-<map id="xtb_pbc_tools::xyz_to_abc" name="xtb_pbc_tools::xyz_to_abc">
-<area shape="rect" id="node1" title="transform from cartesian coordinates into fractional coordinates" alt="" coords="5,39,148,80"/>
-<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#ad22c96cf682e0afadb811494da08cde4" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="197,5,343,47"/>
-<area shape="rect" id="node4" href="$namespacextb__pbc__tools.html#aca754d689c3f40bdf7f4a5082830a045" title="shift back fractional coordinates into the range [0,1)" alt="" coords="196,71,344,112"/>
-<area shape="rect" id="node3" href="$namespacextb__pbc__tools.html#af5c425099fa1f9ef165278c21e54d8b7" title="determinat of 3×3 matrix" alt="" coords="392,5,539,47"/>
-</map>

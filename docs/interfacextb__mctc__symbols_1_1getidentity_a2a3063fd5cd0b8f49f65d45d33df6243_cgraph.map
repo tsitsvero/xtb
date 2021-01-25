@@ -1,6 +1,0 @@
-<map id="xtb_mctc_symbols::getidentity::getidentitynumber" name="xtb_mctc_symbols::getidentity::getidentitynumber">
-<area shape="rect" id="node1" title="Get chemical identity from a list of atomic numbers." alt="" coords="5,23,228,65"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#a75e6380f87e6aedc82e3594d3a84c8f4" title="Append an atomic number to an unsorted list, to ensure no dublicates search for the atomic number fir..." alt="" coords="276,5,527,32"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__symbols.html#ae0f3900d6efdce276d98eef2ae0782a5" title="Find atomic number in an unordered list, all entries are required to be unique." alt="" coords="288,56,515,83"/>
-<area shape="rect" id="node3" href="$src_2CMakeLists_8txt.html#a1752f8ed27a298dcd5014319ef2472dd" title=" " alt="" coords="575,31,617,57"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="xtb_mctc_strings::is_digit" name="xtb_mctc_strings::is_digit">
-<area shape="rect" id="node1" title="Returns .true. if ch is a digit (0,1,...,9) and .false. otherwise." alt="" coords="231,5,383,47"/>
-<area shape="rect" id="node2" href="$interfacextb__mctc__strings_1_1value.html#a71fa90552002270a9a026d4324774d81" title="Converts number string to a double precision real number." alt="" coords="5,5,183,47"/>
-</map>

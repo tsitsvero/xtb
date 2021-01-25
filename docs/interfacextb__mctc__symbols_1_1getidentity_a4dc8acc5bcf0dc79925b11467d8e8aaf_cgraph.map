@@ -1,6 +1,0 @@
-<map id="xtb_mctc_symbols::getidentity::getidentitysymbol" name="xtb_mctc_symbols::getidentity::getidentitysymbol">
-<area shape="rect" id="node1" title="Get chemical identity from a list of element symbols." alt="" coords="5,23,228,65"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#ab30cf1c1d67631d9a2f1259f057f8b00" title="Append an element symbol to an unsorted list, to ensure no dublicates search for the element symbol f..." alt="" coords="276,5,524,32"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__symbols.html#a5c3102e083a60b931cb6e7d742c33603" title="Find element symbol in an unordered list, all entries are required to be unique." alt="" coords="288,56,512,83"/>
-<area shape="rect" id="node3" href="$src_2CMakeLists_8txt.html#a1752f8ed27a298dcd5014319ef2472dd" title=" " alt="" coords="572,31,615,57"/>
-</map>

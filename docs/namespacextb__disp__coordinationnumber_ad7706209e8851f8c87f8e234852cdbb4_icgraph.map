@@ -1,7 +1,0 @@
-<map id="xtb_disp_coordinationnumber::expcount" name="xtb_disp_coordinationnumber::expcount">
-<area shape="rect" id="node1" title="Exponential counting function for coordination number contributions." alt="" coords="531,62,745,103"/>
-<area shape="rect" id="node2" href="$namespacextb__disp__coordinationnumber.html#a5224b5587a25893c702f49b43fc47dba" title="Derivative of the counting function w.r.t. the distance." alt="" coords="268,28,483,70"/>
-<area shape="rect" id="node3" href="$interfacextb__disp__coordinationnumber_1_1getcoordinationnumber.html#a2f2b31a469b2b6f68bbe0006d5dbe6cd" title="Geometric fractional coordination number, supports both error function." alt="" coords="5,14,220,70"/>
-<area shape="rect" id="node4" href="$interfacextb__disp__coordinationnumber_1_1getcoordinationnumber.html#ae4bc7047d85e1e85a2a084c543029c11" title="Geometric fractional coordination number, supports both error function." alt="" coords="5,94,220,150"/>
-<area shape="rect" id="node5" href="$namespacextb__disp__coordinationnumber.html#a1ca5cf801b7a8b72c97cd11a9e6a0846" title="Exponential counting function for coordination number contributions." alt="" coords="268,94,483,135"/>
-</map>

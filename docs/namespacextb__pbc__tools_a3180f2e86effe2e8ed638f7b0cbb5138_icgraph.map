@@ -1,4 +1,0 @@
-<map id="xtb_pbc_tools::xyz_to_abc" name="xtb_pbc_tools::xyz_to_abc">
-<area shape="rect" id="node1" title="transform from cartesian coordinates into fractional coordinates" alt="" coords="208,5,351,47"/>
-<area shape="rect" id="node2" href="$namespacextb__type__molecule.html#aa0a83a4ac8ea69ff3578efbeaacf4223" title="wrap cartesian coordinates back into cell" alt="" coords="5,5,160,47"/>
-</map>
