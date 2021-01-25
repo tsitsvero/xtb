@@ -36,8 +36,10 @@ bin
 build
 modules
 CODECHECK
+
 latex
 html_docs
+docs
 
 # files produces by the documentation
 man/*.pdf
