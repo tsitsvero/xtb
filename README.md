@@ -27,8 +27,6 @@ ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 &&
 ./xtb --coffee
 ```
 
-<img src="https://render.githubusercontent.com/render/math?math=y%20=%20f(X-x)">
-
 ## Installation
 
 [![Build Status](https://img.shields.io/github/workflow/status/grimme-lab/xtb/CI)](https://github.com/grimme-lab/xtb/actions)
