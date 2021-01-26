@@ -26,6 +26,12 @@ cd ~/Desktop/xtb/bin
 ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10
 
 ./xtb --coffee
+
+
+
+meson configure --clearcache build &&
+meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure &&
+ninja -C build install
 ```
 
 
