@@ -31,7 +31,8 @@ ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 &&
 
 meson configure --clearcache build &&
 meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure &&
-ninja -C build install
+ninja -C build install &&
+terminator --working-directory="~/Desktop/xtb/bin" --command="./xtb --coffee --prob; sleep 1000" 
 ```
 
 
