@@ -33,6 +33,8 @@ meson configure --clearcache build &&
 meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure &&
 ninja -C build install &&
 terminator --working-directory="~/Desktop/xtb/bin" --command="./xtb --coffee --prob; sleep 1000" 
+
+./xtb --prob --md --input input.inp --coffee
 ```
 
 
