@@ -1227,7 +1227,7 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          prob_flag = .true.
          write(stdout,'(a)') "Lal ala"
          if (prob_flag) then 
-            write(*,*) "flag set Okay!"
+            write(*,*) "flag set Okay!", prob_flag
          endif
          write(*,*) "Lalala"
          call prob_func()

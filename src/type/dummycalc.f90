@@ -33,6 +33,9 @@ module xtb_type_dummycalc
    use xtb_extern_mopac, only : runMopac
    use xtb_extern_orca, only : runOrca
    use xtb_metadynamic
+
+   use prob_module ! prob_module code
+
    use xtb_constrainpot
    implicit none
    interface
@@ -155,8 +158,15 @@ subroutine singlepoint(self, env, mol, chk, printlevel, restart, &
    call constrain_pot(potset,mol%n,mol%at,mol%xyz,gradient,efix)
    call constrpot   (mol%n,mol%at,mol%xyz,gradient,efix)
    call cavity_egrad(mol%n,mol%at,mol%xyz,efix,gradient)
-   call metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
-   call metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+
+   if (prob_flag) then 
+      call prob_metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
+      call prob_metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+   else
+      call metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
+      call metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+   end if
+
 
    ! ------------------------------------------------------------------------
    !  fixing of certain atoms

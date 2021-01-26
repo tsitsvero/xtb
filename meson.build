@@ -83,6 +83,7 @@ main = []
 
 # prob_module addition
 subdir('prob_files')
+warning('Meson will build with prob_module files')
 
 subdir('src')
 
