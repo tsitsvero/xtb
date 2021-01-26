@@ -81,7 +81,11 @@ srcs = []
 prog = []
 main = []
 
+# prob_module addition
+subdir('prob_files')
+
 subdir('src')
+
 
 srcs += 'symmetry/symmetry.f90'
 srcs += 'symmetry/symmetry_i.c'
@@ -207,3 +211,5 @@ xtbenv.set('XTBPATH', meson.current_source_dir())
 
 # all tests are defined in a separate meson.build
 subdir('TESTSUITE')
+
+ 

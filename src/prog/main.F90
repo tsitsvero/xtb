@@ -88,6 +88,9 @@ module xtb_prog_main
    use xtb_gfnff_convert, only : struc_convert
    use xtb_scan
    use xtb_kopt
+
+   use prob_module, only : prob_func, prob_c, prob_flag
+
    implicit none
    private
 
@@ -1221,8 +1224,14 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          coffee = .true.
       
       case('--prob')
+         prob_flag = .true.
          write(stdout,'(a)') "Lal ala"
+         if (prob_flag) then 
+            write(*,*) "flag set Okay!"
+         endif
          write(*,*) "Lalala"
+         call prob_func()
+
 
       case('-a', '--acc')
          call args%nextArg(sec)
