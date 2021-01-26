@@ -16,7 +16,8 @@ This is the fork from offical repository of the `xtb` program package developed 
 ## Q uick compilation and run with Intel API
 
 ```
-. /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc && meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure
+. /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc && 
+meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure
 
 ninja -C build install
 
