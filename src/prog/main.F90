@@ -89,7 +89,7 @@ module xtb_prog_main
    use xtb_scan
    use xtb_kopt
 
-   use prob_module, only : prob_func, prob_c, prob_flag
+   use prob_module, only : prob_func, prob_c, prob_flag, prob_a, prob_l
 
    implicit none
    private
@@ -1231,6 +1231,13 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          endif
          write(*,*) "Lalala"
          call prob_func()
+         print *, "Enter kernel parameters a and l: "
+         read *, prob_a
+         read *, prob_l
+         print *, "Okay... Kernel variables were set to ", prob_a, " and ", prob_l
+         ! open(22,file='prob_file.log',action='write',position='append') 
+         ! write(22,*) "Kernel vars were set to ", prob_a, " ", prob_l
+         ! close(22)
 
 
       case('-a', '--acc')

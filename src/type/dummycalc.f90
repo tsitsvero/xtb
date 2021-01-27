@@ -159,7 +159,7 @@ subroutine singlepoint(self, env, mol, chk, printlevel, restart, &
    call constrpot   (mol%n,mol%at,mol%xyz,gradient,efix)
    call cavity_egrad(mol%n,mol%at,mol%xyz,efix,gradient)
 
-   if (prob_flag) then 
+   if (prob_flag) then ! prob_module code
       call prob_metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
       call prob_metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
    else

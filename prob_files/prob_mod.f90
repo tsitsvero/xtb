@@ -8,7 +8,9 @@ module prob_module
 
     integer :: prob_c
     logical :: prob_flag = .false.
-    
+
+    real(8) :: prob_a, prob_l, prob_inv_l
+   
     
 
     contains
@@ -30,13 +32,15 @@ module prob_module
        real(wp) :: etmp,rmsdval,e
        integer  :: i,j,k,iref,iat
     
+       prob_inv_l =  1.0d0/prob_l
+
        if(metavar%nstruc < 1 ) return
       
       if (prob_flag) then 
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
-            !$omp shared(metavar,nat,xyz) &
+            !$omp shared(metavar,nat,xyz, prob_a, prob_l, prob_inv_l) & ! omp shared(metavar,nat,xyz) 
             !$omp private(grad,xyzref,U,x_center,y_center,rmsdval,e,etmp) &
             !$omp reduction(+:ebias,g)
             !$omp do schedule(dynamic)
@@ -45,9 +49,12 @@ module prob_module
                xyzref = metavar%xyz(:,:,iref)
                call rmsd(nat,xyz,xyzref,1,U,x_center,y_center,rmsdval, &
                         .true.,grad)
-               e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2)    !<-----------------
+               ! e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2)    !<-----------------
+               e =  prob_a*prob_inv_l*exp(-1.73205_wp * rmsdval * prob_inv_l) * (prob_l + 1.73205_wp*rmsdval)
+               
                ebias = ebias + e
-               etmp = -2.0_wp * metavar%width(iref) * e * rmsdval
+               ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval
+               etmp = 1.73205_wp * prob_a * prob_inv_l * exp(-1.73205_wp * rmsdval * prob_inv_l) - 1.73205_wp * prob_inv_l * e
                g = g + etmp*grad
             enddo
             !$omp enddo
@@ -55,7 +62,7 @@ module prob_module
          else
             allocate( xyzref(3,metavar%nat), xyzdup(3,metavar%nat), grad(3,metavar%nat) )
             !$omp parallel default(none) &
-            !$omp shared(metavar,nat,xyz) &
+            !$omp shared(metavar,nat,xyz, prob_a, prob_l, prob_inv_l) & ! omp shared(metavar,nat,xyz)
             !$omp private(grad,xyzref,xyzdup,U,x_center,y_center,rmsdval,e,etmp,i,iat) &
             !$omp reduction(+:ebias,g)
             !$omp do schedule(dynamic)
@@ -68,9 +75,13 @@ module prob_module
                enddo
                call rmsd(metavar%nat,xyzdup,xyzref,1,U,x_center,y_center,rmsdval, &
                         .true.,grad)
-               e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2)  !<----------------
+               ! e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2)  !<----------------
+               e =  prob_a*prob_inv_l*exp(-1.73205_wp * rmsdval * prob_inv_l) * (prob_l + 1.73205_wp*rmsdval)
+                        
                ebias = ebias + e
-               etmp = -2.0_wp * metavar%width(iref) * e * rmsdval
+               ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval
+               etmp = 1.73205_wp * prob_a * prob_inv_l * exp(-1.73205_wp * rmsdval * prob_inv_l) - 1.73205_wp * prob_inv_l * e
+
                do i = 1, metavar%nat
                   iat = metavar%atoms(i)
                   g(:,iat) = g(:,iat) + etmp*grad(:,i)
@@ -82,7 +93,7 @@ module prob_module
          endif
          deallocate( xyzref, grad )
       else
-         
+
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
@@ -135,7 +146,7 @@ module prob_module
       end if
        
       !  write(stdout,*) "Calling prob_metadynamic()..." 
-       print *, 'Call prob_metadynamic()...'
+      !  print *, 'Call prob_metadynamic()...'
     end subroutine prob_metadynamic
     
 
