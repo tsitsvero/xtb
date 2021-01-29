@@ -1,0 +1,26 @@
+<map id="xtb_intgrad::gpcenter" name="xtb_intgrad::gpcenter">
+<area shape="rect" id="node1" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="1179,159,1340,185"/>
+<area shape="rect" id="node2" href="$namespacextb__intgrad.html#ae34171826fede48284f04beb036fb2bd" title=" " alt="" coords="995,57,1131,98"/>
+<area shape="rect" id="node12" href="$namespacextb__intgrad.html#adb53ca5789261bb96d2c95507842a461" title=" " alt="" coords="995,151,1131,193"/>
+<area shape="rect" id="node16" href="$namespacextb__intgrad.html#aa938e4391a764ecf662013cd966899ba" title=" " alt="" coords="995,341,1131,382"/>
+<area shape="rect" id="node3" href="$namespacextb__aespot.html#aa4d2436b7234ef3194dfff0592b1ed7c" title=" " alt="" coords="784,5,919,32"/>
+<area shape="rect" id="node4" href="$namespacextb__peeq.html#a0fcfc4df44aaa9a0446dca518f96cf59" title=" " alt="" coords="778,57,925,98"/>
+<area shape="rect" id="node5" href="$namespacextb__peeq.html#a40797d7eda755bad4031e16951ae29b7" title=" " alt="" coords="513,13,708,40"/>
+<area shape="rect" id="node11" href="$namespacextb__peeq.html#a101bc81468c2cd4ddd3221efaa59b142" title=" " alt="" coords="515,64,706,91"/>
+<area shape="rect" id="node6" href="$namespacextb__peeq.html#ac2d6fc22b842455765bdb4f69279095c" title=" " alt="" coords="343,272,465,299"/>
+<area shape="rect" id="node7" href="$namespacextb__xtb__calculator.html#a75c96263c235c99dfeeda3e865f9898c" title=" " alt="" coords="152,206,295,247"/>
+<area shape="rect" id="node8" href="$TESTSUITE_2gfn0_8f90.html#ac2abd1dbadf75b71866d509eaad7957d" title=" " alt="" coords="171,272,276,299"/>
+<area shape="rect" id="node10" href="$peeq_8f90.html#a5122d9bd07a3f4377ee140a5991d1325" title=" " alt="" coords="169,323,277,349"/>
+<area shape="rect" id="node9" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,297,104,324"/>
+<area shape="rect" id="node13" href="$namespacextb__intgrad.html#a84a16c374ef42e274a28bfac818995e7" title=" " alt="" coords="771,151,932,193"/>
+<area shape="rect" id="node14" href="$namespacextb__xtb__hamiltonian.html#a8364d9293f8dac8d5de89c5186f7effc" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="533,115,689,157"/>
+<area shape="rect" id="node15" href="$namespacextb__xtb__hamiltonian.html#a299eaa3877160d0aff3f63dc55b12fde" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="525,181,697,222"/>
+<area shape="rect" id="node17" href="$namespacextb__intgrad.html#aee9600380d10f057eefb0773b7fb2b06" title=" " alt="" coords="756,348,947,375"/>
+<area shape="rect" id="node22" href="$namespacextb__peeq.html#a287e8583f9e8cdee5b6e958662be4f9a" title=" " alt="" coords="768,479,935,505"/>
+<area shape="rect" id="node18" href="$namespacextb__xtb__hamiltonian.html#a9f0d8be35a4ef0f2dbbbafd2ef873d64" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="533,246,689,287"/>
+<area shape="rect" id="node19" href="$namespacextb__xtb__hamiltonian__gpu.html#aee3ffc022ae0b9686cef17ce77e6b117" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="525,311,696,353"/>
+<area shape="rect" id="node20" href="$namespacextb__intgrad.html#a45fdbd10e8d62595c60b79d516e52cbd" title="computes the dipole and quadrupole integrals and performs screening to" alt="" coords="539,377,683,404"/>
+<area shape="rect" id="node21" href="$namespacextb__intgrad.html#acfb80861031d50fbbfc7f6a4d203b94f" title="Computes the overlap dipole and quadrupole integrals." alt="" coords="523,428,698,455"/>
+<area shape="rect" id="node23" href="$namespacextb__peeq.html#a88e7865d904c0f99f485a16db19d88aa" title=" " alt="" coords="517,479,704,505"/>
+<area shape="rect" id="node24" href="$namespacextb__peeq.html#a9e3625eb7bd9b7e395c110aacfe6eaeb" title=" " alt="" coords="519,529,702,556"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="xtb_relaxation_engine::inertial_relax" name="xtb_relaxation_engine::inertial_relax">
+<area shape="rect" id="node1" title="backend implementation of the fast inertial relaxation engine" alt="" coords="849,125,1016,166"/>
+<area shape="rect" id="node2" href="$namespacextb__relaxation__engine.html#a930f6aac4b13eab0de82f2b71bcde96b" title="frontend implementation of the fast inertial relaxation engine" alt="" coords="635,125,801,166"/>
+<area shape="rect" id="node3" href="$namespacextb__geoopt.html#a1f0513294f2237b94f355cc4dc5dd867" title=" " alt="" coords="420,125,587,166"/>
+<area shape="rect" id="node4" href="$namespacextb__kopt.html#ada4ab70832f563f46c8ffc8cea64c78b" title=" " alt="" coords="211,5,357,32"/>
+<area shape="rect" id="node6" href="$namespacextb__mdoptim.html#ab0ba2195163cd6794115b99516ba5316" title=" " alt="" coords="205,56,363,83"/>
+<area shape="rect" id="node7" href="$namespacextb__modef.html#a39c4cb408b8b02afb7bf83a1d7f13de3" title=" " alt="" coords="196,107,372,133"/>
+<area shape="rect" id="node8" href="$namespacextb__scan.html#abef8f8d0fa299e9e2caf823f3672f14a" title=" " alt="" coords="197,157,371,184"/>
+<area shape="rect" id="node9" href="$namespacextb__screening.html#a7f4004ff0e65127a38b038f0a7cdcc84" title=" " alt="" coords="202,208,366,235"/>
+<area shape="rect" id="node10" href="$namespacextb__gfnff__convert.html#adf399b47b9f2a8364327d9d5c38cb2b8" title=" " alt="" coords="212,259,356,301"/>
+<area shape="rect" id="node5" href="$namespacextb__kopt.html#aed50b40106367857ab2d0bf3a109f62b" title=" " alt="" coords="5,5,148,32"/>
+</map>
