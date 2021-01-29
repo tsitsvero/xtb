@@ -1,8 +1,0 @@
-#Generate doxygen documentation on gh-
-
- -name: Doxygen Action
-  uses: mattnotmitt/doxygen-action@v1.2.1
-  with:
-    doxyfile-path: doxygen.conf# default is ./Doxyfile
-    working-directory: # default is .
-
