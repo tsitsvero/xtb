@@ -1,0 +1,10 @@
+<map id="xtb_disp_dftd4::triple_scale" name="xtb_disp_dftd4::triple_scale">
+<area shape="rect" id="node1" title="Logic exercise to distribute a triple energy to atomwise energies." alt="" coords="447,85,587,126"/>
+<area shape="rect" id="node2" href="$namespacextb__disp__dftd4.html#af17b6cf0dc846cbce13c9d366de5a0ea" title=" " alt="" coords="264,85,399,126"/>
+<area shape="rect" id="node5" href="$namespacextb__disp__dftd4.html#ab652e1228caf0400ac5af261a4e4adff" title=" " alt="" coords="264,19,399,61"/>
+<area shape="rect" id="node6" href="$namespacextb__disp__dftd4.html#ad09e6cbce6a5d7f974b61f8e05bc31dd" title=" " alt="" coords="264,157,399,198"/>
+<area shape="rect" id="node3" href="$interfacextb__disp__dftd4_1_1d4__atm__gradient.html#ae2774c561fd8a070522d53afe7a868a7" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="34,5,187,61"/>
+<area shape="rect" id="node4" href="$interfacextb__disp__dftd4_1_1d4__gradient.html#ade698dcbc9939ca08ac81ea2c6c49450" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="11,85,211,126"/>
+<area shape="rect" id="node7" href="$interfacextb__disp__dftd4_1_1d4__atm__gradient.html#a22b9e50e8b5b2cdc21d5ede520221b66" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="34,149,187,205"/>
+<area shape="rect" id="node8" href="$interfacextb__disp__dftd4_1_1d4__gradient.html#a907ebc85b8aa771a56218ae619383039" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="5,229,216,270"/>
+</map>

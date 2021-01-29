@@ -1,0 +1,6 @@
+<map id="xtb_type_dummycalc::tdummycalculator" name="xtb_type_dummycalc::tdummycalculator">
+<area shape="rect" id="node1" title="Base calculator." alt="" coords="25,261,167,303"/>
+<area shape="rect" id="node2" href="$structxtb__type__calculator_1_1tcalculator.html" title="Base calculator." alt="" coords="29,171,163,212"/>
+<area shape="rect" id="node3" href="$structxtb__solv__model_1_1tsolvmodel.html" title="Payload to create actual solvation models." alt="" coords="5,81,187,108"/>
+<area shape="rect" id="node4" href="$structxtb__solv__input_1_1tsolvinput.html" title="Input data for the solvation model." alt="" coords="13,5,179,32"/>
+</map>

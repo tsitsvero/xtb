@@ -1,0 +1,102 @@
+<map id="xtb_main_setup::newcalculator" name="xtb_main_setup::newcalculator">
+<area shape="rect" id="node1" title=" " alt="" coords="5,2644,204,2671"/>
+<area shape="rect" id="node2" href="$namespacextb__main__setup.html#a01dff07fc5b7e8c442d7e62c00377fc4" title=" " alt="" coords="252,2451,465,2477"/>
+<area shape="rect" id="node59" href="$namespacextb__main__setup.html#a8c34f442041bce692a001d62921171a2" title=" " alt="" coords="772,2759,988,2785"/>
+<area shape="rect" id="node3" href="$filetools_8F90.html#abe40c19bea97456da4d616af69059aeb" title=" " alt="" coords="1135,2505,1211,2532"/>
+<area shape="rect" id="node4" href="$namespacextb__gfnff__param.html#aecb9ac53c48c69f82c4334415489cfff" title=" " alt="" coords="533,91,679,133"/>
+<area shape="rect" id="node6" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="1706,2109,1750,2136"/>
+<area shape="rect" id="node7" href="$namespacextb__gfnff__param.html#ad3f3537883451518f6793d387e7e0d77" title=" " alt="" coords="533,13,679,54"/>
+<area shape="rect" id="node10" href="$namespacextb__gfnff__setup.html#a4aeb50102462398d4f57781b1c421257" title=" " alt="" coords="535,2385,677,2426"/>
+<area shape="rect" id="node38" href="$filetools_8F90.html#a68160ec369d61855ea12b180c7ce8c21" title=" " alt="" coords="1136,2657,1209,2684"/>
+<area shape="rect" id="node57" href="$namespacextb__disp__dftd4.html#abec9c5d3b36d81d4e42bc2e3f2e52fe7" title=" " alt="" coords="513,3024,699,3051"/>
+<area shape="rect" id="node5" href="$namespacextb__gfnff__param.html#a2fe9ea6080a6037086fbd40481860c3f" title=" " alt="" coords="747,56,1013,83"/>
+<area shape="rect" id="node8" href="$readl_8f90.html#aefb6440368a41f135fa1eac070ab7f0b" title=" " alt="" coords="855,5,905,32"/>
+<area shape="rect" id="node9" href="$readl_8f90.html#ad4f0e8a0348ec83dc345dc77e76cec7d" title=" " alt="" coords="1142,5,1203,32"/>
+<area shape="rect" id="node11" href="$namespacextb__gfnff__ini.html#ad57146d4119080bb244e8f19309414b5" title=" " alt="" coords="809,1419,951,1445"/>
+<area shape="rect" id="node49" href="$namespacextb__gfnff__setup.html#a215c44ce904fe929aa44064a29bd36f7" title=" " alt="" coords="809,2561,951,2602"/>
+<area shape="rect" id="node51" href="$namespacextb__gfnff__param.html#a28ac6b9842d50889df89a1b8f49333f5" title=" " alt="" coords="807,209,953,250"/>
+<area shape="rect" id="node53" href="$namespacextb__restart.html#a04cf738e2f80d66c1ad7a2e7a0a513fc" title=" " alt="" coords="791,2392,969,2419"/>
+<area shape="rect" id="node56" href="$namespacextb__restart.html#ab9eebc2e1927132c1c0668aeb160a0c2" title=" " alt="" coords="821,2443,939,2485"/>
+<area shape="rect" id="node12" href="$namespacextb__gfnff__ini2.html#a92bc634a9c3c39755d2a79bb1eda32ee" title=" " alt="" coords="1385,997,1534,1024"/>
+<area shape="rect" id="node13" href="$namespacextb__gfnff__ini2.html#acef6bbffdd34e51a9e76f231765b75b7" title=" " alt="" coords="1390,1073,1529,1100"/>
+<area shape="rect" id="node14" href="$namespacextb__gfnff__ini2.html#a91cb83307785656fcc67467bbb508266" title=" " alt="" coords="1099,1073,1246,1100"/>
+<area shape="rect" id="node15" href="$constr_8f90.html#a32be9c5b624117bb5292ce41655493c1" title=" " alt="" coords="1433,1831,1486,1857"/>
+<area shape="rect" id="node16" href="$namespacextb__gfnff__ini2.html#aa39e6fe0c68b35029978794183d9468d" title=" " alt="" coords="1107,411,1239,453"/>
+<area shape="rect" id="node17" href="$namespacextb__gfnff__ini2.html#a07569670e7c6b9760288d54752d6d8e1" title=" " alt="" coords="1107,477,1239,518"/>
+<area shape="rect" id="node18" href="$namespacextb__gfnff__ini2.html#a84a52a43202d8b79bba971703816c63e" title=" " alt="" coords="1107,542,1239,583"/>
+<area shape="rect" id="node19" href="$namespacextb__gfnff__ini2.html#afc5742b19c34332705922fe09468d4fd" title=" " alt="" coords="1107,607,1239,649"/>
+<area shape="rect" id="node20" href="$namespacextb__gfnff__ini2.html#a96de497fb239230e35369530a2692028" title=" " alt="" coords="1107,673,1239,714"/>
+<area shape="rect" id="node21" href="$namespacextb__gfnff__ini2.html#aa202246504b569e6f5644b02d2fe564e" title=" " alt="" coords="1099,1916,1246,1943"/>
+<area shape="rect" id="node22" href="$namespacextb__gfnff__ini2.html#abcfe0d72ec6537914b68abe232deb21c" title=" " alt="" coords="1105,739,1240,765"/>
+<area shape="rect" id="node23" href="$namespacextb__gfnff__fraghess.html#a0076b044bee636f19ac8a5d07b83dbfd" title=" " alt="" coords="1109,1967,1237,2009"/>
+<area shape="rect" id="node24" href="$namespacextb__gfnff__mrec.html#adff358d9b682092ce76fe4f0fad5b5fd" title=" " alt="" coords="1381,2033,1537,2060"/>
+<area shape="rect" id="node25" href="$getring36_8f90.html#a0e14b713f431309a714989b69d29c539" title=" " alt="" coords="1135,360,1210,387"/>
+<area shape="rect" id="node26" href="$getring36_8f90.html#a0b6831b1b70647d8c58d58f72d8ac141" title=" " alt="" coords="1434,335,1485,361"/>
+<area shape="rect" id="node27" href="$namespacextb__gfnff__eg.html#af363b667d39ccebd1dfd961c0e1211d9" title="logCN derivative saved in dlogCN array" alt="" coords="1111,841,1234,882"/>
+<area shape="rect" id="node28" href="$namespacextb__gfnff__ini2.html#aa121ab716dd4b452eb8c4be9ae1beb76" title=" " alt="" coords="1108,906,1237,947"/>
+<area shape="rect" id="node29" href="$namespacextb__gfnff__ini2.html#a1f66fd60267f1eb16f41f726537a599f" title=" " alt="" coords="1108,1850,1237,1891"/>
+<area shape="rect" id="node30" href="$gfnff__rab_8f.html#aa0fe97d2b0ab55d1b1b0b659ed3bef0f" title=" " alt="" coords="1427,1628,1492,1655"/>
+<area shape="rect" id="node31" href="$namespacextb__gfnff__param.html#af0e87a7bcfb3483afb4d772edf133ee4" title=" " alt="" coords="1100,1175,1245,1217"/>
+<area shape="rect" id="node32" href="$gfnff__qm_8f90.html#a953773a815ef79ac088fbd3954b3dd1b" title=" " alt="" coords="1125,1241,1221,1268"/>
+<area shape="rect" id="node33" href="$namespacextb__gfnff__ini2.html#a98afcd0f9ca279bf8e3b15d78688f08e" title=" " alt="" coords="1087,1292,1258,1319"/>
+<area shape="rect" id="node34" href="$namespacextb__gfnff__ini2.html#a68d1d020d0e7196fce23a88fac12e883" title=" " alt="" coords="1099,1343,1246,1369"/>
+<area shape="rect" id="node35" href="$gfnff__rab_8f.html#ad952b8704355367ddc743adf35c6d99a" title=" " alt="" coords="1137,1393,1208,1420"/>
+<area shape="rect" id="node36" href="$namespacextb__gfnff__ini2.html#ac4641c3f6e72a331f816807630e8ef43" title=" " alt="" coords="1379,2084,1540,2111"/>
+<area shape="rect" id="node37" href="$namespacextb__gfnff__ini2.html#af98f416f19e210096e2f53bb2ac7ad3a" title=" " alt="" coords="1395,2135,1524,2161"/>
+<area shape="rect" id="node39" href="$namespacextb__gfnff__ini2.html#a8c963c09d69e76e66dfac9a7a15dae9e" title=" " alt="" coords="1394,2185,1525,2212"/>
+<area shape="rect" id="node40" href="$prmat_8f90.html#a70f1230821402d1e19545b6d915838a5" title=" " alt="" coords="1147,1495,1198,1521"/>
+<area shape="rect" id="node41" href="$namespacextb__gfnff__ini2.html#ab9cb663e3bb054c99d2a49f53450558c" title=" " alt="" coords="1100,1545,1245,1572"/>
+<area shape="rect" id="node42" href="$namespacextb__gfnff__ini2.html#a8b8a197c060f0b334347929cef09bce8" title=" " alt="" coords="1092,1596,1253,1623"/>
+<area shape="rect" id="node43" href="$namespacextb__gfnff__ini2.html#a7aea88d2592ae186588b91d5a51bdded" title=" " alt="" coords="1093,1647,1253,1673"/>
+<area shape="rect" id="node44" href="$namespacextb__gfnff__ini2.html#ae6e021647ea890dc870f55f1d697cbc0" title=" " alt="" coords="1093,1697,1253,1724"/>
+<area shape="rect" id="node45" href="$namespacextb__gfnff__ini2.html#ad7ca2b786ebd2b7038f0a4a19098eb4c" title=" " alt="" coords="1097,1748,1248,1775"/>
+<area shape="rect" id="node46" href="$namespacextb__gfnff__ini2.html#a62c44b5a39a19a1de682cddba534e547" title=" " alt="" coords="1095,1799,1250,1825"/>
+<area shape="rect" id="node47" href="$namespacextb__gfnff__ini2.html#afd105fcd08d52b96f08d67c30b315ca5" title=" " alt="" coords="1390,2236,1529,2263"/>
+<area shape="rect" id="node48" href="$gfnff__ini_8f90.html#a07cf0529f275e36a83ad9aa337fe2f40" title="zeta(g_a,gam(ia)*g_c,refq(ii,ia)+iz,q(i)+iz)" alt="" coords="1925,2657,1972,2684"/>
+<area shape="rect" id="node50" href="$rdcoord2_8f90.html#a9b38798a8c538ebdc4c2be235d5bf8d6" title=" " alt="" coords="1139,2607,1206,2633"/>
+<area shape="rect" id="node52" href="$namespacextb__gfnff__param.html#a26040ae35199ff3633dcbb91e393dbc0" title=" " alt="" coords="1061,208,1284,235"/>
+<area shape="rect" id="node54" href="$namespacextb__gfnff__param.html#aebdf882bf8e9b33c797b8a279e01ef30" title=" " alt="" coords="1100,2389,1245,2430"/>
+<area shape="rect" id="node55" href="$filetools_8F90.html#a3b178f7f1f1e22ef97fda0ce2bb8e608" title=" " alt="" coords="1127,2455,1218,2481"/>
+<area shape="rect" id="node58" href="$namespacextb__disp__dftd4.html#afc075e41379fb49a320035512d0aa9d3" title=" " alt="" coords="1655,3425,1801,3452"/>
+<area shape="rect" id="node60" href="$namespacextb__basis.html#a8dcefdb6cf2cc7d1c5f0daaea80140f9" title=" " alt="" coords="1095,2809,1251,2836"/>
+<area shape="rect" id="node67" href="$namespacextb__mctc__systools.html#ad2c70adeb3a8380726b4db07499e8f12" title=" " alt="" coords="1105,3089,1241,3130"/>
+<area shape="rect" id="node68" href="$namespacextb__embedding.html#af628c36bfe42493ab8e772f39b4559c4" title=" " alt="" coords="1083,3037,1262,3064"/>
+<area shape="rect" id="node77" href="$namespacextb__readparam.html#ad184b7ee3b917290f207ad23a9b5bb9c" title=" " alt="" coords="1085,3544,1260,3571"/>
+<area shape="rect" id="node100" href="$namespacextb__paramset.html#a29b2d195ccb733977cbedd87958b27f0" title=" " alt="" coords="1354,2404,1565,2431"/>
+<area shape="rect" id="node61" href="$namespacextb__basis.html#a48cc67c280b5a132da8ca0515df9cb26" title=" " alt="" coords="1400,2759,1519,2785"/>
+<area shape="rect" id="node62" href="$namespacextb__basis.html#a2e276b3c4c3f7524048f34c4d244660e" title=" " alt="" coords="1375,2607,1543,2633"/>
+<area shape="rect" id="node63" href="$namespacextb__slater.html#a19c2732e2b22af63a29d5e157f8415b3" title="Expand Slater function in primitive gaussian functions." alt="" coords="1647,2657,1809,2684"/>
+<area shape="rect" id="node64" href="$namespacextb__basis.html#afbd86663a0bcc9342163998348c7ee50" title=" " alt="" coords="1377,2657,1542,2684"/>
+<area shape="rect" id="node65" href="$namespacextb__basis.html#ad529a79151086301d63a02dd0d5353ad" title="determine basisset limits" alt="" coords="1396,2961,1523,2988"/>
+<area shape="rect" id="node66" href="$namespacextb__basis.html#ad626228bc2e0578b43162d3d83b46618" title=" " alt="" coords="1657,2961,1799,2988"/>
+<area shape="rect" id="node69" href="$elem_8f90.html#ae2a0e630d3a8fea4a12abcc607d7fc5d" title=" " alt="" coords="1434,3063,1485,3089"/>
+<area shape="rect" id="node70" href="$namespacextb__mctc__strings.html#a5272db42d49f38098924d2587c9e9a78" title="Parses the string &#39;str&#39; into arguments args(1), ..., args(nargs) based on the delimiters contained in..." alt="" coords="1869,3823,2028,3849"/>
+<area shape="rect" id="node74" href="$error_8f90.html#a21a6b76d2bc72d8d2ec0a344a6d2298b" title=" " alt="" coords="1434,3012,1485,3039"/>
+<area shape="rect" id="node75" href="$namespacextb__readin.html#aa4cba2ddf891393117f495075dbdbfbd" title=" " alt="" coords="1390,3164,1529,3191"/>
+<area shape="rect" id="node71" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="2319,3823,2496,3849"/>
+<area shape="rect" id="node72" href="$namespacextb__mctc__strings.html#ac1ac14e68e16e450995779028bd6566f" title="Removes backslash () characters. Double backslashes (\) are replaced by a single backslash." alt="" coords="2076,3823,2271,3849"/>
+<area shape="rect" id="node73" href="$namespacextb__mctc__strings.html#a01f52f6293684260e59260ff5790e5c3" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="2098,3873,2249,3900"/>
+<area shape="rect" id="node76" href="$namespacextb__mctc__systools.html#a7b18e6c9bb5206d8fe0fbba49da3fbdb" title=" " alt="" coords="1660,3165,1796,3206"/>
+<area shape="rect" id="node78" href="$namespacextb__xtb__data.html#a0ef185a810118cafe95f5996c06cc47d" title="Transform a data array from angular momenta to shell number references." alt="" coords="1367,3975,1552,4001"/>
+<area shape="rect" id="node79" href="$namespacextb__disp__dftd3param.html#a6e770f0472a1e1eca178899cee6100f7" title=" " alt="" coords="1388,4026,1531,4067"/>
+<area shape="rect" id="node80" href="$namespacextb__xtb__data.html#aec64d20b7353bc338de9335372c794b9" title="Generator for valence shell data from the angular momenta of the shells." alt="" coords="1335,2860,1583,2887"/>
+<area shape="rect" id="node81" href="$namespacextb__disp__dftd4.html#a3d014ea0442326639fae387e19ab6e1f" title=" " alt="" coords="1367,3721,1552,3748"/>
+<area shape="rect" id="node83" href="$read__gfn__param_8f90.html#a36d6b2163be85e7fabfb45b39893fd7f" title=" " alt="" coords="1409,3823,1509,3849"/>
+<area shape="rect" id="node86" href="$read__gfn__param_8f90.html#a32e0a7b3f90247343fa30455d83a5888" title=" " alt="" coords="1411,3772,1507,3799"/>
+<area shape="rect" id="node88" href="$read__gfn__param_8f90.html#a374673e9a506c8192697ba5426443243" title=" " alt="" coords="1422,3265,1497,3292"/>
+<area shape="rect" id="node89" href="$read__gfn__param_8f90.html#a87514e39671ed54f3de85566078345f7" title=" " alt="" coords="1681,3924,1775,3951"/>
+<area shape="rect" id="node90" href="$namespacextb__xtb__gfn0.html#a1d5082ae4e102ffccf4f22e111914632" title=" " alt="" coords="1332,3316,1587,3343"/>
+<area shape="rect" id="node91" href="$namespacextb__xtb__gfn1.html#a98ba7da25e3b64fcef0688c67039c86b" title=" " alt="" coords="1377,3367,1542,3393"/>
+<area shape="rect" id="node92" href="$namespacextb__xtb__gfn1.html#ae68fe854197b5ef4626cf4d66339a9c7" title=" " alt="" coords="1332,3417,1587,3444"/>
+<area shape="rect" id="node93" href="$namespacextb__xtb__gfn1.html#a8f43ad203ceab50c4b5d21cc0f58357f" title=" " alt="" coords="1350,3468,1569,3495"/>
+<area shape="rect" id="node94" href="$namespacextb__xtb__gfn1.html#a71638ad9083a0689c43a927b784703af" title=" " alt="" coords="1347,3519,1571,3545"/>
+<area shape="rect" id="node95" href="$namespacextb__xtb__gfn2.html#a6a0272b42baa3451a2aefec1cda693af" title=" " alt="" coords="1332,3569,1587,3596"/>
+<area shape="rect" id="node96" href="$namespacextb__xtb__gfn2.html#a506c9ac48491f9017ad8c1c5adc68147" title=" " alt="" coords="1350,3620,1569,3647"/>
+<area shape="rect" id="node97" href="$namespacextb__xtb__gfn2.html#a5b8ab76337d79ddb77fd4e02f08e293b" title=" " alt="" coords="1347,3671,1572,3697"/>
+<area shape="rect" id="node98" href="$namespacextb__paramset.html#aa718fa7bc56b87001ad66ae5a294b5b2" title=" " alt="" coords="1387,3873,1532,3900"/>
+<area shape="rect" id="node82" href="$namespacextb__disp__dftd4.html#a84f2fe9e55715ff22663ba9cbc3b02c2" title=" " alt="" coords="1660,3671,1796,3697"/>
+<area shape="rect" id="node84" href="$read__gfn__param_8f90.html#aa3c037140f85b6c6a80c609ee89b8467" title=" " alt="" coords="1681,3823,1775,3849"/>
+<area shape="rect" id="node85" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="1635,3772,1821,3799"/>
+<area shape="rect" id="node87" href="$read__gfn__param_8f90.html#a4365d12f8d8ac4f573cf376c60e93532" title=" " alt="" coords="1683,3721,1773,3748"/>
+<area shape="rect" id="node99" href="$namespacextb__paramset.html#a778d90934065b54ef79ded14000a3c6b" title=" " alt="" coords="1651,3873,1805,3900"/>
+</map>

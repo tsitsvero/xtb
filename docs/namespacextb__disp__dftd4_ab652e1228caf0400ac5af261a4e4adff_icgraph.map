@@ -1,0 +1,5 @@
+<map id="xtb_disp_dftd4::atm_gradient_latp_gpu" name="xtb_disp_dftd4::atm_gradient_latp_gpu">
+<area shape="rect" id="node1" title=" " alt="" coords="253,49,388,90"/>
+<area shape="rect" id="node2" href="$interfacextb__disp__dftd4_1_1d4__atm__gradient.html#ae2774c561fd8a070522d53afe7a868a7" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="29,5,182,61"/>
+<area shape="rect" id="node3" href="$interfacextb__disp__dftd4_1_1d4__gradient.html#ade698dcbc9939ca08ac81ea2c6c49450" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="5,85,205,126"/>
+</map>

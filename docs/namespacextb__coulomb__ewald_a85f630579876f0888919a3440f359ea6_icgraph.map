@@ -1,0 +1,16 @@
+<map id="xtb_coulomb_ewald::getrterm" name="xtb_coulomb_ewald::getrterm">
+<area shape="rect" id="node1" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="1295,136,1455,177"/>
+<area shape="rect" id="node2" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="1012,5,1172,47"/>
+<area shape="rect" id="node8" href="$namespacextb__coulomb__klopmanohno.html#a533082a6ccc5771bad7c3b4ec5739ed0" title=" " alt="" coords="991,71,1193,112"/>
+<area shape="rect" id="node10" href="$namespacextb__coulomb__gaussian.html#a24fdfe9752a10282560c4b76c907c495" title=" " alt="" coords="997,136,1187,177"/>
+<area shape="rect" id="node12" href="$namespacextb__type__coulomb.html#ac0b35660ed1ccc0bd3a3029af7ea6460" title=" " alt="" coords="937,202,1247,229"/>
+<area shape="rect" id="node14" href="$namespacextb__coulomb__ewald.html#aa74d92ca86f81de2517bfff1bd22394b" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="674,253,834,295"/>
+<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#a0578c81cbd7c7bcaf949e8a916d4e7e6" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="674,5,834,47"/>
+<area shape="rect" id="node4" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="256,137,571,163"/>
+<area shape="rect" id="node5" href="$interfacextb__type__coulomb_1_1init.html#ac936ce358455d216ff3bf7ce2fc2dc72" title=" " alt="" coords="21,64,192,105"/>
+<area shape="rect" id="node6" href="$interfacextb__coulomb__gaussian_1_1init.html#aa9e54b0d7c3e5fd0ef19ae9b5abda847" title=" " alt="" coords="9,129,204,171"/>
+<area shape="rect" id="node7" href="$interfacextb__coulomb__klopmanohno_1_1init.html#ae65974389e2ef4951f7413508b2c3a35" title=" " alt="" coords="5,195,208,236"/>
+<area shape="rect" id="node9" href="$namespacextb__coulomb__klopmanohno.html#aaf23bc057f8c139a33cc8c9e06d0abb1" title=" " alt="" coords="653,71,855,112"/>
+<area shape="rect" id="node11" href="$namespacextb__coulomb__gaussian.html#afa604f81b0f4d70e53556dc3911eebc4" title=" " alt="" coords="669,136,839,177"/>
+<area shape="rect" id="node13" href="$namespacextb__type__coulomb.html#a05cc597be721e3a6c9e8be4a1eff8254" title=" " alt="" coords="619,202,889,229"/>
+</map>

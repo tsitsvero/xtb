@@ -1,0 +1,7 @@
+<map id="xtb_mctc_strings::trimzero" name="xtb_mctc_strings::trimzero">
+<area shape="rect" id="node1" title="Deletes nonsignificant trailing zeroes from number string str. If number string ends in a decimal poi..." alt="" coords="236,111,432,138"/>
+<area shape="rect" id="node2" href="$interfacextb__mctc__strings_1_1writeq.html#a1640f3f19854b1b97422a2abcbb22d4f" title="Writes a string of the form &lt;name&gt; = ivalue to unit." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$interfacextb__mctc__strings_1_1writeq.html#a1c40560a29b81735599069ffe55692c3" title="Writes a string of the form &lt;name&gt; = value to unit." alt="" coords="5,71,188,112"/>
+<area shape="rect" id="node4" href="$interfacextb__mctc__strings_1_1writeq.html#a7bede3ab8ef35f81bdca16c69936b1a3" title="Writes a string of the form &lt;name&gt; = ivalue to unit." alt="" coords="5,136,188,177"/>
+<area shape="rect" id="node5" href="$interfacextb__mctc__strings_1_1writeq.html#a3950b5acaf61eb6f02593e0190b28e74" title="Writes a string of the form &lt;name&gt; = value to unit." alt="" coords="5,201,188,243"/>
+</map>

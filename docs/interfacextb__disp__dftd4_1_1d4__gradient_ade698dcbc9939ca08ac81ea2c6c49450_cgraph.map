@@ -1,0 +1,13 @@
+<map id="xtb_disp_dftd4::d4_gradient::d4_full_gradient_latp" name="xtb_disp_dftd4::d4_gradient::d4_full_gradient_latp">
+<area shape="rect" id="node1" title="Evaluate gradient of DFT&#45;D4, this routine can handle systems of arbitrary." alt="" coords="5,136,205,177"/>
+<area shape="rect" id="node2" href="$namespacextb__disp__dftd4.html#af17b6cf0dc846cbce13c9d366de5a0ea" title=" " alt="" coords="261,71,396,112"/>
+<area shape="rect" id="node5" href="$namespacextb__disp__dftd4.html#ab652e1228caf0400ac5af261a4e4adff" title=" " alt="" coords="261,5,396,47"/>
+<area shape="rect" id="node6" href="$namespacextb__disp__dftd4.html#a121093b09de6d7f36249fbb442064a36" title=" " alt="" coords="261,136,397,177"/>
+<area shape="rect" id="node7" href="$namespacextb__disp__dftd4.html#a04b1479df97eb6947ada413c02efe672" title="calculate atomic dispersion coefficients and their derivatives w.r.t." alt="" coords="263,201,394,243"/>
+<area shape="rect" id="node8" href="$namespacextb__disp__dftd4.html#af596f8ddba483a100b9f0052e13e09a1" title="Calculate the weights of the reference system and the derivatives w.r.t." alt="" coords="253,267,404,308"/>
+<area shape="rect" id="node3" href="$namespacextb__disp__dftd4.html#a2fe18688e385b3ed59adeb48d90f8375" title=" " alt="" coords="453,71,593,112"/>
+<area shape="rect" id="node4" href="$namespacextb__disp__dftd4.html#ab1959eb0a3b93513ea06fb050678b29c" title="Logic exercise to distribute a triple energy to atomwise energies." alt="" coords="453,5,593,47"/>
+<area shape="rect" id="node9" href="$namespacextb__disp__dftd4.html#ab0e32d23b62a0b9663cc78f08da4e21d" title=" " alt="" coords="452,223,595,250"/>
+<area shape="rect" id="node10" href="$namespacextb__disp__dftd4.html#acaf91a2aaed23ff2557b4c4c247f2d65" title=" " alt="" coords="452,274,595,301"/>
+<area shape="rect" id="node11" href="$namespacextb__disp__dftd4.html#a84f2fe9e55715ff22663ba9cbc3b02c2" title=" " alt="" coords="643,299,779,326"/>
+</map>

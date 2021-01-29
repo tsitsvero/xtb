@@ -1,0 +1,10 @@
+<map id="xtb_gfnff_calculator::tgffcalculator" name="xtb_gfnff_calculator::tgffcalculator">
+<area shape="rect" id="node1" title="Calculator interface for xTB based methods." alt="" coords="747,113,881,155"/>
+<area shape="rect" id="node2" href="$structxtb__type__calculator_1_1tcalculator.html" title="Base calculator." alt="" coords="516,5,649,47"/>
+<area shape="rect" id="node3" href="$structxtb__solv__model_1_1tsolvmodel.html" title="Payload to create actual solvation models." alt="" coords="221,13,403,39"/>
+<area shape="rect" id="node4" href="$structxtb__solv__input_1_1tsolvinput.html" title="Input data for the solvation model." alt="" coords="5,13,172,39"/>
+<area shape="rect" id="node5" href="$structxtb__gfnff__topology_1_1tgfftopology.html" title="Topology information for a given system." alt="" coords="519,71,646,112"/>
+<area shape="rect" id="node6" href="$structxtb__type__dispersionmodel_1_1tdispersionmodel.html" title=" " alt="" coords="227,71,397,112"/>
+<area shape="rect" id="node7" href="$structxtb__gfnff__generator_1_1tgffgenerator.html" title="Generator for the force field topology." alt="" coords="517,136,649,177"/>
+<area shape="rect" id="node8" href="$structxtb__gfnff__data_1_1tgffdata.html" title="Parametrisation data for the force field." alt="" coords="507,202,659,229"/>
+</map>

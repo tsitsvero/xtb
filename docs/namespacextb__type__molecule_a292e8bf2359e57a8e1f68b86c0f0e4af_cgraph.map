@@ -1,0 +1,6 @@
+<map id="xtb_type_molecule::align_to_principal_axes" name="xtb_type_molecule::align_to_principal_axes">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,180,65"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__math.html#ae982d67b0f3f875b0be50274cfb42712" title="Calculates eigenvector using an analytical method based on vector cross." alt="" coords="230,5,429,32"/>
+<area shape="rect" id="node4" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="228,56,431,83"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__math.html#a546cec793b587aa3debc5e497cde2d6f" title="Calculates eigenvalues based on the trigonometric solution of A = pB + qI." alt="" coords="479,5,673,32"/>
+</map>

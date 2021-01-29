@@ -1,0 +1,12 @@
+<map id="xtb_disp_dftd3::d3_gradient::d3_full_gradient_neigh" name="xtb_disp_dftd3::d3_gradient::d3_full_gradient_neigh">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,244,211"/>
+<area shape="rect" id="node2" href="$namespacextb__disp__dftd3.html#a4e1320321299f37f57ffd65aae3ab5a0" title=" " alt="" coords="301,71,452,112"/>
+<area shape="rect" id="node6" href="$namespacextb__disp__dftd3.html#af7457605780abcfbce7f7dabc3e810f7" title=" " alt="" coords="301,136,453,177"/>
+<area shape="rect" id="node7" href="$namespacextb__disp__dftd3.html#a82e2048362c5fee97120ce5bcdd229e9" title="calculate atomic dispersion coefficients and their derivatives w.r.t." alt="" coords="303,201,450,243"/>
+<area shape="rect" id="node9" href="$namespacextb__disp__dftd3.html#af51fb8c764abfd81456418dc9c5f8467" title="Calculate the weights of the reference system and the derivatives w.r.t." alt="" coords="292,267,461,308"/>
+<area shape="rect" id="node3" href="$namespacextb__disp__dftd3.html#aa6bd9f30deb7b8f6569b94cdf1269364" title=" " alt="" coords="525,5,684,47"/>
+<area shape="rect" id="node4" href="$namespacextb__disp__dftd3param.html#a97051cffb1b382008fca261780378140" title=" " alt="" coords="525,71,684,112"/>
+<area shape="rect" id="node5" href="$namespacextb__disp__dftd3.html#a7381f4fa56c9f467b80c163573c7f79b" title="Logic exercise to distribute a triple energy to atomwise energies." alt="" coords="525,136,684,177"/>
+<area shape="rect" id="node8" href="$namespacextb__disp__dftd3param.html#a31d14f3c121af72cdf7a1735b63e598e" title=" " alt="" coords="525,201,684,243"/>
+<area shape="rect" id="node10" href="$namespacextb__disp__dftd3.html#a46f9a43b2f4cb1ded589a521aea7c20a" title=" " alt="" coords="509,274,700,301"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="xtb_pbc_tools::dlat_to_dvol" name="xtb_pbc_tools::dlat_to_dvol">
+<area shape="rect" id="node1" title="calculate the cell volume from the direct lattice" alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#af5c425099fa1f9ef165278c21e54d8b7" title="determinat of 3×3 matrix" alt="" coords="199,5,345,47"/>
+</map>

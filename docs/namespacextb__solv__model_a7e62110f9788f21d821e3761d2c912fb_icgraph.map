@@ -1,0 +1,4 @@
+<map id="xtb_solv_model::normalizesolventname" name="xtb_solv_model::normalizesolventname">
+<area shape="rect" id="node1" title="Try to find a normalized version of an input solvent name." alt="" coords="208,13,491,39"/>
+<area shape="rect" id="node2" href="$interfacextb__solv__model_1_1init.html#a37e1fd9e006e5887c3978a6f6a3858c8" title="Initialize solvation model from input." alt="" coords="5,5,160,47"/>
+</map>

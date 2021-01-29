@@ -1,0 +1,4 @@
+<map id="xtb_solv_gbsa::addgradienthbond" name="xtb_solv_gbsa::addgradienthbond">
+<area shape="rect" id="node1" title="Compute contributions to energy and gradient for hydrogen bonding correction." alt="" coords="255,5,496,32"/>
+<area shape="rect" id="node2" href="$namespacextb__solv__gbsa.html#af8b7ea548d735b9d96209e29db7c0b80" title="Calculate derivatives of solvation energy." alt="" coords="5,5,207,32"/>
+</map>

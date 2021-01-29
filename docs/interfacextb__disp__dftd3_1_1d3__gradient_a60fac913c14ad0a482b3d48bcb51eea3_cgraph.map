@@ -1,0 +1,8 @@
+<map id="xtb_disp_dftd3::d3_gradient::d3_gradient_latp" name="xtb_disp_dftd3::d3_gradient::d3_gradient_latp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,205,112"/>
+<area shape="rect" id="node2" href="$namespacextb__disp__dftd3.html#aa210a54da767b355552cb47296171126" title="Implementation of the pairwise dispersion energy." alt="" coords="262,5,414,47"/>
+<area shape="rect" id="node3" href="$namespacextb__disp__dftd3.html#a82e2048362c5fee97120ce5bcdd229e9" title="calculate atomic dispersion coefficients and their derivatives w.r.t." alt="" coords="265,71,411,112"/>
+<area shape="rect" id="node5" href="$namespacextb__disp__dftd3.html#af51fb8c764abfd81456418dc9c5f8467" title="Calculate the weights of the reference system and the derivatives w.r.t." alt="" coords="253,136,423,177"/>
+<area shape="rect" id="node4" href="$namespacextb__disp__dftd3param.html#a31d14f3c121af72cdf7a1735b63e598e" title=" " alt="" coords="487,71,645,112"/>
+<area shape="rect" id="node6" href="$namespacextb__disp__dftd3.html#a46f9a43b2f4cb1ded589a521aea7c20a" title=" " alt="" coords="471,143,661,170"/>
+</map>

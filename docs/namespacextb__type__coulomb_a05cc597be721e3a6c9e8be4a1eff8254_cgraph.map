@@ -1,0 +1,7 @@
+<map id="xtb_type_coulomb::getcoulombmatrix" name="xtb_type_coulomb::getcoulombmatrix">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,276,57"/>
+<area shape="rect" id="node2" href="$namespacextb__type__coulomb.html#acf68e376172ba28c48d472e650f59fd2" title=" " alt="" coords="324,5,639,32"/>
+<area shape="rect" id="node3" href="$namespacextb__type__coulomb.html#ac0b35660ed1ccc0bd3a3029af7ea6460" title=" " alt="" coords="327,56,636,83"/>
+<area shape="rect" id="node4" href="$namespacextb__coulomb__ewald.html#a8ff6c61e8e9c8f0a46a763d12bc6a281" title=" " alt="" coords="687,15,847,57"/>
+<area shape="rect" id="node5" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="687,81,847,122"/>
+</map>

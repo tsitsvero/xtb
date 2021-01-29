@@ -1,0 +1,12 @@
+<map id="xtb_solv_model::init::initsolvmodel" name="xtb_solv_model::init::initsolvmodel">
+<area shape="rect" id="node1" title="Initialize solvation model from input." alt="" coords="5,107,140,148"/>
+<area shape="rect" id="node2" href="$namespacextb__solv__model.html#a5efeba0122d10cb544ecfd5655e878a9" title="Try to find a suitable parameter file for parsing." alt="" coords="217,13,405,39"/>
+<area shape="rect" id="node4" href="$namespacextb__solv__state.html#a80bdf23cba49dac29ba2b35b97876b9a" title=" " alt="" coords="219,63,403,90"/>
+<area shape="rect" id="node5" href="$namespacextb__solv__model.html#ad12159e8fbc4ee0b16646feae1616d90" title="Load internal parameters, if no parameter file is present." alt="" coords="201,114,421,141"/>
+<area shape="rect" id="node7" href="$namespacextb__solv__model.html#a7e62110f9788f21d821e3761d2c912fb" title="Try to find a normalized version of an input solvent name." alt="" coords="188,215,435,242"/>
+<area shape="rect" id="node9" href="$namespacextb__solv__model.html#ab689ca99e0b6905258798d94f485db80" title=" " alt="" coords="214,165,409,191"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__systools.html#ad2c70adeb3a8380726b4db07499e8f12" title=" " alt="" coords="515,5,651,47"/>
+<area shape="rect" id="node6" href="$namespacextb__solv__model.html#a127baa81b58d50b21bf365713b172080" title=" " alt="" coords="483,114,683,141"/>
+<area shape="rect" id="node8" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="489,215,676,242"/>
+<area shape="rect" id="node10" href="$filetools_8F90.html#a68160ec369d61855ea12b180c7ce8c21" title=" " alt="" coords="546,165,619,191"/>
+</map>
