@@ -1,13 +1,13 @@
 <map id="xtb_api_molecule::vmolecule" name="xtb_api_molecule::vmolecule">
-<area shape="rect" id="node1" title="Void pointer to molecular structure data." alt="" coords="487,274,700,301"/>
-<area shape="rect" id="node2" href="$structxtb__type__molecule_1_1tmolecule.html" title="Molecular structure information." alt="" coords="261,267,416,308"/>
-<area shape="rect" id="node3" href="$structxtb__type__vendordata_1_1turbo__info.html" title="Turbomole input data." alt="" coords="7,5,167,47"/>
-<area shape="rect" id="node4" href="$structxtb__type__topology_1_1ttopology.html" title=" " alt="" coords="12,71,163,112"/>
-<area shape="rect" id="node5" href="$structxtb__type__vendordata_1_1pdb__data.html" title="atomic pdb data type" alt="" coords="7,136,167,177"/>
-<area shape="rect" id="node6" href="$structxtb__type__fragments_1_1tfragments.html" title=" " alt="" coords="11,201,164,243"/>
-<area shape="rect" id="node7" href="$structxtb__type__vendordata_1_1struc__info.html" title="structure input info" alt="" coords="7,267,167,308"/>
-<area shape="rect" id="node8" href="$structxtb__type__vendordata_1_1vasp__info.html" title="vasp input data" alt="" coords="7,332,167,373"/>
-<area shape="rect" id="node9" href="$structxtb__type__buffer_1_1tb__buffer.html" title=" " alt="" coords="15,397,160,439"/>
-<area shape="rect" id="node10" href="$structxtb__type__vendordata_1_1sdf__data.html" title="sdf atomic data" alt="" coords="7,463,167,504"/>
-<area shape="rect" id="node11" href="$structxtb__type__wsc_1_1tb__wsc.html" title="definition of the the Wigner–Seitz&#45;cell (wsc) data type" alt="" coords="5,529,169,555"/>
+<area shape="rect" id="node1" title="Void pointer to molecular structure data." alt="" coords="443,274,629,301"/>
+<area shape="rect" id="node2" href="$structxtb__type__molecule_1_1tmolecule.html" title="Molecular structure information." alt="" coords="241,267,376,308"/>
+<area shape="rect" id="node3" href="$structxtb__type__vendordata_1_1turbo__info.html" title="Turbomole input data." alt="" coords="9,5,151,47"/>
+<area shape="rect" id="node4" href="$structxtb__type__topology_1_1ttopology.html" title=" " alt="" coords="15,71,145,112"/>
+<area shape="rect" id="node5" href="$structxtb__type__vendordata_1_1pdb__data.html" title="atomic pdb data type" alt="" coords="9,136,151,177"/>
+<area shape="rect" id="node6" href="$structxtb__type__fragments_1_1tfragments.html" title=" " alt="" coords="13,201,147,243"/>
+<area shape="rect" id="node7" href="$structxtb__type__vendordata_1_1struc__info.html" title="structure input info" alt="" coords="9,267,151,308"/>
+<area shape="rect" id="node8" href="$structxtb__type__vendordata_1_1vasp__info.html" title="vasp input data" alt="" coords="9,332,151,373"/>
+<area shape="rect" id="node9" href="$structxtb__type__buffer_1_1tb__buffer.html" title=" " alt="" coords="17,397,143,439"/>
+<area shape="rect" id="node10" href="$structxtb__type__vendordata_1_1sdf__data.html" title="sdf atomic data" alt="" coords="9,463,151,504"/>
+<area shape="rect" id="node11" href="$structxtb__type__wsc_1_1tb__wsc.html" title="definition of the the Wigner–Seitz&#45;cell (wsc) data type" alt="" coords="5,529,155,555"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="xtb_type_identitymap::hasnumber" name="xtb_type_identitymap::hasnumber">
-<area shape="rect" id="node1" title="Check if atomic number maps to atoms." alt="" coords="219,5,384,47"/>
-<area shape="rect" id="node2" href="$structxtb__type__identitymap_1_1tidentitymap.html#a9cb28d497cd17157ecd0a65bb97b60d9" title="Check if symbol or number maps to atoms." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node1" title="Check if atomic number maps to atoms." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node2" href="$structxtb__type__identitymap_1_1tidentitymap.html#a9cb28d497cd17157ecd0a65bb97b60d9" title="Check if symbol or number maps to atoms." alt="" coords="5,5,148,47"/>
 </map>

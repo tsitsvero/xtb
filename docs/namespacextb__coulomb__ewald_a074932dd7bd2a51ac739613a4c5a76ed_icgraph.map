@@ -1,10 +1,10 @@
 <map id="xtb_coulomb_ewald::ewaldderivpbc3d" name="xtb_coulomb_ewald::ewaldderivpbc3d">
-<area shape="rect" id="node1" title=" " alt="" coords="675,119,835,161"/>
-<area shape="rect" id="node2" href="$interfacextb__eeq_1_1get__coulomb__derivs.html#a68261d305d18ef0069fdf37b8fc2b079" title=" " alt="" coords="390,5,557,61"/>
-<area shape="rect" id="node3" href="$namespacextb__coulomb__klopmanohno.html#ad73bc65a822346169cc900a7ebd37ce2" title=" " alt="" coords="372,86,575,127"/>
-<area shape="rect" id="node5" href="$namespacextb__coulomb__gaussian.html#ae20125ff9683209e0da1a6ba6b0cf487" title=" " alt="" coords="380,151,567,193"/>
-<area shape="rect" id="node7" href="$namespacextb__type__coulomb.html#a7ccc0f2992afedcadb5dbaaa0252f2a5" title=" " alt="" coords="320,217,627,244"/>
-<area shape="rect" id="node4" href="$namespacextb__coulomb__klopmanohno.html#ab1ae45764e512c36f8626c8eb2898449" title=" " alt="" coords="37,86,240,127"/>
-<area shape="rect" id="node6" href="$namespacextb__coulomb__gaussian.html#a1ed072a8fdf3487609a11b65c4fc6b38" title=" " alt="" coords="53,151,224,193"/>
-<area shape="rect" id="node8" href="$namespacextb__type__coulomb.html#ad7ff9ff89dbbd7bc4717575b45c4c8a0" title=" " alt="" coords="5,217,272,244"/>
+<area shape="rect" id="node1" title=" " alt="" coords="605,118,748,159"/>
+<area shape="rect" id="node2" href="$interfacextb__eeq_1_1get__coulomb__derivs.html#a68261d305d18ef0069fdf37b8fc2b079" title=" " alt="" coords="349,5,496,61"/>
+<area shape="rect" id="node3" href="$namespacextb__coulomb__klopmanohno.html#ad73bc65a822346169cc900a7ebd37ce2" title=" " alt="" coords="333,85,512,126"/>
+<area shape="rect" id="node5" href="$namespacextb__coulomb__gaussian.html#ae20125ff9683209e0da1a6ba6b0cf487" title=" " alt="" coords="340,150,505,191"/>
+<area shape="rect" id="node7" href="$namespacextb__type__coulomb.html#a7ccc0f2992afedcadb5dbaaa0252f2a5" title=" " alt="" coords="288,216,557,243"/>
+<area shape="rect" id="node4" href="$namespacextb__coulomb__klopmanohno.html#ab1ae45764e512c36f8626c8eb2898449" title=" " alt="" coords="33,85,212,126"/>
+<area shape="rect" id="node6" href="$namespacextb__coulomb__gaussian.html#a1ed072a8fdf3487609a11b65c4fc6b38" title=" " alt="" coords="45,150,200,191"/>
+<area shape="rect" id="node8" href="$namespacextb__type__coulomb.html#ad7ff9ff89dbbd7bc4717575b45c4c8a0" title=" " alt="" coords="5,216,240,243"/>
 </map>

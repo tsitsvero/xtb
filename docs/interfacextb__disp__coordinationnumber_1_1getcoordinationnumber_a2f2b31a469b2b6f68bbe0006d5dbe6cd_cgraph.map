@@ -1,11 +1,11 @@
 <map id="xtb_disp_coordinationnumber::getcoordinationnumber::getcoordinationnumberlp" name="xtb_disp_coordinationnumber::getcoordinationnumber::getcoordinationnumberlp">
-<area shape="rect" id="node1" title="Geometric fractional coordination number, supports both error function." alt="" coords="5,203,220,259"/>
-<area shape="rect" id="node2" href="$namespacextb__disp__coordinationnumber.html#a3aa32ae4642e3dcb9546d7385e72e7ab" title="Derivative of the counting function w.r.t. the distance." alt="" coords="268,5,483,47"/>
-<area shape="rect" id="node3" href="$namespacextb__disp__coordinationnumber.html#a9b05796fd247e97025908ce9b9760c66" title="Derivative of the counting function w.r.t. the distance." alt="" coords="531,91,745,132"/>
-<area shape="rect" id="node4" href="$namespacextb__disp__coordinationnumber.html#a5224b5587a25893c702f49b43fc47dba" title="Derivative of the counting function w.r.t. the distance." alt="" coords="268,123,483,164"/>
-<area shape="rect" id="node5" href="$namespacextb__disp__coordinationnumber.html#ad7706209e8851f8c87f8e234852cdbb4" title="Exponential counting function for coordination number contributions." alt="" coords="531,181,745,223"/>
-<area shape="rect" id="node6" href="$namespacextb__disp__coordinationnumber.html#aed134491ffe850858999680c36fd6e24" title="Error function counting function for coordination number contributions." alt="" coords="268,240,483,281"/>
-<area shape="rect" id="node7" href="$namespacextb__disp__coordinationnumber.html#a1ca5cf801b7a8b72c97cd11a9e6a0846" title="Exponential counting function for coordination number contributions." alt="" coords="268,305,483,347"/>
-<area shape="rect" id="node8" href="$namespacextb__disp__coordinationnumber.html#af2e122528b8e63560ee0adc35042ecbe" title="Actual implementation of the coordination number, takes a generic counting." alt="" coords="268,371,483,412"/>
-<area shape="rect" id="node9" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="351,437,399,463"/>
+<area shape="rect" id="node1" title="Geometric fractional coordination number, supports both error function." alt="" coords="5,203,196,259"/>
+<area shape="rect" id="node2" href="$namespacextb__disp__coordinationnumber.html#a3aa32ae4642e3dcb9546d7385e72e7ab" title="Derivative of the counting function w.r.t. the distance." alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node3" href="$namespacextb__disp__coordinationnumber.html#a9b05796fd247e97025908ce9b9760c66" title="Derivative of the counting function w.r.t. the distance." alt="" coords="483,91,673,132"/>
+<area shape="rect" id="node4" href="$namespacextb__disp__coordinationnumber.html#a5224b5587a25893c702f49b43fc47dba" title="Derivative of the counting function w.r.t. the distance." alt="" coords="244,123,435,164"/>
+<area shape="rect" id="node5" href="$namespacextb__disp__coordinationnumber.html#ad7706209e8851f8c87f8e234852cdbb4" title="Exponential counting function for coordination number contributions." alt="" coords="483,181,673,223"/>
+<area shape="rect" id="node6" href="$namespacextb__disp__coordinationnumber.html#aed134491ffe850858999680c36fd6e24" title="Error function counting function for coordination number contributions." alt="" coords="244,240,435,281"/>
+<area shape="rect" id="node7" href="$namespacextb__disp__coordinationnumber.html#a1ca5cf801b7a8b72c97cd11a9e6a0846" title="Exponential counting function for coordination number contributions." alt="" coords="244,305,435,347"/>
+<area shape="rect" id="node8" href="$namespacextb__disp__coordinationnumber.html#af2e122528b8e63560ee0adc35042ecbe" title="Actual implementation of the coordination number, takes a generic counting." alt="" coords="244,371,435,412"/>
+<area shape="rect" id="node9" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="317,437,361,463"/>
 </map>

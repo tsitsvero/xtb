@@ -1,13 +1,13 @@
 <map id="xtb_io_writer::writemolecule" name="xtb_io_writer::writemolecule">
-<area shape="rect" id="node1" title=" " alt="" coords="5,231,213,258"/>
-<area shape="rect" id="node2" href="$namespacextb__io__writer__turbomole.html#a4270ca3b27d08bb4922f89cff2235d17" title=" " alt="" coords="288,5,469,47"/>
-<area shape="rect" id="node3" href="$namespacextb__io__writer__gaussian.html#a9df0a62fac40dffa6026163978a2aea3" title=" " alt="" coords="261,71,496,112"/>
-<area shape="rect" id="node4" href="$namespacextb__io__writer__genformat.html#a1810561c53a9646168270599b5046a16" title=" " alt="" coords="283,136,474,177"/>
-<area shape="rect" id="node7" href="$namespacextb__io__writer__ctfile.html#afcf1f6ca4ca1f775bab1bc35095c9c96" title=" " alt="" coords="567,256,735,297"/>
-<area shape="rect" id="node8" href="$namespacextb__io__writer__pdb.html#ab658efa17e9ab62a5fa3a7bf3f0d77ea" title=" " alt="" coords="305,253,452,295"/>
-<area shape="rect" id="node9" href="$namespacextb__io__writer__ctfile.html#a39f1d7f48d4f01457ff55762ce271c74" title=" " alt="" coords="305,319,452,360"/>
-<area shape="rect" id="node10" href="$namespacextb__io__writer__vasp.html#a45bc87da9ec805202211f72cc76e5c47" title=" " alt="" coords="301,384,456,425"/>
-<area shape="rect" id="node11" href="$namespacextb__io__writer__xyz.html#a130169646af16f130bb7cecff27bfb16" title=" " alt="" coords="306,449,451,491"/>
-<area shape="rect" id="node5" href="$namespacextb__mctc__symbols.html#abe837ad333242b4dd3073c5747c13e28" title="Convert atomic number to element symbol." alt="" coords="544,143,757,170"/>
-<area shape="rect" id="node6" href="$namespacextb__mctc__symbols.html#a79bd74e1e6f1eae5387d103d33088dc8" title="Convert atomic number to element symbol." alt="" coords="805,143,1068,170"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,231,187,258"/>
+<area shape="rect" id="node2" href="$namespacextb__io__writer__turbomole.html#a4270ca3b27d08bb4922f89cff2235d17" title=" " alt="" coords="258,5,417,47"/>
+<area shape="rect" id="node3" href="$namespacextb__io__writer__gaussian.html#a9df0a62fac40dffa6026163978a2aea3" title=" " alt="" coords="235,71,440,112"/>
+<area shape="rect" id="node4" href="$namespacextb__io__writer__genformat.html#a1810561c53a9646168270599b5046a16" title=" " alt="" coords="254,136,421,177"/>
+<area shape="rect" id="node7" href="$namespacextb__io__writer__ctfile.html#afcf1f6ca4ca1f775bab1bc35095c9c96" title=" " alt="" coords="509,256,655,297"/>
+<area shape="rect" id="node8" href="$namespacextb__io__writer__pdb.html#ab658efa17e9ab62a5fa3a7bf3f0d77ea" title=" " alt="" coords="273,253,402,295"/>
+<area shape="rect" id="node9" href="$namespacextb__io__writer__ctfile.html#a39f1d7f48d4f01457ff55762ce271c74" title=" " alt="" coords="273,319,402,360"/>
+<area shape="rect" id="node10" href="$namespacextb__io__writer__vasp.html#a45bc87da9ec805202211f72cc76e5c47" title=" " alt="" coords="269,384,405,425"/>
+<area shape="rect" id="node11" href="$namespacextb__io__writer__xyz.html#a130169646af16f130bb7cecff27bfb16" title=" " alt="" coords="274,449,401,491"/>
+<area shape="rect" id="node5" href="$namespacextb__mctc__symbols.html#abe837ad333242b4dd3073c5747c13e28" title="Convert atomic number to element symbol." alt="" coords="488,143,676,170"/>
+<area shape="rect" id="node6" href="$namespacextb__mctc__symbols.html#a79bd74e1e6f1eae5387d103d33088dc8" title="Convert atomic number to element symbol." alt="" coords="724,143,955,170"/>
 </map>

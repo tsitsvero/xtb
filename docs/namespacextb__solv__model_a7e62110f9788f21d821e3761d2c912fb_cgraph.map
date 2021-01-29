@@ -1,4 +1,4 @@
 <map id="xtb_solv_model::normalizesolventname" name="xtb_solv_model::normalizesolventname">
-<area shape="rect" id="node1" title="Try to find a normalized version of an input solvent name." alt="" coords="5,5,288,32"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="336,5,543,32"/>
+<area shape="rect" id="node1" title="Try to find a normalized version of an input solvent name." alt="" coords="5,5,252,32"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="300,5,487,32"/>
 </map>

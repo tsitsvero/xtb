@@ -1,6 +1,6 @@
 <map id="xtb_mctc_strings::value_dr" name="xtb_mctc_strings::value_dr">
-<area shape="rect" id="node1" title="Converts number string to a double precision real number." alt="" coords="231,78,428,105"/>
-<area shape="rect" id="node2" href="$interfacextb__mctc__strings_1_1value.html#a7335088f77c1d348eae641828ca81e5e" title="Converts number string to a double precision integer value." alt="" coords="5,5,183,47"/>
-<area shape="rect" id="node3" href="$interfacextb__mctc__strings_1_1value.html#ab1332659614f018870a6c8607ad57264" title="Converts number string to a single precision integer value." alt="" coords="5,71,183,112"/>
-<area shape="rect" id="node4" href="$interfacextb__mctc__strings_1_1value.html#ae60064029bce88c878d77d5fb8dc1d21" title="Converts number string to a single precision real number." alt="" coords="5,136,183,177"/>
+<area shape="rect" id="node1" title="Converts number string to a double precision real number." alt="" coords="212,78,388,105"/>
+<area shape="rect" id="node2" href="$interfacextb__mctc__strings_1_1value.html#a7335088f77c1d348eae641828ca81e5e" title="Converts number string to a double precision integer value." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node3" href="$interfacextb__mctc__strings_1_1value.html#ab1332659614f018870a6c8607ad57264" title="Converts number string to a single precision integer value." alt="" coords="5,71,164,112"/>
+<area shape="rect" id="node4" href="$interfacextb__mctc__strings_1_1value.html#ae60064029bce88c878d77d5fb8dc1d21" title="Converts number string to a single precision real number." alt="" coords="5,136,164,177"/>
 </map>

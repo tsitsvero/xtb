@@ -1,5 +1,5 @@
 <map id="xtb_type_molecule::mol_calculate_distances" name="xtb_type_molecule::mol_calculate_distances">
-<area shape="rect" id="node1" title="calculates all distances for molecular structures and minimum" alt="" coords="5,35,188,76"/>
-<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#a07ff07123635c6570478eaaa31accda5" title="calculate distance between to atoms under minimum image convention" alt="" coords="236,5,419,47"/>
-<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="467,42,515,69"/>
+<area shape="rect" id="node1" title="calculates all distances for molecular structures and minimum" alt="" coords="5,35,171,76"/>
+<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#a07ff07123635c6570478eaaa31accda5" title="calculate distance between to atoms under minimum image convention" alt="" coords="219,5,380,47"/>
+<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="428,42,472,69"/>
 </map>

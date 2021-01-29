@@ -1,7 +1,7 @@
 <map id="test_symmetry_pcl3" name="test_symmetry_pcl3">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,160,83"/>
-<area shape="rect" id="node2" href="$namespacextb__thermo.html#a3bc5ddbb481f65f7307afad7edc76bcd" title=" " alt="" coords="208,5,401,32"/>
-<area shape="rect" id="node4" href="$TESTSUITE_2symmetry_8f90.html#ae5fb729c915bee799bcf7f5d46c137da" title=" " alt="" coords="276,56,333,83"/>
-<area shape="rect" id="node5" href="$error_8f90.html#a48d4e8f6658873a149a70800afa89704" title=" " alt="" coords="261,107,348,133"/>
-<area shape="rect" id="node3" href="$symmetry_2symmetry_8f90.html#a143af2c147b63099230e44b467731727" title=" " alt="" coords="449,5,572,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,144,83"/>
+<area shape="rect" id="node2" href="$namespacextb__thermo.html#a3bc5ddbb481f65f7307afad7edc76bcd" title=" " alt="" coords="192,5,359,32"/>
+<area shape="rect" id="node4" href="$TESTSUITE_2symmetry_8f90.html#ae5fb729c915bee799bcf7f5d46c137da" title=" " alt="" coords="250,56,301,83"/>
+<area shape="rect" id="node5" href="$error_8f90.html#a48d4e8f6658873a149a70800afa89704" title=" " alt="" coords="237,107,313,133"/>
+<area shape="rect" id="node3" href="$symmetry_2symmetry_8f90.html#a143af2c147b63099230e44b467731727" title=" " alt="" coords="407,5,519,32"/>
 </map>

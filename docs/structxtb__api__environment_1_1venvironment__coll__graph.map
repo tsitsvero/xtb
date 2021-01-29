@@ -1,7 +1,7 @@
 <map id="xtb_api_environment::venvironment" name="xtb_api_environment::venvironment">
-<area shape="rect" id="node1" title="Void pointer to calculation environment." alt="" coords="91,317,251,359"/>
-<area shape="rect" id="node2" href="$structxtb__type__environment_1_1tenvironment.html" title="Calculation environment." alt="" coords="86,213,255,255"/>
-<area shape="rect" id="node3" href="$structxtb__type__iohandler_1_1tiohandler.html" title=" " alt="" coords="5,109,152,151"/>
-<area shape="rect" id="node4" href="$structxtb__type__iohandler_1_1tfilehandle.html" title=" " alt="" coords="5,5,152,47"/>
-<area shape="rect" id="node5" href="$structxtb__type__environment_1_1tmessage.html" title="Wrapper for characters." alt="" coords="177,109,346,151"/>
+<area shape="rect" id="node1" title="Void pointer to calculation environment." alt="" coords="81,317,222,359"/>
+<area shape="rect" id="node2" href="$structxtb__type__environment_1_1tenvironment.html" title="Calculation environment." alt="" coords="77,213,225,255"/>
+<area shape="rect" id="node3" href="$structxtb__type__iohandler_1_1tiohandler.html" title=" " alt="" coords="5,109,135,151"/>
+<area shape="rect" id="node4" href="$structxtb__type__iohandler_1_1tfilehandle.html" title=" " alt="" coords="5,5,135,47"/>
+<area shape="rect" id="node5" href="$structxtb__type__environment_1_1tmessage.html" title="Wrapper for characters." alt="" coords="159,109,307,151"/>
 </map>

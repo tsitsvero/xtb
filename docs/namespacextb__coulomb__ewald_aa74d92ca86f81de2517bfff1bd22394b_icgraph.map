@@ -1,7 +1,7 @@
 <map id="xtb_coulomb_ewald::getmaxr" name="xtb_coulomb_ewald::getmaxr">
-<area shape="rect" id="node1" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="619,71,779,112"/>
-<area shape="rect" id="node2" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="256,78,571,105"/>
-<area shape="rect" id="node3" href="$interfacextb__type__coulomb_1_1init.html#ac936ce358455d216ff3bf7ce2fc2dc72" title=" " alt="" coords="21,5,192,47"/>
-<area shape="rect" id="node4" href="$interfacextb__coulomb__gaussian_1_1init.html#aa9e54b0d7c3e5fd0ef19ae9b5abda847" title=" " alt="" coords="9,71,204,112"/>
-<area shape="rect" id="node5" href="$interfacextb__coulomb__klopmanohno_1_1init.html#ae65974389e2ef4951f7413508b2c3a35" title=" " alt="" coords="5,136,208,177"/>
+<area shape="rect" id="node1" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="555,71,697,112"/>
+<area shape="rect" id="node2" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="232,78,507,105"/>
+<area shape="rect" id="node3" href="$interfacextb__type__coulomb_1_1init.html#ac936ce358455d216ff3bf7ce2fc2dc72" title=" " alt="" coords="20,5,169,47"/>
+<area shape="rect" id="node4" href="$interfacextb__coulomb__gaussian_1_1init.html#aa9e54b0d7c3e5fd0ef19ae9b5abda847" title=" " alt="" coords="9,71,180,112"/>
+<area shape="rect" id="node5" href="$interfacextb__coulomb__klopmanohno_1_1init.html#ae65974389e2ef4951f7413508b2c3a35" title=" " alt="" coords="5,136,184,177"/>
 </map>

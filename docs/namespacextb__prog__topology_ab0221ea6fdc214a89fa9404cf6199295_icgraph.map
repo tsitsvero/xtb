@@ -1,6 +1,6 @@
 <map id="xtb_prog_topology::topologyhelp" name="xtb_prog_topology::topologyhelp">
-<area shape="rect" id="node1" title=" " alt="" coords="588,35,739,76"/>
-<area shape="rect" id="node2" href="$namespacextb__prog__topology.html#abb753a2fc3780ee1e5d56f2637050ac1" title="Parse command line arguments." alt="" coords="389,5,540,47"/>
-<area shape="rect" id="node3" href="$namespacextb__prog__topology.html#aa263269ef9a32674220b4f1bfda0c066" title="Main program of the topology submodule." alt="" coords="191,35,341,76"/>
-<area shape="rect" id="node4" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,42,143,69"/>
+<area shape="rect" id="node1" title=" " alt="" coords="533,35,665,76"/>
+<area shape="rect" id="node2" href="$namespacextb__prog__topology.html#abb753a2fc3780ee1e5d56f2637050ac1" title="Parse command line arguments." alt="" coords="353,5,485,47"/>
+<area shape="rect" id="node3" href="$namespacextb__prog__topology.html#aa263269ef9a32674220b4f1bfda0c066" title="Main program of the topology submodule." alt="" coords="173,35,305,76"/>
+<area shape="rect" id="node4" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,42,125,69"/>
 </map>

@@ -1,10 +1,10 @@
 <map id="xtb_xtb_gfn1::initgfn1::inithamiltonian" name="xtb_xtb_gfn1::initgfn1::inithamiltonian">
-<area shape="rect" id="node1" title=" " alt="" coords="5,99,171,141"/>
-<area shape="rect" id="node2" href="$namespacextb__xtb__data.html#aec64d20b7353bc338de9335372c794b9" title="Generator for valence shell data from the angular momenta of the shells." alt="" coords="223,5,507,32"/>
-<area shape="rect" id="node4" href="$namespacextb__xtb__gfn1.html#a98ba7da25e3b64fcef0688c67039c86b" title=" " alt="" coords="272,56,459,83"/>
-<area shape="rect" id="node5" href="$namespacextb__xtb__gfn1.html#ae68fe854197b5ef4626cf4d66339a9c7" title=" " alt="" coords="219,107,512,133"/>
-<area shape="rect" id="node6" href="$namespacextb__xtb__gfn1.html#aae78d45d8dc38bb4e61966cae64d9456" title=" " alt="" coords="250,157,481,184"/>
-<area shape="rect" id="node8" href="$namespacextb__xtb__gfn1.html#a8f43ad203ceab50c4b5d21cc0f58357f" title=" " alt="" coords="241,208,489,235"/>
-<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="581,5,629,32"/>
-<area shape="rect" id="node7" href="$src_2xtb_2gfn1_8f90.html#ac51bddd7d909928d2e8531957a0ef403" title=" " alt="" coords="560,157,649,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,148,141"/>
+<area shape="rect" id="node2" href="$namespacextb__xtb__data.html#aec64d20b7353bc338de9335372c794b9" title="Generator for valence shell data from the angular momenta of the shells." alt="" coords="199,5,447,32"/>
+<area shape="rect" id="node4" href="$namespacextb__xtb__gfn1.html#a98ba7da25e3b64fcef0688c67039c86b" title=" " alt="" coords="241,56,406,83"/>
+<area shape="rect" id="node5" href="$namespacextb__xtb__gfn1.html#ae68fe854197b5ef4626cf4d66339a9c7" title=" " alt="" coords="196,107,451,133"/>
+<area shape="rect" id="node6" href="$namespacextb__xtb__gfn1.html#aae78d45d8dc38bb4e61966cae64d9456" title=" " alt="" coords="223,157,424,184"/>
+<area shape="rect" id="node8" href="$namespacextb__xtb__gfn1.html#a8f43ad203ceab50c4b5d21cc0f58357f" title=" " alt="" coords="214,208,433,235"/>
+<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="517,5,561,32"/>
+<area shape="rect" id="node7" href="$src_2xtb_2gfn1_8f90.html#ac51bddd7d909928d2e8531957a0ef403" title=" " alt="" coords="499,157,580,184"/>
 </map>

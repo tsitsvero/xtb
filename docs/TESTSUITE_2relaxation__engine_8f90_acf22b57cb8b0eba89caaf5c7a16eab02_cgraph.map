@@ -1,6 +1,6 @@
 <map id="test_pbc_lancopt" name="test_pbc_lancopt">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,137,83"/>
-<area shape="rect" id="node2" href="$generate__wsc_8f90.html#a5c79310b78371712d143d918e62b73fb" title="generate a Wigner–Seitz cell from a given structure" alt="" coords="185,5,297,32"/>
-<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="345,31,393,57"/>
-<area shape="rect" id="node4" href="$error_8f90.html#a48d4e8f6658873a149a70800afa89704" title=" " alt="" coords="198,107,285,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,127,83"/>
+<area shape="rect" id="node2" href="$generate__wsc_8f90.html#a5c79310b78371712d143d918e62b73fb" title="generate a Wigner–Seitz cell from a given structure" alt="" coords="175,5,277,32"/>
+<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="325,31,369,57"/>
+<area shape="rect" id="node4" href="$error_8f90.html#a48d4e8f6658873a149a70800afa89704" title=" " alt="" coords="188,107,264,133"/>
 </map>

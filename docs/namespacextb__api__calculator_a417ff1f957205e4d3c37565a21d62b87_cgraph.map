@@ -1,4 +1,4 @@
 <map id="xtb_api_calculator::setexternalcharges_api" name="xtb_api_calculator::setexternalcharges_api">
-<area shape="rect" id="node1" title="Add a external charge potential to calculator (only supported in GFN1/2&#45;xTB)" alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="236,13,451,39"/>
+<area shape="rect" id="node1" title="Add a external charge potential to calculator (only supported in GFN1/2&#45;xTB)" alt="" coords="5,5,167,47"/>
+<area shape="rect" id="node2" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="215,13,405,39"/>
 </map>

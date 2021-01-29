@@ -1,5 +1,5 @@
 <map id="xtb_type_neighbourlist::generatesequential" name="xtb_type_neighbourlist::generatesequential">
-<area shape="rect" id="node1" title="Generate neighbour list in serial." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$namespacextb__type__neighbourlist.html#a906a00bea6876d979f03d8a6480cc565" title="Reallocate arrays which depends on the maximal nr. of all atoms." alt="" coords="224,5,395,47"/>
-<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a30e93a8369f0e1598a01e26dbfa6f670" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="224,71,395,112"/>
+<area shape="rect" id="node1" title="Generate neighbour list in serial." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$namespacextb__type__neighbourlist.html#a906a00bea6876d979f03d8a6480cc565" title="Reallocate arrays which depends on the maximal nr. of all atoms." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a30e93a8369f0e1598a01e26dbfa6f670" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="204,71,355,112"/>
 </map>

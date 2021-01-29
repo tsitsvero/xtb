@@ -1,6 +1,6 @@
 <map id="xtb_type_neighbourlist::generate" name="xtb_type_neighbourlist::generate">
-<area shape="rect" id="node1" title="Generate neighbour list." alt="" coords="5,39,176,80"/>
-<area shape="rect" id="node2" href="$namespacextb__type__neighbourlist.html#a89b0c04a773e11daabce1f9be0f371a4" title="Generate neighbour list in serial." alt="" coords="224,39,395,80"/>
-<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a906a00bea6876d979f03d8a6480cc565" title="Reallocate arrays which depends on the maximal nr. of all atoms." alt="" coords="443,5,613,47"/>
-<area shape="rect" id="node4" href="$namespacextb__type__neighbourlist.html#a30e93a8369f0e1598a01e26dbfa6f670" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="443,71,613,112"/>
+<area shape="rect" id="node1" title="Generate neighbour list." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$namespacextb__type__neighbourlist.html#a89b0c04a773e11daabce1f9be0f371a4" title="Generate neighbour list in serial." alt="" coords="204,39,355,80"/>
+<area shape="rect" id="node3" href="$namespacextb__type__neighbourlist.html#a906a00bea6876d979f03d8a6480cc565" title="Reallocate arrays which depends on the maximal nr. of all atoms." alt="" coords="403,5,553,47"/>
+<area shape="rect" id="node4" href="$namespacextb__type__neighbourlist.html#a30e93a8369f0e1598a01e26dbfa6f670" title="Reallocate array which depends on the maximal nr. of neighbours." alt="" coords="403,71,553,112"/>
 </map>

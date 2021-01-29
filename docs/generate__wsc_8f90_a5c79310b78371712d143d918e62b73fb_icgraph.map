@@ -1,9 +1,9 @@
 <map id="generate_wsc" name="generate_wsc">
-<area shape="rect" id="node1" title="generate a Wigner–Seitz cell from a given structure" alt="" coords="416,137,528,163"/>
-<area shape="rect" id="node2" href="$interfacextb__type__molecule_1_1init.html#ac0e7bcd1cdf67e44a76b9b9b31bbff4c" title="Constructor for the molecular structure type." alt="" coords="183,5,337,47"/>
-<area shape="rect" id="node3" href="$structxtb__type__molecule_1_1tmolecule.html#aa6a9303ca81f04f7ce1cad8814c787be" title="Constructor for the molecular structure type, compatible with C input." alt="" coords="152,71,368,112"/>
-<area shape="rect" id="node4" href="$TESTSUITE_2relaxation__engine_8f90.html#acf22b57cb8b0eba89caaf5c7a16eab02" title=" " alt="" coords="194,137,326,163"/>
-<area shape="rect" id="node5" href="$tbdef__wsc_8f90.html#a7972473de6a91557309188d7ba721577" title=" " alt="" coords="181,187,339,214"/>
-<area shape="rect" id="node7" href="$tbdef__wsc_8f90.html#af5c700bef55d7249f638845b4df4513c" title=" " alt="" coords="181,238,339,265"/>
-<area shape="rect" id="node6" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,213,104,239"/>
+<area shape="rect" id="node1" title="generate a Wigner–Seitz cell from a given structure" alt="" coords="383,137,485,163"/>
+<area shape="rect" id="node2" href="$interfacextb__type__molecule_1_1init.html#ac0e7bcd1cdf67e44a76b9b9b31bbff4c" title="Constructor for the molecular structure type." alt="" coords="172,5,307,47"/>
+<area shape="rect" id="node3" href="$structxtb__type__molecule_1_1tmolecule.html#aa6a9303ca81f04f7ce1cad8814c787be" title="Constructor for the molecular structure type, compatible with C input." alt="" coords="144,71,335,112"/>
+<area shape="rect" id="node4" href="$TESTSUITE_2relaxation__engine_8f90.html#acf22b57cb8b0eba89caaf5c7a16eab02" title=" " alt="" coords="179,137,300,163"/>
+<area shape="rect" id="node5" href="$tbdef__wsc_8f90.html#a7972473de6a91557309188d7ba721577" title=" " alt="" coords="167,187,311,214"/>
+<area shape="rect" id="node7" href="$tbdef__wsc_8f90.html#af5c700bef55d7249f638845b4df4513c" title=" " alt="" coords="167,238,311,265"/>
+<area shape="rect" id="node6" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,213,96,239"/>
 </map>

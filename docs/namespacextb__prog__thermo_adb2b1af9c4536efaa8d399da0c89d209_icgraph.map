@@ -1,4 +1,4 @@
 <map id="xtb_prog_thermo::xtbthermo" name="xtb_prog_thermo::xtbthermo">
-<area shape="rect" id="node1" title="Main program of the thermo submodule." alt="" coords="191,5,400,32"/>
-<area shape="rect" id="node2" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node1" title="Main program of the thermo submodule." alt="" coords="173,5,355,32"/>
+<area shape="rect" id="node2" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,5,125,32"/>
 </map>

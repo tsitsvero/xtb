@@ -1,4 +1,4 @@
 <map id="xtb_pbc_tools::minimum_image_distance" name="xtb_pbc_tools::minimum_image_distance">
-<area shape="rect" id="node1" title="calculate distance between to atoms under minimum image convention" alt="" coords="236,5,419,47"/>
-<area shape="rect" id="node2" href="$namespacextb__type__molecule.html#aa6428f8a5725dc9a2d9d4cb804d297ce" title="calculates all distances for molecular structures and minimum" alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node1" title="calculate distance between to atoms under minimum image convention" alt="" coords="219,5,380,47"/>
+<area shape="rect" id="node2" href="$namespacextb__type__molecule.html#aa6428f8a5725dc9a2d9d4cb804d297ce" title="calculates all distances for molecular structures and minimum" alt="" coords="5,5,171,47"/>
 </map>

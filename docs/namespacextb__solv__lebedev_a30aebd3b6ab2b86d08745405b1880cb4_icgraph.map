@@ -1,36 +1,36 @@
 <map id="xtb_solv_lebedev::genoh3" name="xtb_solv_lebedev::genoh3">
-<area shape="rect" id="node1" title="Generate 8 new points with Oh symmetry from (a,a,a), a=1/sqrt(3)" alt="" coords="693,765,884,792"/>
-<area shape="rect" id="node2" href="$namespacextb__solv__lebedev.html#a5d84bf718d6cc0b894c14e2d83424658" title=" " alt="" coords="459,5,645,32"/>
-<area shape="rect" id="node5" href="$namespacextb__solv__lebedev.html#a33d55e0712b458ebfc76352cc058d8e1" title=" " alt="" coords="459,56,645,83"/>
-<area shape="rect" id="node6" href="$namespacextb__solv__lebedev.html#af347473f0c211597aeffee6ad3ab55b2" title=" " alt="" coords="459,107,645,133"/>
-<area shape="rect" id="node7" href="$namespacextb__solv__lebedev.html#a9a40f5fc99d96bb20df12cc7b43db4ae" title=" " alt="" coords="459,157,645,184"/>
-<area shape="rect" id="node8" href="$namespacextb__solv__lebedev.html#a38b4fa991841a749e8da6f444eabd4a7" title=" " alt="" coords="459,208,645,235"/>
-<area shape="rect" id="node9" href="$namespacextb__solv__lebedev.html#a283401b7bc58de7de9f545f9a540ec9c" title=" " alt="" coords="459,259,645,285"/>
-<area shape="rect" id="node10" href="$namespacextb__solv__lebedev.html#a24b08bf1ad9ec58e47807134c0d6bb40" title=" " alt="" coords="459,309,645,336"/>
-<area shape="rect" id="node11" href="$namespacextb__solv__lebedev.html#aed0ccbb0f9cbe64105fe5b078faec200" title=" " alt="" coords="459,360,645,387"/>
-<area shape="rect" id="node12" href="$namespacextb__solv__lebedev.html#a7f1a595d41d4605ccf5fce14594da670" title=" " alt="" coords="459,411,645,437"/>
-<area shape="rect" id="node13" href="$namespacextb__solv__lebedev.html#a7c3db474684db5ae3087a9da0b1d8e7d" title=" " alt="" coords="459,461,645,488"/>
-<area shape="rect" id="node14" href="$namespacextb__solv__lebedev.html#ae0c3f344c7393d96bd3bf7a6b877e817" title=" " alt="" coords="459,512,645,539"/>
-<area shape="rect" id="node15" href="$namespacextb__solv__lebedev.html#ae5bf49bca7baf7dbd431a709bfcf339c" title=" " alt="" coords="459,563,645,589"/>
-<area shape="rect" id="node16" href="$namespacextb__solv__lebedev.html#aaf02b9166b3d1d2544dfff17124737fe" title=" " alt="" coords="459,613,645,640"/>
-<area shape="rect" id="node17" href="$namespacextb__solv__lebedev.html#ad7f5b7e8536519a9178824544a8eb73b" title=" " alt="" coords="459,664,645,691"/>
-<area shape="rect" id="node18" href="$namespacextb__solv__lebedev.html#a767bff6205c4b2c33e8fce55640f9b85" title=" " alt="" coords="459,715,645,741"/>
-<area shape="rect" id="node19" href="$namespacextb__solv__lebedev.html#a0c260f464911b10f27fb1655a76dc510" title=" " alt="" coords="459,765,645,792"/>
-<area shape="rect" id="node20" href="$namespacextb__solv__lebedev.html#a40d8c864d947e686fa789bfffcc09604" title=" " alt="" coords="459,816,645,843"/>
-<area shape="rect" id="node21" href="$namespacextb__solv__lebedev.html#a81a0f17f476f7fcdf2c0e93114d1531b" title=" " alt="" coords="459,867,645,893"/>
-<area shape="rect" id="node22" href="$namespacextb__solv__lebedev.html#a595d7a53ab33e2ab8766a89935acd282" title=" " alt="" coords="459,917,645,944"/>
-<area shape="rect" id="node23" href="$namespacextb__solv__lebedev.html#a028e4ec71ea62173694638f711af0814" title=" " alt="" coords="459,968,645,995"/>
-<area shape="rect" id="node24" href="$namespacextb__solv__lebedev.html#a10ee6a3eb1933644ccbbf1ccf9ab5cbc" title=" " alt="" coords="459,1019,645,1045"/>
-<area shape="rect" id="node25" href="$namespacextb__solv__lebedev.html#a4ac4828ed382336786c5059067fa37a5" title=" " alt="" coords="459,1069,645,1096"/>
-<area shape="rect" id="node26" href="$namespacextb__solv__lebedev.html#a533fe73b076e0eb71e77c2219585525a" title=" " alt="" coords="459,1120,645,1147"/>
-<area shape="rect" id="node27" href="$namespacextb__solv__lebedev.html#a18e1c59bb6caacd01cbda7ceb7c3c5c6" title=" " alt="" coords="459,1171,645,1197"/>
-<area shape="rect" id="node28" href="$namespacextb__solv__lebedev.html#ac4fa0459254a74cff4d67b01d742d693" title=" " alt="" coords="459,1221,645,1248"/>
-<area shape="rect" id="node29" href="$namespacextb__solv__lebedev.html#abe7d811ac068402b33094b5f2ffac599" title=" " alt="" coords="459,1272,645,1299"/>
-<area shape="rect" id="node30" href="$namespacextb__solv__lebedev.html#a6f54a4b602cd42fc9fb45d28bff7b049" title=" " alt="" coords="459,1323,645,1349"/>
-<area shape="rect" id="node31" href="$namespacextb__solv__lebedev.html#aaed39b7a3537cdac24b9b5651967da0d" title=" " alt="" coords="459,1373,645,1400"/>
-<area shape="rect" id="node32" href="$namespacextb__solv__lebedev.html#a45d7142289088c922195cddb22828181" title=" " alt="" coords="459,1424,645,1451"/>
-<area shape="rect" id="node33" href="$namespacextb__solv__lebedev.html#a53e92b9332fb37fa76bd3e06ad4ad903" title=" " alt="" coords="459,1475,645,1501"/>
-<area shape="rect" id="node34" href="$namespacextb__solv__lebedev.html#aee42b2e83eba3386f988f508504b7acf" title=" " alt="" coords="459,1525,645,1552"/>
-<area shape="rect" id="node3" href="$namespacextb__solv__lebedev.html#ac83e2c4405adc3111ba955be33a53f60" title="Wrapper for generation of angular Lebedev&#45;Laikov grids." alt="" coords="197,765,411,792"/>
-<area shape="rect" id="node4" href="$interfacextb__solv__gbsa_1_1init.html#ac841e40409ec6f0da1b15c41f24db116" title="Initialize data straucture." alt="" coords="5,758,149,799"/>
+<area shape="rect" id="node1" title="Generate 8 new points with Oh symmetry from (a,a,a), a=1/sqrt(3)" alt="" coords="632,765,803,792"/>
+<area shape="rect" id="node2" href="$namespacextb__solv__lebedev.html#a5d84bf718d6cc0b894c14e2d83424658" title=" " alt="" coords="417,5,584,32"/>
+<area shape="rect" id="node5" href="$namespacextb__solv__lebedev.html#a33d55e0712b458ebfc76352cc058d8e1" title=" " alt="" coords="417,56,584,83"/>
+<area shape="rect" id="node6" href="$namespacextb__solv__lebedev.html#af347473f0c211597aeffee6ad3ab55b2" title=" " alt="" coords="417,107,584,133"/>
+<area shape="rect" id="node7" href="$namespacextb__solv__lebedev.html#a9a40f5fc99d96bb20df12cc7b43db4ae" title=" " alt="" coords="417,157,584,184"/>
+<area shape="rect" id="node8" href="$namespacextb__solv__lebedev.html#a38b4fa991841a749e8da6f444eabd4a7" title=" " alt="" coords="417,208,584,235"/>
+<area shape="rect" id="node9" href="$namespacextb__solv__lebedev.html#a283401b7bc58de7de9f545f9a540ec9c" title=" " alt="" coords="417,259,584,285"/>
+<area shape="rect" id="node10" href="$namespacextb__solv__lebedev.html#a24b08bf1ad9ec58e47807134c0d6bb40" title=" " alt="" coords="417,309,584,336"/>
+<area shape="rect" id="node11" href="$namespacextb__solv__lebedev.html#aed0ccbb0f9cbe64105fe5b078faec200" title=" " alt="" coords="417,360,584,387"/>
+<area shape="rect" id="node12" href="$namespacextb__solv__lebedev.html#a7f1a595d41d4605ccf5fce14594da670" title=" " alt="" coords="417,411,584,437"/>
+<area shape="rect" id="node13" href="$namespacextb__solv__lebedev.html#a7c3db474684db5ae3087a9da0b1d8e7d" title=" " alt="" coords="417,461,584,488"/>
+<area shape="rect" id="node14" href="$namespacextb__solv__lebedev.html#ae0c3f344c7393d96bd3bf7a6b877e817" title=" " alt="" coords="417,512,584,539"/>
+<area shape="rect" id="node15" href="$namespacextb__solv__lebedev.html#ae5bf49bca7baf7dbd431a709bfcf339c" title=" " alt="" coords="417,563,584,589"/>
+<area shape="rect" id="node16" href="$namespacextb__solv__lebedev.html#aaf02b9166b3d1d2544dfff17124737fe" title=" " alt="" coords="417,613,584,640"/>
+<area shape="rect" id="node17" href="$namespacextb__solv__lebedev.html#ad7f5b7e8536519a9178824544a8eb73b" title=" " alt="" coords="417,664,584,691"/>
+<area shape="rect" id="node18" href="$namespacextb__solv__lebedev.html#a767bff6205c4b2c33e8fce55640f9b85" title=" " alt="" coords="417,715,584,741"/>
+<area shape="rect" id="node19" href="$namespacextb__solv__lebedev.html#a0c260f464911b10f27fb1655a76dc510" title=" " alt="" coords="417,765,584,792"/>
+<area shape="rect" id="node20" href="$namespacextb__solv__lebedev.html#a40d8c864d947e686fa789bfffcc09604" title=" " alt="" coords="417,816,584,843"/>
+<area shape="rect" id="node21" href="$namespacextb__solv__lebedev.html#a81a0f17f476f7fcdf2c0e93114d1531b" title=" " alt="" coords="417,867,584,893"/>
+<area shape="rect" id="node22" href="$namespacextb__solv__lebedev.html#a595d7a53ab33e2ab8766a89935acd282" title=" " alt="" coords="417,917,584,944"/>
+<area shape="rect" id="node23" href="$namespacextb__solv__lebedev.html#a028e4ec71ea62173694638f711af0814" title=" " alt="" coords="417,968,584,995"/>
+<area shape="rect" id="node24" href="$namespacextb__solv__lebedev.html#a10ee6a3eb1933644ccbbf1ccf9ab5cbc" title=" " alt="" coords="417,1019,584,1045"/>
+<area shape="rect" id="node25" href="$namespacextb__solv__lebedev.html#a4ac4828ed382336786c5059067fa37a5" title=" " alt="" coords="417,1069,584,1096"/>
+<area shape="rect" id="node26" href="$namespacextb__solv__lebedev.html#a533fe73b076e0eb71e77c2219585525a" title=" " alt="" coords="417,1120,584,1147"/>
+<area shape="rect" id="node27" href="$namespacextb__solv__lebedev.html#a18e1c59bb6caacd01cbda7ceb7c3c5c6" title=" " alt="" coords="417,1171,584,1197"/>
+<area shape="rect" id="node28" href="$namespacextb__solv__lebedev.html#ac4fa0459254a74cff4d67b01d742d693" title=" " alt="" coords="417,1221,584,1248"/>
+<area shape="rect" id="node29" href="$namespacextb__solv__lebedev.html#abe7d811ac068402b33094b5f2ffac599" title=" " alt="" coords="417,1272,584,1299"/>
+<area shape="rect" id="node30" href="$namespacextb__solv__lebedev.html#a6f54a4b602cd42fc9fb45d28bff7b049" title=" " alt="" coords="417,1323,584,1349"/>
+<area shape="rect" id="node31" href="$namespacextb__solv__lebedev.html#aaed39b7a3537cdac24b9b5651967da0d" title=" " alt="" coords="417,1373,584,1400"/>
+<area shape="rect" id="node32" href="$namespacextb__solv__lebedev.html#a45d7142289088c922195cddb22828181" title=" " alt="" coords="417,1424,584,1451"/>
+<area shape="rect" id="node33" href="$namespacextb__solv__lebedev.html#a53e92b9332fb37fa76bd3e06ad4ad903" title=" " alt="" coords="417,1475,584,1501"/>
+<area shape="rect" id="node34" href="$namespacextb__solv__lebedev.html#aee42b2e83eba3386f988f508504b7acf" title=" " alt="" coords="417,1525,584,1552"/>
+<area shape="rect" id="node3" href="$namespacextb__solv__lebedev.html#ac83e2c4405adc3111ba955be33a53f60" title="Wrapper for generation of angular Lebedev&#45;Laikov grids." alt="" coords="181,765,369,792"/>
+<area shape="rect" id="node4" href="$interfacextb__solv__gbsa_1_1init.html#ac841e40409ec6f0da1b15c41f24db116" title="Initialize data straucture." alt="" coords="5,758,133,799"/>
 </map>

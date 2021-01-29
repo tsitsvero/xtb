@@ -1,6 +1,6 @@
 <map id="xtb_coulomb_ewald::getoptimalalpha" name="xtb_coulomb_ewald::getoptimalalpha">
-<area shape="rect" id="node1" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="5,39,165,80"/>
-<area shape="rect" id="node2" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="213,5,373,47"/>
-<area shape="rect" id="node4" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="213,71,373,112"/>
-<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="421,5,581,47"/>
+<area shape="rect" id="node1" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="5,39,148,80"/>
+<area shape="rect" id="node2" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="196,5,339,47"/>
+<area shape="rect" id="node4" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="196,71,339,112"/>
+<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="387,5,529,47"/>
 </map>

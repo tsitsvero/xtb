@@ -1,5 +1,5 @@
 <map id="xtb_type_molecule::init::initmoleculesymbols" name="xtb_type_molecule::init::initmoleculesymbols">
-<area shape="rect" id="node1" title="Constructor for the molecular structure type." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="240,13,455,39"/>
-<area shape="rect" id="node3" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="503,13,765,39"/>
+<area shape="rect" id="node1" title="Constructor for the molecular structure type." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="216,13,407,39"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="455,13,685,39"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="xtb_api_environment::geterror_api" name="xtb_api_environment::geterror_api">
-<area shape="rect" id="node1" title="Set verbosity of calculation output." alt="" coords="5,27,165,69"/>
-<area shape="rect" id="node2" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="213,5,428,32"/>
-<area shape="rect" id="node3" href="$namespacextb__api__utils.html#aa96c4f56e0a661f98468285ae5733a45" title=" " alt="" coords="255,57,387,98"/>
+<area shape="rect" id="node1" title="Set verbosity of calculation output." alt="" coords="5,27,147,69"/>
+<area shape="rect" id="node2" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="195,5,385,32"/>
+<area shape="rect" id="node3" href="$namespacextb__api__utils.html#aa96c4f56e0a661f98468285ae5733a45" title=" " alt="" coords="231,57,349,98"/>
 </map>

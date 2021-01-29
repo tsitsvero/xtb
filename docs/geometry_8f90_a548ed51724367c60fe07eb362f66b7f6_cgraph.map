@@ -1,7 +1,7 @@
 <map id="calc_torsions" name="calc_torsions">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,112,83"/>
-<area shape="rect" id="node2" href="$constr_8f90.html#a8b9983c57e44abcd5ef71525d9a9917b" title=" " alt="" coords="160,56,223,83"/>
-<area shape="rect" id="node3" href="$constr_8f90.html#a10258b751fb1a02456622523df6e8b49" title=" " alt="" coords="271,5,356,32"/>
-<area shape="rect" id="node4" href="$constr_8f90.html#a5fc70d66b0231afec39209517852b818" title=" " alt="" coords="284,56,343,83"/>
-<area shape="rect" id="node5" href="$constr_8f90.html#af5b7bb0960a128b6ee8d53b2f0ba2135" title=" " alt="" coords="404,81,483,108"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="$constr_8f90.html#a8b9983c57e44abcd5ef71525d9a9917b" title=" " alt="" coords="152,56,207,83"/>
+<area shape="rect" id="node3" href="$constr_8f90.html#a10258b751fb1a02456622523df6e8b49" title=" " alt="" coords="255,5,333,32"/>
+<area shape="rect" id="node4" href="$constr_8f90.html#a5fc70d66b0231afec39209517852b818" title=" " alt="" coords="268,56,320,83"/>
+<area shape="rect" id="node5" href="$constr_8f90.html#af5b7bb0960a128b6ee8d53b2f0ba2135" title=" " alt="" coords="381,81,453,108"/>
 </map>

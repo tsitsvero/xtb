@@ -1,6 +1,6 @@
 <map id="xtb_type_identitymap::tidentitymap::set" name="xtb_type_identitymap::tidentitymap::set">
-<area shape="rect" id="node1" title="Setter functions in atomic arrays." alt="" coords="5,57,171,98"/>
-<area shape="rect" id="node2" href="$src_2api_2CMakeLists_8txt.html#abaa5a71b2767ce1c6e7b9ac55473bda1" title=" " alt="" coords="280,5,323,32"/>
-<area shape="rect" id="node3" href="$namespacextb__type__identitymap.html#a1c64ae9e25380af8dfed0a9c091321f6" title="Set value in an array using the atomic number." alt="" coords="219,57,384,98"/>
-<area shape="rect" id="node4" href="$namespacextb__type__identitymap.html#ac3ff6a8edf1ec4345d1fadc917e577d3" title="Set value in an array using an unique element symbol." alt="" coords="219,122,384,163"/>
+<area shape="rect" id="node1" title="Setter functions in atomic arrays." alt="" coords="5,57,148,98"/>
+<area shape="rect" id="node2" href="$src_2api_2CMakeLists_8txt.html#abaa5a71b2767ce1c6e7b9ac55473bda1" title=" " alt="" coords="247,5,287,32"/>
+<area shape="rect" id="node3" href="$namespacextb__type__identitymap.html#a1c64ae9e25380af8dfed0a9c091321f6" title="Set value in an array using the atomic number." alt="" coords="196,57,339,98"/>
+<area shape="rect" id="node4" href="$namespacextb__type__identitymap.html#ac3ff6a8edf1ec4345d1fadc917e577d3" title="Set value in an array using an unique element symbol." alt="" coords="196,122,339,163"/>
 </map>

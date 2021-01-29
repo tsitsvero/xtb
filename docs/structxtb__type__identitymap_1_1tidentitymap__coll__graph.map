@@ -1,4 +1,4 @@
 <map id="xtb_type_identitymap::tidentitymap" name="xtb_type_identitymap::tidentitymap">
-<area shape="rect" id="node1" title="Map from element symbols to identity." alt="" coords="5,109,171,151"/>
-<area shape="rect" id="node2" href="$structxtb__type__identitymap_1_1tatomicmap.html" title="Maps an identity to all its atoms." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node1" title="Map from element symbols to identity." alt="" coords="5,109,148,151"/>
+<area shape="rect" id="node2" href="$structxtb__type__identitymap_1_1tatomicmap.html" title="Maps an identity to all its atoms." alt="" coords="5,5,148,47"/>
 </map>

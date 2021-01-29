@@ -1,4 +1,4 @@
 <map id="xtb_type_latticepoint::generatepbc3d" name="xtb_type_latticepoint::generatepbc3d">
-<area shape="rect" id="node1" title="Generate lattice points under 3D infinite periodic boundary conditions." alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__sort.html#a3d098fc47a8fd9df4e787cbf81110a57" title="Real case heap sort returning an index." alt="" coords="213,13,428,39"/>
+<area shape="rect" id="node1" title="Generate lattice points under 3D infinite periodic boundary conditions." alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__sort.html#a3d098fc47a8fd9df4e787cbf81110a57" title="Real case heap sort returning an index." alt="" coords="193,13,384,39"/>
 </map>

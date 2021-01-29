@@ -1,4 +1,4 @@
 <map id="xtb_mctc_symbols::appendnumber" name="xtb_mctc_symbols::appendnumber">
-<area shape="rect" id="node1" title="Append an atomic number to an unsorted list, to ensure no dublicates search for the atomic number fir..." alt="" coords="276,13,527,39"/>
-<area shape="rect" id="node2" href="$interfacextb__mctc__symbols_1_1getidentity.html#a2a3063fd5cd0b8f49f65d45d33df6243" title="Get chemical identity from a list of atomic numbers." alt="" coords="5,5,228,47"/>
+<area shape="rect" id="node1" title="Append an atomic number to an unsorted list, to ensure no dublicates search for the atomic number fir..." alt="" coords="248,13,469,39"/>
+<area shape="rect" id="node2" href="$interfacextb__mctc__symbols_1_1getidentity.html#a2a3063fd5cd0b8f49f65d45d33df6243" title="Get chemical identity from a list of atomic numbers." alt="" coords="5,5,200,47"/>
 </map>

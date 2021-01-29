@@ -1,23 +1,23 @@
 <map id="xtb_test_molstock::getmolecule" name="xtb_test_molstock::getmolecule">
-<area shape="rect" id="node1" title=" " alt="" coords="5,627,156,668"/>
-<area shape="rect" id="node2" href="$namespacextb__test__molstock.html#a4805331406ed069dcbc6e5b685566a0f" title=" " alt="" coords="204,5,355,47"/>
-<area shape="rect" id="node3" href="$namespacextb__test__molstock.html#a949ab5a40d247103766a737d761c38a2" title=" " alt="" coords="204,71,355,112"/>
-<area shape="rect" id="node4" href="$namespacextb__test__molstock.html#a558e06d97e8d5221c9c20d333e8f5126" title=" " alt="" coords="204,136,355,177"/>
-<area shape="rect" id="node5" href="$namespacextb__test__molstock.html#ad779adfcc6c0d12a29ba2a208b5c8b80" title=" " alt="" coords="204,201,355,243"/>
-<area shape="rect" id="node6" href="$namespacextb__test__molstock.html#a3915a6641984c58f184838663014441f" title=" " alt="" coords="204,267,355,308"/>
-<area shape="rect" id="node7" href="$namespacextb__test__molstock.html#a1dad31d02a39411094531bd8d1f0d924" title=" " alt="" coords="204,332,355,373"/>
-<area shape="rect" id="node8" href="$namespacextb__test__molstock.html#a28a99d2de558efa264efa9d31794fa86" title=" " alt="" coords="204,397,355,439"/>
-<area shape="rect" id="node9" href="$namespacextb__test__molstock.html#a42362cabc4cec2e7f759a30e95599cef" title=" " alt="" coords="204,463,355,504"/>
-<area shape="rect" id="node10" href="$namespacextb__test__molstock.html#a75c79227e85736f39270879c381b9212" title=" " alt="" coords="204,528,355,569"/>
-<area shape="rect" id="node11" href="$namespacextb__test__molstock.html#aadb1b13f9e259dd17757ca45ea1ddff3" title=" " alt="" coords="204,593,355,635"/>
-<area shape="rect" id="node12" href="$namespacextb__test__molstock.html#a67c1523249307a6dd3cc3879f3feed42" title=" " alt="" coords="204,659,355,700"/>
-<area shape="rect" id="node13" href="$namespacextb__test__molstock.html#a6fc4802e17c60eea306e071f524fb31d" title=" " alt="" coords="204,724,355,765"/>
-<area shape="rect" id="node14" href="$namespacextb__test__molstock.html#a444f21dddf337371785f5089e84774ce" title=" " alt="" coords="204,789,355,831"/>
-<area shape="rect" id="node15" href="$namespacextb__test__molstock.html#a1009b903dfdd8121a070160ac27ee449" title=" " alt="" coords="204,855,355,896"/>
-<area shape="rect" id="node16" href="$namespacextb__test__molstock.html#a4ddacd70465040d71814553ffc8a0872" title=" " alt="" coords="204,920,355,961"/>
-<area shape="rect" id="node17" href="$namespacextb__test__molstock.html#afa62e743bf1f4e25d6f6dd6e98c67001" title=" " alt="" coords="204,985,355,1027"/>
-<area shape="rect" id="node18" href="$namespacextb__test__molstock.html#a0615605a73ba07e4bed43b23e92118c4" title=" " alt="" coords="204,1051,355,1092"/>
-<area shape="rect" id="node19" href="$namespacextb__test__molstock.html#a90f37931a26c4a774a3a2f0ff86437da" title=" " alt="" coords="204,1116,355,1157"/>
-<area shape="rect" id="node20" href="$namespacextb__test__molstock.html#aa792bd3fd5a26303bbe1f8c8a5cc92a8" title=" " alt="" coords="204,1181,355,1223"/>
-<area shape="rect" id="node21" href="$namespacextb__test__molstock.html#a585cadd8cc0d6b5788911f47de0cfd7a" title=" " alt="" coords="204,1247,355,1288"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,627,140,668"/>
+<area shape="rect" id="node2" href="$namespacextb__test__molstock.html#a4805331406ed069dcbc6e5b685566a0f" title=" " alt="" coords="188,5,323,47"/>
+<area shape="rect" id="node3" href="$namespacextb__test__molstock.html#a949ab5a40d247103766a737d761c38a2" title=" " alt="" coords="188,71,323,112"/>
+<area shape="rect" id="node4" href="$namespacextb__test__molstock.html#a558e06d97e8d5221c9c20d333e8f5126" title=" " alt="" coords="188,136,323,177"/>
+<area shape="rect" id="node5" href="$namespacextb__test__molstock.html#ad779adfcc6c0d12a29ba2a208b5c8b80" title=" " alt="" coords="188,201,323,243"/>
+<area shape="rect" id="node6" href="$namespacextb__test__molstock.html#a3915a6641984c58f184838663014441f" title=" " alt="" coords="188,267,323,308"/>
+<area shape="rect" id="node7" href="$namespacextb__test__molstock.html#a1dad31d02a39411094531bd8d1f0d924" title=" " alt="" coords="188,332,323,373"/>
+<area shape="rect" id="node8" href="$namespacextb__test__molstock.html#a28a99d2de558efa264efa9d31794fa86" title=" " alt="" coords="188,397,323,439"/>
+<area shape="rect" id="node9" href="$namespacextb__test__molstock.html#a42362cabc4cec2e7f759a30e95599cef" title=" " alt="" coords="188,463,323,504"/>
+<area shape="rect" id="node10" href="$namespacextb__test__molstock.html#a75c79227e85736f39270879c381b9212" title=" " alt="" coords="188,528,323,569"/>
+<area shape="rect" id="node11" href="$namespacextb__test__molstock.html#aadb1b13f9e259dd17757ca45ea1ddff3" title=" " alt="" coords="188,593,323,635"/>
+<area shape="rect" id="node12" href="$namespacextb__test__molstock.html#a67c1523249307a6dd3cc3879f3feed42" title=" " alt="" coords="188,659,323,700"/>
+<area shape="rect" id="node13" href="$namespacextb__test__molstock.html#a6fc4802e17c60eea306e071f524fb31d" title=" " alt="" coords="188,724,323,765"/>
+<area shape="rect" id="node14" href="$namespacextb__test__molstock.html#a444f21dddf337371785f5089e84774ce" title=" " alt="" coords="188,789,323,831"/>
+<area shape="rect" id="node15" href="$namespacextb__test__molstock.html#a1009b903dfdd8121a070160ac27ee449" title=" " alt="" coords="188,855,323,896"/>
+<area shape="rect" id="node16" href="$namespacextb__test__molstock.html#a4ddacd70465040d71814553ffc8a0872" title=" " alt="" coords="188,920,323,961"/>
+<area shape="rect" id="node17" href="$namespacextb__test__molstock.html#afa62e743bf1f4e25d6f6dd6e98c67001" title=" " alt="" coords="188,985,323,1027"/>
+<area shape="rect" id="node18" href="$namespacextb__test__molstock.html#a0615605a73ba07e4bed43b23e92118c4" title=" " alt="" coords="188,1051,323,1092"/>
+<area shape="rect" id="node19" href="$namespacextb__test__molstock.html#a90f37931a26c4a774a3a2f0ff86437da" title=" " alt="" coords="188,1116,323,1157"/>
+<area shape="rect" id="node20" href="$namespacextb__test__molstock.html#aa792bd3fd5a26303bbe1f8c8a5cc92a8" title=" " alt="" coords="188,1181,323,1223"/>
+<area shape="rect" id="node21" href="$namespacextb__test__molstock.html#a585cadd8cc0d6b5788911f47de0cfd7a" title=" " alt="" coords="188,1247,323,1288"/>
 </map>

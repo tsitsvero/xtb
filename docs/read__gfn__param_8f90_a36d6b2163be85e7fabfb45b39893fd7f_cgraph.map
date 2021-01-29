@@ -1,9 +1,9 @@
 <map id="read_elempar" name="read_elempar">
-<area shape="rect" id="node1" title=" " alt="" coords="5,49,117,76"/>
-<area shape="rect" id="node2" href="$read__gfn__param_8f90.html#aa3c037140f85b6c6a80c609ee89b8467" title=" " alt="" coords="217,24,321,51"/>
-<area shape="rect" id="node7" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="165,75,372,101"/>
-<area shape="rect" id="node3" href="$namespacextb__mctc__strings.html#a5272db42d49f38098924d2587c9e9a78" title="Parses the string &#39;str&#39; into arguments args(1), ..., args(nargs) based on the delimiters contained in..." alt="" coords="420,24,597,51"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="912,24,1109,51"/>
-<area shape="rect" id="node5" href="$namespacextb__mctc__strings.html#ac1ac14e68e16e450995779028bd6566f" title="Removes backslash () characters. Double backslashes (\) are replaced by a single backslash." alt="" coords="645,24,864,51"/>
-<area shape="rect" id="node6" href="$namespacextb__mctc__strings.html#a01f52f6293684260e59260ff5790e5c3" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="670,75,839,101"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,105,76"/>
+<area shape="rect" id="node2" href="$read__gfn__param_8f90.html#aa3c037140f85b6c6a80c609ee89b8467" title=" " alt="" coords="200,24,293,50"/>
+<area shape="rect" id="node7" href="$namespacextb__mctc__strings.html#ae9ebd6dfc568e607d6557a8762bf28b0" title="convert string to lower case" alt="" coords="153,74,340,101"/>
+<area shape="rect" id="node3" href="$namespacextb__mctc__strings.html#a5272db42d49f38098924d2587c9e9a78" title="Parses the string &#39;str&#39; into arguments args(1), ..., args(nargs) based on the delimiters contained in..." alt="" coords="388,24,547,50"/>
+<area shape="rect" id="node4" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="837,24,1015,50"/>
+<area shape="rect" id="node5" href="$namespacextb__mctc__strings.html#ac1ac14e68e16e450995779028bd6566f" title="Removes backslash () characters. Double backslashes (\) are replaced by a single backslash." alt="" coords="595,24,789,50"/>
+<area shape="rect" id="node6" href="$namespacextb__mctc__strings.html#a01f52f6293684260e59260ff5790e5c3" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="617,74,767,101"/>
 </map>

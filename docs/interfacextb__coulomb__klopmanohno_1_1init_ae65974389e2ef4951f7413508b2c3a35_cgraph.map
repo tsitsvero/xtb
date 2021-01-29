@@ -1,16 +1,16 @@
 <map id="xtb_coulomb_klopmanohno::init::initklopmanohno" name="xtb_coulomb_klopmanohno::init::initklopmanohno">
-<area shape="rect" id="node1" title=" " alt="" coords="5,136,208,177"/>
-<area shape="rect" id="node2" href="$namespacextb__coulomb__klopmanohno.html#a8e3143bfbed3d6f41236a4ed90246965" title="Arithmetic averaging functions for hardnesses in GFN2&#45;xTB." alt="" coords="312,5,515,47"/>
-<area shape="rect" id="node3" href="$namespacextb__coulomb__klopmanohno.html#a209d1f8a90418313b430415fcf569f1c" title="Geometric averaging functions for hardnesses." alt="" coords="312,71,515,112"/>
-<area shape="rect" id="node4" href="$namespacextb__coulomb__klopmanohno.html#a3b93e84ab914a0656a4f28b0024b37dc" title="Harmonic averaging functions for hardnesses in GFN1&#45;xTB." alt="" coords="312,136,515,177"/>
-<area shape="rect" id="node5" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="256,202,571,229"/>
-<area shape="rect" id="node14" href="$namespacextb__type__coulomb.html#a43f594fb89f4adb31a5a59d40659ef50" title=" " alt="" coords="286,253,541,279"/>
-<area shape="rect" id="node6" href="$namespacextb__coulomb__ewald.html#af895b4c8ffcaa0ad96aa19ed8bb346f9" title="Returns the longest reciprocal vector which gives a bigger contribution to." alt="" coords="639,71,799,112"/>
-<area shape="rect" id="node8" href="$namespacextb__coulomb__ewald.html#aa74d92ca86f81de2517bfff1bd22394b" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="889,201,1049,243"/>
-<area shape="rect" id="node10" href="$namespacextb__coulomb__ewald.html#a0578c81cbd7c7bcaf949e8a916d4e7e6" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="639,136,799,177"/>
-<area shape="rect" id="node12" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="868,285,1071,311"/>
-<area shape="rect" id="node13" href="$namespacextb__mctc__math.html#aeaf5bd07a903a53cdbe7b49e9b3d9d63" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="619,253,820,279"/>
-<area shape="rect" id="node7" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="889,71,1049,112"/>
-<area shape="rect" id="node9" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="1119,169,1279,211"/>
-<area shape="rect" id="node11" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="889,136,1049,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,184,177"/>
+<area shape="rect" id="node2" href="$namespacextb__coulomb__klopmanohno.html#a8e3143bfbed3d6f41236a4ed90246965" title="Arithmetic averaging functions for hardnesses in GFN2&#45;xTB." alt="" coords="280,5,459,47"/>
+<area shape="rect" id="node3" href="$namespacextb__coulomb__klopmanohno.html#a209d1f8a90418313b430415fcf569f1c" title="Geometric averaging functions for hardnesses." alt="" coords="280,71,459,112"/>
+<area shape="rect" id="node4" href="$namespacextb__coulomb__klopmanohno.html#a3b93e84ab914a0656a4f28b0024b37dc" title="Harmonic averaging functions for hardnesses in GFN1&#45;xTB." alt="" coords="280,136,459,177"/>
+<area shape="rect" id="node5" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="232,202,507,229"/>
+<area shape="rect" id="node14" href="$namespacextb__type__coulomb.html#a43f594fb89f4adb31a5a59d40659ef50" title=" " alt="" coords="258,253,481,279"/>
+<area shape="rect" id="node6" href="$namespacextb__coulomb__ewald.html#af895b4c8ffcaa0ad96aa19ed8bb346f9" title="Returns the longest reciprocal vector which gives a bigger contribution to." alt="" coords="571,71,714,112"/>
+<area shape="rect" id="node8" href="$namespacextb__coulomb__ewald.html#aa74d92ca86f81de2517bfff1bd22394b" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="796,201,939,243"/>
+<area shape="rect" id="node10" href="$namespacextb__coulomb__ewald.html#a0578c81cbd7c7bcaf949e8a916d4e7e6" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="571,136,714,177"/>
+<area shape="rect" id="node12" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="779,285,956,311"/>
+<area shape="rect" id="node13" href="$namespacextb__mctc__math.html#aeaf5bd07a903a53cdbe7b49e9b3d9d63" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="555,253,731,279"/>
+<area shape="rect" id="node7" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="796,71,939,112"/>
+<area shape="rect" id="node9" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="1004,169,1147,211"/>
+<area shape="rect" id="node11" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="796,136,939,177"/>
 </map>

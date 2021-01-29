@@ -1,8 +1,8 @@
 <map id="xtb_constrainpot::constrain_dihedral" name="xtb_constrainpot::constrain_dihedral">
-<area shape="rect" id="node1" title=" " alt="" coords="5,47,204,88"/>
-<area shape="rect" id="node2" href="$namespacextb__basic__geo.html#a46453de5c31b3d8b0fca71de0f1a9b30" title=" " alt="" coords="252,29,416,56"/>
-<area shape="rect" id="node5" href="$namespacextb__basic__geo.html#ad8c2f50bb68be7fd81ece4eb6f5b2ae8" title=" " alt="" coords="253,80,415,106"/>
-<area shape="rect" id="node3" href="$namespacextb__basic__geo.html#a6e8e92267164a5a45bac607201944cc0" title=" " alt="" coords="464,29,651,56"/>
-<area shape="rect" id="node4" href="$namespacextb__basic__geo.html#a9dd5846373471f74781248b52d92baed" title=" " alt="" coords="699,80,879,106"/>
-<area shape="rect" id="node6" href="$namespacextb__basic__geo.html#ac6d22aed86cc153f217f39447a2701cc" title=" " alt="" coords="478,130,637,157"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,47,181,88"/>
+<area shape="rect" id="node2" href="$namespacextb__basic__geo.html#a46453de5c31b3d8b0fca71de0f1a9b30" title=" " alt="" coords="229,29,376,55"/>
+<area shape="rect" id="node5" href="$namespacextb__basic__geo.html#ad8c2f50bb68be7fd81ece4eb6f5b2ae8" title=" " alt="" coords="231,79,375,106"/>
+<area shape="rect" id="node3" href="$namespacextb__basic__geo.html#a6e8e92267164a5a45bac607201944cc0" title=" " alt="" coords="424,29,592,55"/>
+<area shape="rect" id="node4" href="$namespacextb__basic__geo.html#a9dd5846373471f74781248b52d92baed" title=" " alt="" coords="640,79,801,106"/>
+<area shape="rect" id="node6" href="$namespacextb__basic__geo.html#ac6d22aed86cc153f217f39447a2701cc" title=" " alt="" coords="437,130,579,157"/>
 </map>

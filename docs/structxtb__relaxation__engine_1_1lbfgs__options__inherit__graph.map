@@ -1,4 +1,4 @@
 <map id="xtb_relaxation_engine::lbfgs_options" name="xtb_relaxation_engine::lbfgs_options">
-<area shape="rect" id="node1" title="settings for the low memory BFGS optimizer" alt="" coords="5,95,172,136"/>
-<area shape="rect" id="node2" href="$structxtb__relaxation__engine_1_1relax__options.html" title="precision of the rational function step (usually single instead of double)" alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node1" title="settings for the low memory BFGS optimizer" alt="" coords="5,95,152,136"/>
+<area shape="rect" id="node2" href="$structxtb__relaxation__engine_1_1relax__options.html" title="precision of the rational function step (usually single instead of double)" alt="" coords="5,5,152,47"/>
 </map>

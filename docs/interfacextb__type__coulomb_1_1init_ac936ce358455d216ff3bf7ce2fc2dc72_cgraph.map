@@ -1,13 +1,13 @@
 <map id="xtb_type_coulomb::init::initcoulomb" name="xtb_type_coulomb::init::initcoulomb">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,176,196"/>
-<area shape="rect" id="node2" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="224,137,539,163"/>
-<area shape="rect" id="node11" href="$namespacextb__type__coulomb.html#a43f594fb89f4adb31a5a59d40659ef50" title=" " alt="" coords="254,187,509,214"/>
-<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#af895b4c8ffcaa0ad96aa19ed8bb346f9" title="Returns the longest reciprocal vector which gives a bigger contribution to." alt="" coords="607,5,767,47"/>
-<area shape="rect" id="node5" href="$namespacextb__coulomb__ewald.html#aa74d92ca86f81de2517bfff1bd22394b" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="857,136,1017,177"/>
-<area shape="rect" id="node7" href="$namespacextb__coulomb__ewald.html#a0578c81cbd7c7bcaf949e8a916d4e7e6" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="607,71,767,112"/>
-<area shape="rect" id="node9" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="836,219,1039,246"/>
-<area shape="rect" id="node10" href="$namespacextb__mctc__math.html#aeaf5bd07a903a53cdbe7b49e9b3d9d63" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="587,187,788,214"/>
-<area shape="rect" id="node4" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="857,5,1017,47"/>
-<area shape="rect" id="node6" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="1087,104,1247,145"/>
-<area shape="rect" id="node8" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="857,71,1017,112"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,155,196"/>
+<area shape="rect" id="node2" href="$namespacextb__type__coulomb.html#ab46bfaf512989b21d86c72c76475f363" title=" " alt="" coords="203,137,477,163"/>
+<area shape="rect" id="node11" href="$namespacextb__type__coulomb.html#a43f594fb89f4adb31a5a59d40659ef50" title=" " alt="" coords="229,187,451,214"/>
+<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#af895b4c8ffcaa0ad96aa19ed8bb346f9" title="Returns the longest reciprocal vector which gives a bigger contribution to." alt="" coords="542,5,685,47"/>
+<area shape="rect" id="node5" href="$namespacextb__coulomb__ewald.html#aa74d92ca86f81de2517bfff1bd22394b" title="Returns the longest real space vector which gives a bigger contribution to." alt="" coords="767,136,909,177"/>
+<area shape="rect" id="node7" href="$namespacextb__coulomb__ewald.html#a0578c81cbd7c7bcaf949e8a916d4e7e6" title="Get optimal alpha&#45;parameter for the Ewald summation by finding alpha, where." alt="" coords="542,71,685,112"/>
+<area shape="rect" id="node9" href="$namespacextb__mctc__math.html#a228581ab05d5a9183f2cfc31da44da10" title="Determinat of 3×3 matrix." alt="" coords="749,219,927,246"/>
+<area shape="rect" id="node10" href="$namespacextb__mctc__math.html#aeaf5bd07a903a53cdbe7b49e9b3d9d63" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="525,187,701,214"/>
+<area shape="rect" id="node4" href="$namespacextb__coulomb__ewald.html#a01d5c6447f010a9f1064df29bfe5615c" title="Returns the max. value of a term in the reciprocal space part of the Ewald." alt="" coords="767,5,909,47"/>
+<area shape="rect" id="node6" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="975,104,1117,145"/>
+<area shape="rect" id="node8" href="$namespacextb__coulomb__ewald.html#a979ba98f5270b5ea7f1c4ec4740f85f1" title="Returns the difference in the decrease of the real and reciprocal parts of the." alt="" coords="767,71,909,112"/>
 </map>

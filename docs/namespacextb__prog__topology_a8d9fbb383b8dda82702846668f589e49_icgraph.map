@@ -1,5 +1,5 @@
 <map id="xtb_prog_topology::topologyheader" name="xtb_prog_topology::topologyheader">
-<area shape="rect" id="node1" title="Header for this submodule." alt="" coords="389,5,540,47"/>
-<area shape="rect" id="node2" href="$namespacextb__prog__topology.html#aa263269ef9a32674220b4f1bfda0c066" title="Main program of the topology submodule." alt="" coords="191,5,341,47"/>
-<area shape="rect" id="node3" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,13,143,39"/>
+<area shape="rect" id="node1" title="Header for this submodule." alt="" coords="353,5,485,47"/>
+<area shape="rect" id="node2" href="$namespacextb__prog__topology.html#aa263269ef9a32674220b4f1bfda0c066" title="Main program of the topology submodule." alt="" coords="173,5,305,47"/>
+<area shape="rect" id="node3" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,13,125,39"/>
 </map>

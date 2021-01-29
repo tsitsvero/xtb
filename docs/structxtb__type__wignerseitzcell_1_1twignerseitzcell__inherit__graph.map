@@ -1,4 +1,4 @@
 <map id="xtb_type_wignerseitzcell::twignerseitzcell" name="xtb_type_wignerseitzcell::twignerseitzcell">
-<area shape="rect" id="node1" title="Wigner&#45;Seitz cell based on the infrastructure for the neighbour list." alt="" coords="5,95,189,136"/>
-<area shape="rect" id="node2" href="$structxtb__type__neighbourlist_1_1tneighbourlist.html" title="Static neighbour list." alt="" coords="12,5,183,47"/>
+<area shape="rect" id="node1" title="Wigner&#45;Seitz cell based on the infrastructure for the neighbour list." alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node2" href="$structxtb__type__neighbourlist_1_1tneighbourlist.html" title="Static neighbour list." alt="" coords="11,5,162,47"/>
 </map>

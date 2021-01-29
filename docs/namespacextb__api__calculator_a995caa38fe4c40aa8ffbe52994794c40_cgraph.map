@@ -1,6 +1,6 @@
 <map id="xtb_api_calculator::setsolvent_api" name="xtb_api_calculator::setsolvent_api">
-<area shape="rect" id="node1" title="Add a solvation model to calculator (requires loaded parametrisation)" alt="" coords="5,57,147,98"/>
-<area shape="rect" id="node2" href="$namespacextb__main__setup.html#a065de5665dcca9d932dd5b54c6276527" title=" " alt="" coords="195,5,453,32"/>
-<area shape="rect" id="node3" href="$namespacextb__api__utils.html#ab652b95658d5d5710529c8a49e175e9d" title=" " alt="" coords="258,57,390,98"/>
-<area shape="rect" id="node4" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="217,123,431,149"/>
+<area shape="rect" id="node1" title="Add a solvation model to calculator (requires loaded parametrisation)" alt="" coords="5,57,132,98"/>
+<area shape="rect" id="node2" href="$namespacextb__main__setup.html#a065de5665dcca9d932dd5b54c6276527" title=" " alt="" coords="180,5,407,32"/>
+<area shape="rect" id="node3" href="$namespacextb__api__utils.html#ab652b95658d5d5710529c8a49e175e9d" title=" " alt="" coords="234,57,353,98"/>
+<area shape="rect" id="node4" href="$namespacextb__api__utils.html#afd6a69e4c8c1021ccc4bbab8431de1a2" title=" " alt="" coords="198,123,389,149"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="xtb_mctc_math::eigval3x3" name="xtb_mctc_math::eigval3x3">
-<area shape="rect" id="node1" title="Calculates eigenvalues based on the trigonometric solution of A = pB + qI." alt="" coords="973,71,1168,98"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__math.html#ae982d67b0f3f875b0be50274cfb42712" title="Calculates eigenvector using an analytical method based on vector cross." alt="" coords="727,42,925,69"/>
-<area shape="rect" id="node7" href="$namespacextb__type__molecule.html#abf10798d5308677c1e8e3bc23cc74feb" title=" " alt="" coords="749,93,903,135"/>
-<area shape="rect" id="node3" href="$namespacextb__type__molecule.html#a292e8bf2359e57a8e1f68b86c0f0e4af" title=" " alt="" coords="476,5,651,47"/>
-<area shape="rect" id="node4" href="$namespacextb__freq__project.html#a64126381534c62c3d55714e49722bb2c" title="Project translations and rotations from the Hessian matrix." alt="" coords="448,71,679,98"/>
-<area shape="rect" id="node5" href="$namespacextb__prog__thermo.html#adb2b1af9c4536efaa8d399da0c89d209" title="Main program of the thermo submodule." alt="" coords="191,71,400,98"/>
-<area shape="rect" id="node6" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,71,143,98"/>
+<area shape="rect" id="node1" title="Calculates eigenvalues based on the trigonometric solution of A = pB + qI." alt="" coords="877,71,1048,98"/>
+<area shape="rect" id="node2" href="$namespacextb__mctc__math.html#ae982d67b0f3f875b0be50274cfb42712" title="Calculates eigenvector using an analytical method based on vector cross." alt="" coords="655,42,829,69"/>
+<area shape="rect" id="node7" href="$namespacextb__type__molecule.html#abf10798d5308677c1e8e3bc23cc74feb" title=" " alt="" coords="674,93,810,135"/>
+<area shape="rect" id="node3" href="$namespacextb__type__molecule.html#a292e8bf2359e57a8e1f68b86c0f0e4af" title=" " alt="" coords="427,5,583,47"/>
+<area shape="rect" id="node4" href="$namespacextb__freq__project.html#a64126381534c62c3d55714e49722bb2c" title="Project translations and rotations from the Hessian matrix." alt="" coords="403,71,607,98"/>
+<area shape="rect" id="node5" href="$namespacextb__prog__thermo.html#adb2b1af9c4536efaa8d399da0c89d209" title="Main program of the thermo submodule." alt="" coords="173,71,355,98"/>
+<area shape="rect" id="node6" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,71,125,98"/>
 </map>

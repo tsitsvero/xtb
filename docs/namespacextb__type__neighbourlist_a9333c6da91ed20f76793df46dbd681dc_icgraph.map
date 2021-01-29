@@ -1,4 +1,4 @@
 <map id="xtb_type_neighbourlist::getneighsone" name="xtb_type_neighbourlist::getneighsone">
-<area shape="rect" id="node1" title="Get neighbour for a given cutoff." alt="" coords="245,5,416,47"/>
-<area shape="rect" id="node2" href="$structxtb__type__neighbourlist_1_1tneighbourlist.html#a2410acda9500dfa881ba5440739631f5" title="Get number of neighbours." alt="" coords="5,5,197,47"/>
+<area shape="rect" id="node1" title="Get neighbour for a given cutoff." alt="" coords="220,5,371,47"/>
+<area shape="rect" id="node2" href="$structxtb__type__neighbourlist_1_1tneighbourlist.html#a2410acda9500dfa881ba5440739631f5" title="Get number of neighbours." alt="" coords="5,5,172,47"/>
 </map>

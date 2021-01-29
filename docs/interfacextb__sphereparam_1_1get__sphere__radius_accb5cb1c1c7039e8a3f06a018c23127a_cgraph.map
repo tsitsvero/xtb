@@ -1,9 +1,9 @@
 <map id="xtb_sphereparam::get_sphere_radius::get_sphere_radius_fragment" name="xtb_sphereparam::get_sphere_radius::get_sphere_radius_fragment">
-<area shape="rect" id="node1" title=" " alt="" coords="5,67,205,123"/>
-<area shape="rect" id="node2" href="$namespacextb__axis.html#aac1e50103f535dc1e1c65a212b8bbd8d" title=" " alt="" coords="253,81,373,108"/>
-<area shape="rect" id="node3" href="$drsp_8f.html#ac8791cdbe49427e661f00b126ce4dbbc" title=" " alt="" coords="421,81,464,108"/>
-<area shape="rect" id="node4" href="$drsp_8f.html#a163d6464d6ff31893ac0abcfa0d6eeec" title=" " alt="" coords="521,5,567,32"/>
-<area shape="rect" id="node5" href="$drsp_8f.html#a47a86ab7ed20a30b44b28253866ac7ff" title=" " alt="" coords="515,56,573,83"/>
-<area shape="rect" id="node6" href="$drsp_8f.html#a035138691289fce6e2d30c8b3c41188f" title=" " alt="" coords="512,107,576,133"/>
-<area shape="rect" id="node7" href="$drsp_8f.html#a160df22dcc004ea7373039d1db601e3d" title=" " alt="" coords="516,157,572,184"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,67,185,123"/>
+<area shape="rect" id="node2" href="$namespacextb__axis.html#aac1e50103f535dc1e1c65a212b8bbd8d" title=" " alt="" coords="233,81,339,108"/>
+<area shape="rect" id="node3" href="$drsp_8f.html#ac8791cdbe49427e661f00b126ce4dbbc" title=" " alt="" coords="387,81,427,108"/>
+<area shape="rect" id="node4" href="$drsp_8f.html#a163d6464d6ff31893ac0abcfa0d6eeec" title=" " alt="" coords="483,5,525,32"/>
+<area shape="rect" id="node5" href="$drsp_8f.html#a47a86ab7ed20a30b44b28253866ac7ff" title=" " alt="" coords="479,56,529,83"/>
+<area shape="rect" id="node6" href="$drsp_8f.html#a035138691289fce6e2d30c8b3c41188f" title=" " alt="" coords="475,107,533,133"/>
+<area shape="rect" id="node7" href="$drsp_8f.html#a160df22dcc004ea7373039d1db601e3d" title=" " alt="" coords="479,157,529,184"/>
 </map>
