@@ -1,5 +1,0 @@
-<map id="xtb_coulomb_gaussian::getcoulombmatrixpbc3d" name="xtb_coulomb_gaussian::getcoulombmatrixpbc3d">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,195,80"/>
-<area shape="rect" id="node2" href="$namespacextb__coulomb__ewald.html#a8ff6c61e8e9c8f0a46a763d12bc6a281" title=" " alt="" coords="243,5,403,47"/>
-<area shape="rect" id="node3" href="$namespacextb__coulomb__ewald.html#a85f630579876f0888919a3440f359ea6" title="Returns the max. value of a term in the real space part of the Ewald summation." alt="" coords="243,71,403,112"/>
-</map>

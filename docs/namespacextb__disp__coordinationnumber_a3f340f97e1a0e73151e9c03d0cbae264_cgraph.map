@@ -1,5 +1,0 @@
-<map id="xtb_disp_coordinationnumber::cutcoordinationnumber" name="xtb_disp_coordinationnumber::cutcoordinationnumber">
-<area shape="rect" id="node1" title="Cutoff function for large coordination numbers." alt="" coords="5,39,220,80"/>
-<area shape="rect" id="node2" href="$namespacextb__disp__coordinationnumber.html#a8cb125805581107239d02e3005bca6c1" title="Cutting function for the coordination number." alt="" coords="268,5,483,47"/>
-<area shape="rect" id="node3" href="$namespacextb__disp__coordinationnumber.html#aec17fcc5044caee4d221ce47cf2aff03" title="Derivative of the cutting function w.r.t. coordination number." alt="" coords="268,71,483,112"/>
-</map>

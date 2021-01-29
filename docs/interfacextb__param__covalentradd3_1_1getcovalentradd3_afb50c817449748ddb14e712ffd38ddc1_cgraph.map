@@ -1,5 +1,0 @@
-<map id="xtb_param_covalentradd3::getcovalentradd3::getcovalentradd3symbol" name="xtb_param_covalentradd3::getcovalentradd3::getcovalentradd3symbol">
-<area shape="rect" id="node1" title="Get covalent radius for species with a given symbol." alt="" coords="5,5,320,47"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__symbols.html#a415078dcb669ace05def9d5ccfad86fa" title="Convert element symbol to atomic number." alt="" coords="368,13,583,39"/>
-<area shape="rect" id="node3" href="$namespacextb__mctc__symbols.html#a6443a2bd18736176be30e8db1ddc89dd" title="Convert element symbol to atomic number." alt="" coords="631,13,893,39"/>
-</map>

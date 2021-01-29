@@ -1,7 +1,0 @@
-<map id="xtb_type_molecule::tmolecule::new_molecule_api" name="xtb_type_molecule::tmolecule::new_molecule_api">
-<area shape="rect" id="node1" title="Constructor for the molecular structure type, compatible with C input." alt="" coords="5,49,221,90"/>
-<area shape="rect" id="node2" href="$generate__wsc_8f90.html#a5c79310b78371712d143d918e62b73fb" title="generate a Wigner–Seitz cell from a given structure" alt="" coords="320,5,432,32"/>
-<area shape="rect" id="node3" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="638,31,686,57"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__symbols.html#abe837ad333242b4dd3073c5747c13e28" title="Convert atomic number to element symbol." alt="" coords="269,107,483,133"/>
-<area shape="rect" id="node5" href="$namespacextb__mctc__symbols.html#a79bd74e1e6f1eae5387d103d33088dc8" title="Convert atomic number to element symbol." alt="" coords="531,107,793,133"/>
-</map>

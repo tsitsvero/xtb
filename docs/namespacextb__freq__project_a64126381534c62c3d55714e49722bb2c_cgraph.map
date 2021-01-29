@@ -1,6 +1,0 @@
-<map id="xtb_freq_project::projecthessian" name="xtb_freq_project::projecthessian">
-<area shape="rect" id="node1" title="Project translations and rotations from the Hessian matrix." alt="" coords="5,31,236,57"/>
-<area shape="rect" id="node2" href="$constr_8f90.html#a10258b751fb1a02456622523df6e8b49" title=" " alt="" coords="341,5,426,32"/>
-<area shape="rect" id="node3" href="$namespacextb__mctc__math.html#ae982d67b0f3f875b0be50274cfb42712" title="Calculates eigenvector using an analytical method based on vector cross." alt="" coords="284,56,483,83"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__math.html#a546cec793b587aa3debc5e497cde2d6f" title="Calculates eigenvalues based on the trigonometric solution of A = pB + qI." alt="" coords="531,56,725,83"/>
-</map>

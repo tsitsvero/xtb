@@ -1,8 +1,0 @@
-<map id="xtb_scc_core::h0scal" name="xtb_scc_core::h0scal">
-<area shape="rect" id="node1" title="H0 off&#45;diag scaling." alt="" coords="232,137,388,163"/>
-<area shape="rect" id="node2" href="$namespacextb__xtb__hamiltonian.html#a8364d9293f8dac8d5de89c5186f7effc" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="17,5,173,47"/>
-<area shape="rect" id="node3" href="$namespacextb__xtb__hamiltonian__gpu.html#a3fc32a40afb82002170a6633d8870ddb" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="5,71,184,112"/>
-<area shape="rect" id="node4" href="$namespacextb__scc__core.html#a283a0b5552f059cc1b825cf6f29bc47b" title=" " alt="" coords="10,137,179,163"/>
-<area shape="rect" id="node5" href="$namespacextb__xtb__hamiltonian.html#a9f0d8be35a4ef0f2dbbbafd2ef873d64" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="17,188,173,229"/>
-<area shape="rect" id="node6" href="$namespacextb__xtb__hamiltonian__gpu.html#aee3ffc022ae0b9686cef17ce77e6b117" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="9,253,180,295"/>
-</map>

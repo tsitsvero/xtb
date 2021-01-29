@@ -1,4 +1,0 @@
-<map id="xtb_mctc_strings::split" name="xtb_mctc_strings::split">
-<area shape="rect" id="node1" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="223,5,420,32"/>
-</map>

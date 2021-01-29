@@ -1,6 +1,0 @@
-<map id="xtb_mctc_strings::parse" name="xtb_mctc_strings::parse">
-<area shape="rect" id="node1" title="Parses the string &#39;str&#39; into arguments args(1), ..., args(nargs) based on the delimiters contained in..." alt="" coords="5,24,183,51"/>
-<area shape="rect" id="node2" href="$namespacextb__mctc__strings.html#a83fe8976b683970b27e6b64632d50916" title="Converts multiple spaces and tabs to single spaces; deletes control characters; removes initial space..." alt="" coords="497,24,695,51"/>
-<area shape="rect" id="node3" href="$namespacextb__mctc__strings.html#ac1ac14e68e16e450995779028bd6566f" title="Removes backslash () characters. Double backslashes (\) are replaced by a single backslash." alt="" coords="231,24,449,51"/>
-<area shape="rect" id="node4" href="$namespacextb__mctc__strings.html#a01f52f6293684260e59260ff5790e5c3" title="Routine finds the first instance of a character from &#39;delims&#39; in the the string &#39;str&#39;...." alt="" coords="255,75,425,101"/>
-</map>

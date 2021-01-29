@@ -1,8 +1,0 @@
-<map id="xtb_type_molecule::update" name="xtb_type_molecule::update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,64,160,105"/>
-<area shape="rect" id="node2" href="$namespacextb__pbc__tools.html#a3709c4f6358d1b349f40e1d52d22a924" title="convert direct lattice to cell parameters" alt="" coords="208,5,353,47"/>
-<area shape="rect" id="node3" href="$namespacextb__pbc__tools.html#aea009f9f2022ae2d929f4f9290d205b6" title="calculate the cell volume from the direct lattice" alt="" coords="402,61,547,103"/>
-<area shape="rect" id="node5" href="$namespacextb__pbc__tools.html#aa8308e59e9922f92d1270ecfe6fea9af" title="convert direct lattice to cell parameters" alt="" coords="208,124,353,165"/>
-<area shape="rect" id="node4" href="$namespacextb__pbc__tools.html#af5c425099fa1f9ef165278c21e54d8b7" title="determinat of 3×3 matrix" alt="" coords="596,95,743,136"/>
-<area shape="rect" id="node6" href="$namespacextb__pbc__tools.html#ad22c96cf682e0afadb811494da08cde4" title="Performs a direct calculation of the inverse of a 3×3 matrix." alt="" coords="401,127,548,168"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="xtb_intgrad::get_multiints" name="xtb_intgrad::get_multiints">
-<area shape="rect" id="node1" title=" " alt="" coords="228,107,419,134"/>
-<area shape="rect" id="node2" href="$namespacextb__xtb__hamiltonian.html#a9f0d8be35a4ef0f2dbbbafd2ef873d64" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="15,5,171,47"/>
-<area shape="rect" id="node3" href="$namespacextb__xtb__hamiltonian__gpu.html#aee3ffc022ae0b9686cef17ce77e6b117" title="Computes the dipole and quadrupole integrals and performs screening to." alt="" coords="7,71,178,112"/>
-<area shape="rect" id="node4" href="$namespacextb__intgrad.html#a45fdbd10e8d62595c60b79d516e52cbd" title="computes the dipole and quadrupole integrals and performs screening to" alt="" coords="21,137,165,163"/>
-<area shape="rect" id="node5" href="$namespacextb__intgrad.html#acfb80861031d50fbbfc7f6a4d203b94f" title="Computes the overlap dipole and quadrupole integrals." alt="" coords="5,187,180,214"/>
-</map>

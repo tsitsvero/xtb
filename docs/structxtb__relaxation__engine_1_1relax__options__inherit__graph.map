@@ -1,5 +1,0 @@
-<map id="xtb_relaxation_engine::relax_options" name="xtb_relaxation_engine::relax_options">
-<area shape="rect" id="node1" title="precision of the rational function step (usually single instead of double)" alt="" coords="100,5,267,47"/>
-<area shape="rect" id="node2" href="$structxtb__relaxation__engine_1_1fire__options.html" title="settings for the fast inertial relaxation engine" alt="" coords="5,95,172,136"/>
-<area shape="rect" id="node3" href="$structxtb__relaxation__engine_1_1lbfgs__options.html" title="settings for the low memory BFGS optimizer" alt="" coords="196,95,363,136"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="xtb_intgrad::build_dsdq_ints" name="xtb_intgrad::build_dsdq_ints">
-<area shape="rect" id="node1" title=" " alt="" coords="435,39,571,80"/>
-<area shape="rect" id="node2" href="$namespacextb__intgrad.html#a84a16c374ef42e274a28bfac818995e7" title=" " alt="" coords="225,39,387,80"/>
-<area shape="rect" id="node3" href="$namespacextb__xtb__hamiltonian.html#a8364d9293f8dac8d5de89c5186f7effc" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="13,5,169,47"/>
-<area shape="rect" id="node4" href="$namespacextb__xtb__hamiltonian.html#a299eaa3877160d0aff3f63dc55b12fde" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="5,71,177,112"/>
-</map>
