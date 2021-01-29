@@ -1,5 +1,0 @@
-uses: mattnotmitt/doxygen-action@v1
-with:
-    working-directory: 'docs2/'
-    doxyfile-path: 'doxygen.conf'
-    
