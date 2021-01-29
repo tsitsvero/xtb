@@ -5,9 +5,9 @@ name: Doxygen Action
 # events but only for the master branch
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ prob ]
   pull_request:
-    branches: [ gh-pages ]
+    branches: [ prob ]
 
 
   
