@@ -1,0 +1,4 @@
+<map id="forpy_mod::sequence" name="forpy_mod::sequence">
+<area shape="rect" id="node1" title="Abstract type that represents sequence objects. Elements of a sequence can be accessed by an index." alt="" coords="5,80,149,107"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1object.html" title="Type to represent an arbitrary Python object." alt="" coords="16,5,139,32"/>
+</map>

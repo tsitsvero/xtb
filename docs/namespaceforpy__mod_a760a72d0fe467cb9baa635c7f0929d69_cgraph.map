@@ -1,0 +1,13 @@
+<map id="forpy_mod::forpy_initialize" name="forpy_mod::forpy_initialize">
+<area shape="rect" id="node1" title="Initialisation of forpy module. Must be called before using forpy." alt="" coords="5,260,175,287"/>
+<area shape="rect" id="node2" href="$namespaceforpy__mod.html#a44428121ec6b6338470a1b698ed50571" title=" " alt="" coords="223,187,392,229"/>
+<area shape="rect" id="node10" href="$namespaceforpy__mod.html#a7483ad27ced792eb2fdc0e7f319913ea" title=" " alt="" coords="223,253,392,294"/>
+<area shape="rect" id="node11" href="$symmetry__i_8c.html#aa77c823a9fc018ae1d437369708d8727" title=" " alt="" coords="285,319,329,345"/>
+<area shape="rect" id="node3" href="$namespaceforpy__mod.html#af22f3347e40d0a9720c5b6a986bf086d" title=" " alt="" coords="442,5,642,32"/>
+<area shape="rect" id="node4" href="$namespaceforpy__mod.html#ab19082edf1f3077e641d7a27eb5716ad" title=" " alt="" coords="457,57,627,98"/>
+<area shape="rect" id="node5" href="$namespaceforpy__mod.html#a7a7d1c9b082b090ea5e16f11498b4a02" title=" " alt="" coords="457,122,627,163"/>
+<area shape="rect" id="node6" href="$namespaceforpy__mod.html#a4c81e35d01b089ba158734943fabfc6f" title=" " alt="" coords="457,187,627,229"/>
+<area shape="rect" id="node7" href="$namespaceforpy__mod.html#a8368b4351cabb5786e725513153b497b" title=" " alt="" coords="440,253,644,280"/>
+<area shape="rect" id="node8" href="$namespaceforpy__mod.html#aee28203d6bcd310418304d1cdebd3cf7" title="Sets sys.argv = [&#39;&#39;], since some 3rd party Python modules require sys.argv[0] &#45; before Python 3...." alt="" coords="457,305,627,346"/>
+<area shape="rect" id="node9" href="$namespaceforpy__mod.html#a577acb36183911f99ca8032b73d56b6e" title=" " alt="" coords="457,370,627,411"/>
+</map>

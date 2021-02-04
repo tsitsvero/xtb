@@ -1,0 +1,4 @@
+<map id="forpy_mod::dict_get_int64_int64" name="forpy_mod::dict_get_int64_int64">
+<area shape="rect" id="node1" title=" " alt="" coords="187,5,321,47"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1dict.html#ae5dd7516a2ff439be22f5324aab4d641" title="Get value at a given key. If key does not exist, return a default value." alt="" coords="5,13,139,39"/>
+</map>

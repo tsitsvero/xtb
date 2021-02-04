@@ -1,0 +1,4 @@
+<map id="forpy_mod::ndarray::get_data" name="forpy_mod::ndarray::get_data">
+<area shape="rect" id="node1" title="Retrieve a Fortran pointer to the array data." alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node2" href="$namespaceforpy__mod.html#abc064eee96932c90237f03121d0b2580" title="Get pointer to data of numpy array." alt="" coords="184,5,324,47"/>
+</map>

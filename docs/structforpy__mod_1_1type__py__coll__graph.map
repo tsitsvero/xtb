@@ -1,0 +1,4 @@
+<map id="forpy_mod::type_py" name="forpy_mod::type_py">
+<area shape="rect" id="node1" title="Type that represents a &quot;class object&quot;. In Python class objects have the type &#39;type&#39; which we name typ..." alt="" coords="5,80,137,107"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1object.html" title="Type to represent an arbitrary Python object." alt="" coords="10,5,133,32"/>
+</map>

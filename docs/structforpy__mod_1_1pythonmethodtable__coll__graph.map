@@ -1,0 +1,5 @@
+<map id="forpy_mod::pythonmethodtable" name="forpy_mod::pythonmethodtable">
+<area shape="rect" id="node1" title="Only used for writing Python extension modules. Datastructure to hold table of methods of your Python..." alt="" coords="100,95,297,121"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1pymethoddef.html" title=" " alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node3" href="$structforpy__mod_1_1pythonmethodtablestrings.html" title="just a helper type, not public" alt="" coords="193,5,429,32"/>
+</map>

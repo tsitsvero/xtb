@@ -1,0 +1,5 @@
+<map id="forpy_mod::dict" name="forpy_mod::dict">
+<area shape="rect" id="node1" title=" " alt="" coords="19,155,129,181"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1mapping.html" title="Abstract type that represents a datastructure that maps keys to values." alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node3" href="$structforpy__mod_1_1object.html" title="Type to represent an arbitrary Python object." alt="" coords="13,5,135,32"/>
+</map>

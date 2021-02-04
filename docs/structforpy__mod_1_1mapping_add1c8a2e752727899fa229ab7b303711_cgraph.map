@@ -1,0 +1,4 @@
+<map id="forpy_mod::mapping::getitem" name="forpy_mod::mapping::getitem">
+<area shape="rect" id="node1" title="Get value at a given key. KeyError if key does not exist." alt="" coords="5,13,143,54"/>
+<area shape="rect" id="node2" href="$namespaceforpy__mod.html#afb45cee873681d70b29c374c53ffc9ac" title=" " alt="" coords="191,5,357,61"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="forpy_mod::get_data_real64_4d" name="forpy_mod::get_data_real64_4d">
+<area shape="rect" id="node1" title="Get pointer to data of numpy array." alt="" coords="184,5,323,47"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1ndarray.html#a000564d759f4999bc8b7fde961af2b3c" title="Retrieve a Fortran pointer to the array data." alt="" coords="5,5,136,47"/>
+</map>

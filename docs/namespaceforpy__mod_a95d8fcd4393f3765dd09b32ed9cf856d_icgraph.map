@@ -1,0 +1,4 @@
+<map id="forpy_mod::mapping_getitem_int64_real32" name="forpy_mod::mapping_getitem_int64_real32">
+<area shape="rect" id="node1" title=" " alt="" coords="191,5,340,47"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1mapping.html#a36a73320979cbfffc45cf9dfbee4287a" title="Get value at a given key. KeyError if key does not exist." alt="" coords="5,5,143,47"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="forpy_mod::immutablesequence" name="forpy_mod::immutablesequence">
+<area shape="rect" id="node1" title="Abstract type that represents a sequence, whose items can not be changed." alt="" coords="164,155,368,181"/>
+<area shape="rect" id="node4" href="$structforpy__mod_1_1bytes.html" title="Type corresponding to Python &#39;bytes&#39;." alt="" coords="5,229,124,256"/>
+<area shape="rect" id="node5" href="$structforpy__mod_1_1str.html" title="Type corresponding to Python &#39;str&#39; &#45; Python&#39;s string type." alt="" coords="148,229,251,256"/>
+<area shape="rect" id="node6" href="$structforpy__mod_1_1tuple.html" title="Type that corresponds to a Python tuple. Create with tuple_create." alt="" coords="275,229,391,256"/>
+<area shape="rect" id="node7" href="$structforpy__mod_1_1unicode.html" title="Type corresponding to Python 2 &#39;unicode&#39; or Python 3 &#39;str&#39;." alt="" coords="415,229,549,256"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1sequence.html" title="Abstract type that represents sequence objects. Elements of a sequence can be accessed by an index." alt="" coords="194,80,338,107"/>
+<area shape="rect" id="node3" href="$structforpy__mod_1_1object.html" title="Type to represent an arbitrary Python object." alt="" coords="205,5,327,32"/>
+</map>

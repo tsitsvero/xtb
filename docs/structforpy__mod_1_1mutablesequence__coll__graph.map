@@ -1,0 +1,5 @@
+<map id="forpy_mod::mutablesequence" name="forpy_mod::mutablesequence">
+<area shape="rect" id="node1" title="Abstract type that represents a sequence, whose items can be changed." alt="" coords="5,155,196,181"/>
+<area shape="rect" id="node2" href="$structforpy__mod_1_1sequence.html" title="Abstract type that represents sequence objects. Elements of a sequence can be accessed by an index." alt="" coords="29,80,173,107"/>
+<area shape="rect" id="node3" href="$structforpy__mod_1_1object.html" title="Type to represent an arbitrary Python object." alt="" coords="39,5,162,32"/>
+</map>

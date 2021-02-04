@@ -1,0 +1,10 @@
+<map id="forpy_mod::forpy_initialize_forpy_globals" name="forpy_mod::forpy_initialize_forpy_globals">
+<area shape="rect" id="node1" title=" " alt="" coords="5,187,175,229"/>
+<area shape="rect" id="node2" href="$namespaceforpy__mod.html#af22f3347e40d0a9720c5b6a986bf086d" title=" " alt="" coords="225,5,425,32"/>
+<area shape="rect" id="node3" href="$namespaceforpy__mod.html#ab19082edf1f3077e641d7a27eb5716ad" title=" " alt="" coords="240,57,409,98"/>
+<area shape="rect" id="node4" href="$namespaceforpy__mod.html#a7a7d1c9b082b090ea5e16f11498b4a02" title=" " alt="" coords="240,122,409,163"/>
+<area shape="rect" id="node5" href="$namespaceforpy__mod.html#a4c81e35d01b089ba158734943fabfc6f" title=" " alt="" coords="240,187,409,229"/>
+<area shape="rect" id="node6" href="$namespaceforpy__mod.html#a8368b4351cabb5786e725513153b497b" title=" " alt="" coords="223,253,427,280"/>
+<area shape="rect" id="node7" href="$namespaceforpy__mod.html#aee28203d6bcd310418304d1cdebd3cf7" title="Sets sys.argv = [&#39;&#39;], since some 3rd party Python modules require sys.argv[0] &#45; before Python 3...." alt="" coords="240,305,409,346"/>
+<area shape="rect" id="node8" href="$namespaceforpy__mod.html#a577acb36183911f99ca8032b73d56b6e" title=" " alt="" coords="240,370,409,411"/>
+</map>
