@@ -3,6 +3,7 @@
 
 py_dep = dependency('python3-embed')
 exe_deps += py_dep
+# lib_deps += py_dep
 
 srcs += files(
   'prob_mod.f90',
