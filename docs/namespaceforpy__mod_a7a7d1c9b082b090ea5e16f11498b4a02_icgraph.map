@@ -1,5 +1,9 @@
 <map id="forpy_mod::forpy_initialize_exceptions" name="forpy_mod::forpy_initialize_exceptions">
-<area shape="rect" id="node1" title=" " alt="" coords="440,5,609,47"/>
-<area shape="rect" id="node2" href="$namespaceforpy__mod.html#a44428121ec6b6338470a1b698ed50571" title=" " alt="" coords="223,5,392,47"/>
-<area shape="rect" id="node3" href="$namespaceforpy__mod.html#a760a72d0fe467cb9baa635c7f0929d69" title="Initialisation of forpy module. Must be called before using forpy." alt="" coords="5,13,175,39"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1273,5,1443,47"/>
+<area shape="rect" id="node2" href="$namespaceforpy__mod.html#a44428121ec6b6338470a1b698ed50571" title=" " alt="" coords="1056,5,1225,47"/>
+<area shape="rect" id="node3" href="$namespaceforpy__mod.html#a760a72d0fe467cb9baa635c7f0929d69" title="Initialisation of forpy module. Must be called before using forpy." alt="" coords="839,13,1008,39"/>
+<area shape="rect" id="node4" href="$namespaceprob__module.html#aee824558304147341d3ee1ee898d9bd9" title=" " alt="" coords="632,13,791,39"/>
+<area shape="rect" id="node5" href="$namespacextb__prog__main.html#a7342d7c4bae29e1a79a8c6c8e8141d70" title="Parse command line arguments and forward them to settings." alt="" coords="379,13,584,39"/>
+<area shape="rect" id="node6" href="$namespacextb__prog__main.html#a92b3b61ee04235e6343f652095682529" title=" " alt="" coords="173,13,331,39"/>
+<area shape="rect" id="node7" href="$primary_8f90.html#a2a67903cf5be605c5b6d3c362c6a3c5c" title="The primary driver for the xtb program package." alt="" coords="5,13,125,39"/>
 </map>
