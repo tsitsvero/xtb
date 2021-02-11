@@ -1231,10 +1231,10 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          endif
          write(*,*) "Lalala"
          call prob_func()
-         print *, "Enter kernel parameters a and l: "
-         read *, prob_a
-         read *, prob_l
-         print *, "Okay... Kernel variables were set to ", prob_a, " and ", prob_l
+         ! print *, "Enter kernel parameters a and l: "
+         ! read *, prob_a
+         ! read *, prob_l
+         ! print *, "Okay... Kernel variables were set to ", prob_a, " and ", prob_l
          ! open(22,file='prob_file.log',action='write',position='append') 
          ! write(22,*) "Kernel vars were set to ", prob_a, " ", prob_l
          ! close(22)
