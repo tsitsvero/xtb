@@ -149,12 +149,15 @@ incdir = include_directories('include')
 # prob_module addition
 subdir('prob_files')
 xtb_prob = executable(
-  'prob_xtb',
+  'xtb',
   sources: prob_srcs,
   include_directories: incdir,
   link_language: 'fortran',
   dependencies: [exe_deps, lib_deps, py_dep],
 )
+configure_file(input: 'prob_files/pymodule.py', output: 'pymodule.py',      copy: true)
+configure_file(input: 'prob_files/input.inp', output: 'input.inp',      copy: true)
+configure_file(input: 'prob_files/helicene.xyz', output: 'helicene.xyz',      copy: true)
 
 warning('Meson will be build with prob_module extension')
 

@@ -1,0 +1,10 @@
+$md
+   time=5
+   step=1
+   temp=298
+$end
+$metadyn
+   save=100
+   kpush=0.084
+   alp=0.4
+$end

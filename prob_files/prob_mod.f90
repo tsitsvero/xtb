@@ -189,52 +189,52 @@ module prob_module
         A_ub(3,2) = 3.0_dp
         
         ierror = forpy_initialize()
-      !   ierror = import_py(opt, "scipy.optimize")
+        ierror = import_py(opt, "scipy.optimize")
         
-      !   ierror = ndarray_create(nd_c, c)
-      !   ierror = ndarray_create(nd_b_ub, b_ub)
-      !   ierror = ndarray_create(nd_A_ub, A_ub)
+        ierror = ndarray_create(nd_c, c)
+        ierror = ndarray_create(nd_b_ub, b_ub)
+        ierror = ndarray_create(nd_A_ub, A_ub)
         
-      !   ierror = tuple_create(args, 3)
-      !   ierror = args%setitem(0, nd_c)
-      !   ierror = args%setitem(1, nd_A_ub)
-      !   ierror = args%setitem(2, nd_b_ub)
+        ierror = tuple_create(args, 3)
+        ierror = args%setitem(0, nd_c)
+        ierror = args%setitem(1, nd_A_ub)
+        ierror = args%setitem(2, nd_b_ub)
         
-      !   ierror = call_py(retval, opt, "linprog", args)
+        ierror = call_py(retval, opt, "linprog", args)
         
-      !   ierror = retval%getattribute(attr, "x")
-      !   ierror = cast(nd_x, attr)
-      !   ierror = nd_x%get_data(x)
-      !   call attr%destroy
+        ierror = retval%getattribute(attr, "x")
+        ierror = cast(nd_x, attr)
+        ierror = nd_x%get_data(x)
+        call attr%destroy
         
-      !   ierror = retval%getattribute(attr, "fun")
-      !   ierror = cast(objective_fun_value, attr)
-      !   call attr%destroy
+        ierror = retval%getattribute(attr, "fun")
+        ierror = cast(objective_fun_value, attr)
+        call attr%destroy
         
-      !   ierror = get_sys_path(paths)
-      !   ierror = paths%append(".")
+        ierror = get_sys_path(paths)
+        ierror = paths%append(".")
     
         ierror = import_py(pymod, "pymodule")
-      !   ierror = tuple_create(argsval, 1)
-      !   ierror = argsval%setitem(0, nd_c)
-      !   ierror = call_py(returnval, pymod, "initialize", argsval)
+        ierror = tuple_create(argsval, 1)
+        ierror = argsval%setitem(0, nd_c)
+        ierror = call_py(returnval, pymod, "initialize", argsval)
     
         call pymod%destroy
-      !   call paths%destroy
-      !   call argsval%destroy
-      !   call returnval%destroy
+        call paths%destroy
+        call argsval%destroy
+        call returnval%destroy
  
-      !   print *, "Solution: x = ", x
-      !   print *, "Valueee of objective function: fun = ", objective_fun_value
+        print *, "Solution: x = ", x
+        print *, "Valueee of objective function: fun = ", objective_fun_value
         
     
-      !   call retval%destroy
-      !   call args%destroy
-      !   call nd_c%destroy
-      !   call nd_b_ub%destroy
-      !   call nd_A_ub%destroy
-      !   call nd_x%destroy
-      !   call opt%destroy
+        call retval%destroy
+        call args%destroy
+        call nd_c%destroy
+        call nd_b_ub%destroy
+        call nd_A_ub%destroy
+        call nd_x%destroy
+        call opt%destroy
         
         call forpy_finalize()
         
