@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#bfbfbf" stroke="black" points="0,-94 0,-113 119,-113 119,-94 0,-94"/>
-<text text-anchor="middle" x="59.5" y="-101" font-family="Helvetica,sans-Serif" font-size="10.00">prob_module::prob_func</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-75 0,-94 119,-94 119,-75 0,-75"/>
+<text text-anchor="middle" x="59.5" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00">prob_module::prob_func</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M100.12,-113.09C120.84,-118.1 146.39,-124.29 168.36,-129.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="167.62,-133.03 178.17,-131.98 169.27,-126.23 167.62,-133.03"/>
+<path fill="none" stroke="midnightblue" d="M82.82,-94.12C101.84,-102.15 129.98,-113.69 155,-122.5 161.32,-124.73 168.06,-126.94 174.68,-129.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="173.65,-132.37 184.24,-131.98 175.72,-125.68 173.65,-132.37"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
@@ -45,23 +45,38 @@
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M119.41,-103.5C127.63,-103.5 136.17,-103.5 144.62,-103.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="144.85,-107 154.85,-103.5 144.85,-100 144.85,-107"/>
+<path fill="none" stroke="midnightblue" d="M119.41,-91.63C127.73,-92.64 136.36,-93.68 144.89,-94.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="144.5,-98.19 154.85,-95.92 145.34,-91.24 144.5,-98.19"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="namespaceforpy__mod.html#a7cdc0b2724e369716111a090f0e7f2c5" target="_top" xlink:title="Import a Python module.">
-<polygon fill="white" stroke="black" points="164.5,-56 164.5,-75 272.5,-75 272.5,-56 164.5,-56"/>
-<text text-anchor="middle" x="218.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">forpy_mod::import_py</text>
+<g id="a_node14"><a xlink:href="namespaceforpy__mod.html#ab00e5645bdbd2ba22d80f5d6fc7ce2d9" target="_top" xlink:title="Getting the list of module search paths: sys.path.">
+<polygon fill="white" stroke="black" points="156.5,-56 156.5,-75 280.5,-75 280.5,-56 156.5,-56"/>
+<text text-anchor="middle" x="218.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">forpy_mod::get_sys_path</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M100.12,-93.91C120.84,-88.9 146.39,-82.71 168.36,-77.39"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="169.27,-80.77 178.17,-75.02 167.62,-73.97 169.27,-80.77"/>
+<path fill="none" stroke="midnightblue" d="M119.41,-77.37C128.2,-76.31 137.33,-75.2 146.34,-74.11"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="146.92,-77.57 156.43,-72.89 146.08,-70.62 146.92,-77.57"/>
+</g>
+<!-- Node15 -->
+<g id="node15" class="node">
+<title>Node15</title>
+<g id="a_node15"><a xlink:href="namespaceforpy__mod.html#a7cdc0b2724e369716111a090f0e7f2c5" target="_top" xlink:title="Import a Python module.">
+<polygon fill="white" stroke="black" points="164.5,-18 164.5,-37 272.5,-37 272.5,-18 164.5,-18"/>
+<text text-anchor="middle" x="218.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">forpy_mod::import_py</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node15 -->
+<g id="edge14" class="edge">
+<title>Node1&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M82.82,-74.88C101.84,-66.85 129.98,-55.31 155,-46.5 161.32,-44.27 168.06,-42.06 174.68,-39.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="175.72,-43.32 184.24,-37.02 173.65,-36.63 175.72,-43.32"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
