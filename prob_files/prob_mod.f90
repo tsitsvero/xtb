@@ -9,6 +9,7 @@ module prob_module
 
     integer :: prob_c
     logical :: prob_flag = .false.
+    integer :: prob_metadyn_count = 0
 
     real(8) :: prob_a, prob_l, prob_inv_l
    
@@ -38,7 +39,8 @@ module prob_module
 
        if(metavar%nstruc < 1 ) return
       
-      if (prob_flag) then 
+      ! prob_flag = .false.
+      if (.false.) then 
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
@@ -147,8 +149,9 @@ module prob_module
 
       end if
        
-      !  write(stdout,*) "Calling prob_metadynamic()..." 
-      !  print *, 'Call prob_metadynamic()...'
+      ! prob_metadyn_count = prob_metadyn_count + 1
+      ! !  write(stdout,*) "Calling prob_metadynamic()..." 
+      !  print *, 'Call prob_metadynamic()...', prob_metadyn_count
     end subroutine prob_metadynamic
     
 
