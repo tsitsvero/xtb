@@ -40,7 +40,12 @@ CODECHECK
 latex
 html_docs
 docs
+newbuild
+builddir
 log.txt
+.vscode
+
+
 
 # files produces by the documentation
 man/*.pdf
