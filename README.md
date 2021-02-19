@@ -23,16 +23,18 @@ ninja -C build install
 
 cd ~/Desktop/xtb/bin
 
-ulimit -s unlimited && export OMP_STACKSIZE=4G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10
+ulimit -s unlimited && export OMP_STACKSIZE=2G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10
 
 ./xtb --coffee
 
 
 
-meson configure --clearcache build &&
-meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure &&
-ninja -C build install &&
-terminator --working-directory="~/Desktop/xtb/bin" --command="./xtb --coffee --prob; sleep 1000" 
+meson configure --clearcache newbuild &&
+mkdir -p ~/Desktop/xtb &&
+meson setup newbuild --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dla_backend=mkl -Dprefix=~/Desktop/xtb --reconfigure &&
+ninja -C newbuild install &&
+
+terminator --working-directory="~/Desktop/xtb/bin" --command="ulimit -s unlimited && export OMP_STACKSIZE=2G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10; source /opt/intel/oneapi/setvars.sh; source ~/coding/p38/bin/activate; ./xtb --coffee --prob; sleep 1000" 
 
 ./xtb --prob --md --input input.inp --coffee
 ```

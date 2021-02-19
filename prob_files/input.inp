@@ -1,7 +1,7 @@
 $md
    time=5 # in ps
    step=1 # in fs
-   dump= 50.0  # in fs
+   dump= 1  # in fs
    temp=298
    shake=0
    restart=false

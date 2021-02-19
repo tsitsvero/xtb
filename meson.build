@@ -154,6 +154,7 @@ xtb_prob = executable(
   include_directories: incdir,
   link_language: 'fortran',
   dependencies: [exe_deps, lib_deps, py_dep],
+  install: true,
 )
 configure_file(input: 'prob_files/pymodule.py', output: 'pymodule.py',      copy: true)
 configure_file(input: 'prob_files/input.inp', output: 'input.inp',      copy: true)

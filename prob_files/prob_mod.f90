@@ -34,8 +34,13 @@ module prob_module
        real(wp) :: etmp,rmsdval,e
        integer  :: i,j,k,iref,iat
     
+       real(wp) :: prob_kpush, prob_alp, prob_freq
 
        prob_inv_l =  1.0d0/prob_l
+
+       prob_kpush = 0.084_wp
+       prob_alp = 0.04_wp
+       prob_freq = 4.0_wp
 
        if(metavar%nstruc < 1 ) return
       
@@ -101,7 +106,7 @@ module prob_module
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
-            !$omp shared(metavar,nat,xyz) &
+            !$omp shared(metavar,nat,xyz,prob_kpush,prob_alp,prob_freq) &
             !$omp private(grad,xyzref,U,x_center,y_center,rmsdval,e,etmp) &
             !$omp reduction(+:ebias,g)
             !$omp do schedule(dynamic)
@@ -110,10 +115,18 @@ module prob_module
                xyzref = metavar%xyz(:,:,iref)
                call rmsd(nat,xyz,xyzref,1,U,x_center,y_center,rmsdval, &
                         .true.,grad)
-               e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2)
+               ! e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2) 
+               e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
                ebias = ebias + e
-               etmp = -2.0_wp * metavar%width(iref) * e * rmsdval
+               ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval 
+               etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
+                        prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2)
+               ! etmp = (-2*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval))/ &
+               !    E**(prob_alp*rmsdval**2) - &
+               !   (prob_freq*prob_kpush*Sin(prob_freq*rmsdval))/ &
+               !    E**(prob_alp*rmsdval**2) 
                g = g + etmp*grad
+               ! print *, "nat zero called"
             enddo
             !$omp enddo
             !$omp end parallel
@@ -144,6 +157,7 @@ module prob_module
             !$omp enddo
             !$omp end parallel
             deallocate( xyzdup )
+            print *, "nat nonzero called!!!!!"
          endif
          deallocate( xyzref, grad )         
 
