@@ -11,6 +11,9 @@ module prob_module
     logical :: prob_flag = .false.
     integer :: prob_metadyn_count = 0
 
+    integer :: dt(8)
+    integer :: prob_log_file_id = 1234
+
     real(8) :: prob_a, prob_l, prob_inv_l
    
     
@@ -34,13 +37,19 @@ module prob_module
        real(wp) :: etmp,rmsdval,e
        integer  :: i,j,k,iref,iat
     
-       real(wp) :: prob_kpush, prob_alp, prob_freq
+       real(wp) :: prob_kpush, prob_alp, prob_freq, prob_loc
 
        prob_inv_l =  1.0d0/prob_l
 
        prob_kpush = 0.084_wp
        prob_alp = 0.04_wp
-       prob_freq = 4.0_wp
+       prob_freq = 3.2_wp
+       prob_loc = 0.5_wp
+
+      ! standard parameters when transformation happens around 3 ps:
+      !  prob_kpush = 0.084_wp
+      !  prob_alp = 0.04_wp
+      !  prob_freq = 0.0_wp
 
        if(metavar%nstruc < 1 ) return
       
@@ -106,7 +115,7 @@ module prob_module
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
-            !$omp shared(metavar,nat,xyz,prob_kpush,prob_alp,prob_freq) &
+            !$omp shared(metavar,nat,xyz,prob_kpush,prob_alp,prob_freq, prob_loc) &
             !$omp private(grad,xyzref,U,x_center,y_center,rmsdval,e,etmp) &
             !$omp reduction(+:ebias,g)
             !$omp do schedule(dynamic)
@@ -116,17 +125,22 @@ module prob_module
                call rmsd(nat,xyz,xyzref,1,U,x_center,y_center,rmsdval, &
                         .true.,grad)
                ! e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2) 
-               e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
-               ebias = ebias + e
+               ! e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
+               
+               e = prob_kpush * bump(rmsdval, prob_loc)
+               etmp = prob_kpush * dbump(rmsdval, prob_loc)
+               
                ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval 
-               etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
-                        prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2)
-               ! etmp = (-2*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval))/ &
-               !    E**(prob_alp*rmsdval**2) - &
-               !   (prob_freq*prob_kpush*Sin(prob_freq*rmsdval))/ &
-               !    E**(prob_alp*rmsdval**2) 
+               ! etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
+               !          prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) 
+               
+
+               
+               ebias = ebias + e         
                g = g + etmp*grad
-               ! print *, "nat zero called"
+               !$omp critical
+               write (1234,*) "nat zero called", rmsdval
+               !$omp end critical
             enddo
             !$omp enddo
             !$omp end parallel
@@ -168,6 +182,46 @@ module prob_module
       !  print *, 'Call prob_metadynamic()...', prob_metadyn_count
     end subroutine prob_metadynamic
     
+   
+    function bump(x, loc) !bump function with support on  (-1,1)
+      use xtb_mctc_accuracy, only : wp
+      implicit none
+      real(wp) :: bump
+      real(wp) :: x, loc
+      bump = 0.0_wp
+      if (x .lt. loc) bump = exp(1.0_wp / ((loc*x)**2 - 1.0_wp))
+   end function bump
+
+   function dbump(x, loc) !bump function with support on  (-1,1)
+      use xtb_mctc_accuracy, only : wp
+      implicit none
+      real(wp) :: dbump
+      real(wp) :: x, loc
+      dbump = 0.0_wp
+      if (x .lt. loc) dbump = -2 * x * loc**2/(loc**2 * x**2 - 1.0_wp)**2 * exp(1.0_wp / (loc**2 * x**2 - 1.0_wp))
+   end function dbump
+
+   function sinc(x) !sinc function as used in DSP
+      use xtb_mctc_accuracy, only : wp
+      implicit none
+      real(wp) :: sinc
+      real(wp) :: x
+      real(wp), parameter :: pi = acos(-1.0_wp)
+      x = x*pi
+      sinc = 1.0_wp
+      if (x /= 0.0_wp) sinc = sin(x)/x
+   end function sinc
+
+   function dsinc(x) !derivative of sinc function as used in DSP
+      use xtb_mctc_accuracy, only : wp
+      implicit none
+      real(wp) :: dsinc
+      real(wp) :: x
+      real(wp), parameter :: pi = acos(-1.0_wp)
+      x = x*pi
+      dsinc = 0.0_wp
+      if (x /= 0.0_wp) dsinc = (x*cos(x) - sin(x))/x
+   end function dsinc
 
     subroutine prob_func()  
       use xtb_mctc_accuracy, only : wp

@@ -89,7 +89,7 @@ module xtb_prog_main
    use xtb_scan
    use xtb_kopt
 
-   use prob_module, only : prob_func, prob_c, prob_flag, prob_a, prob_l
+   use prob_module, only : prob_func, prob_c, prob_flag, prob_a, prob_l, prob_log_file_id, dt
 
    implicit none
    private
@@ -1033,6 +1033,11 @@ subroutine xtbMain(env, argParser)
    endif
 
 
+   ! prob_mod closing the log file
+   call date_and_time(values=dt)
+   write(prob_log_file_id,*) "Finished on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
+   close(prob_log_file_id) ! prob_module: close logger file
+
    ! ------------------------------------------------------------------------
    !  make some post processing afterward, show some timings and stuff
    write(env%unit,'(a)')
@@ -1069,7 +1074,6 @@ subroutine xtbMain(env, argParser)
 
    write(env%unit,'(a)')
    call terminate(0)
-
 
 end subroutine xtbMain
 
@@ -1235,9 +1239,10 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          ! read *, prob_a
          ! read *, prob_l
          ! print *, "Okay... Kernel variables were set to ", prob_a, " and ", prob_l
-         ! open(22,file='prob_file.log',action='write',position='append') 
-         ! write(22,*) "Kernel vars were set to ", prob_a, " ", prob_l
-         ! close(22)
+         call date_and_time(values=dt)
+         open(prob_log_file_id,file='~/Desktop/prob_logger.txt',action='write',position='append') 
+         write(prob_log_file_id,*) "Started on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
+         
 
 
       case('-a', '--acc')

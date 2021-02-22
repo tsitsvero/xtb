@@ -7,7 +7,7 @@ $md
    restart=false
 $end
 $metadyn
-   save=1000
+   save=100
    kpush=0.084
    alp=0.04
    #atoms=2,1
