@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pointgroupscount_10650',['PointGroupsCount',['../symmetry__i_8c.html#a8e1151b4250eccc0617361c906cbefb2',1,'symmetry_i.c']]]
+  ['pointgroupscount_10652',['PointGroupsCount',['../symmetry__i_8c.html#a8e1151b4250eccc0617361c906cbefb2',1,'symmetry_i.c']]]
 ];
