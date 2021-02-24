@@ -15,6 +15,8 @@ module prob_module
     integer :: prob_log_file_id = 1234
 
     real(8) :: prob_a, prob_l, prob_inv_l
+
+    integer :: prob_dump_mtd = 100
    
     
 
@@ -37,19 +39,29 @@ module prob_module
        real(wp) :: etmp,rmsdval,e
        integer  :: i,j,k,iref,iat
     
-       real(wp) :: prob_kpush, prob_alp, prob_freq, prob_loc
+       real(wp) :: prob_kpush, prob_alp, prob_freq, prob_loc, prob_kpush_bump
 
        prob_inv_l =  1.0d0/prob_l
 
+      !parameters for oscillating kernel:
        prob_kpush = 0.084_wp
        prob_alp = 0.04_wp
-       prob_freq = 3.2_wp
+       prob_freq = 2.0_wp
+
+
+       ! parameters for bump kernel:
+       prob_kpush_bump = 0.23_wp 
        prob_loc = 0.5_wp
+
 
       ! standard parameters when transformation happens around 3 ps:
       !  prob_kpush = 0.084_wp
       !  prob_alp = 0.04_wp
       !  prob_freq = 0.0_wp
+
+      ! corresponding parameters for bump kernel:
+      !  prob_kpush_bump = 0.23_wp 
+      !  prob_loc = 0.14_wp
 
        if(metavar%nstruc < 1 ) return
       
@@ -115,7 +127,7 @@ module prob_module
          if (metavar%nat == 0) then
             allocate( xyzref(3,nat), grad(3,nat),source = 0.0_wp )
             !$omp parallel default(none) &
-            !$omp shared(metavar,nat,xyz,prob_kpush,prob_alp,prob_freq, prob_loc) &
+            !$omp shared(metavar,nat,xyz,prob_kpush,prob_alp,prob_freq, prob_loc, prob_kpush_bump, prob_log_file_id) &
             !$omp private(grad,xyzref,U,x_center,y_center,rmsdval,e,etmp) &
             !$omp reduction(+:ebias,g)
             !$omp do schedule(dynamic)
@@ -124,23 +136,29 @@ module prob_module
                xyzref = metavar%xyz(:,:,iref)
                call rmsd(nat,xyz,xyzref,1,U,x_center,y_center,rmsdval, &
                         .true.,grad)
+               
                ! e = metavar%factor(iref) * exp(-metavar%width(iref) * rmsdval**2) 
-               ! e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
-               
-               e = prob_kpush * bump(rmsdval, prob_loc)
-               etmp = prob_kpush * dbump(rmsdval, prob_loc)
-               
                ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval 
+
+
+               ! e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
                ! etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
                !          prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) 
+
+
+               e = prob_kpush_bump * bump(rmsdval, prob_loc)
+               etmp = prob_kpush_bump * dbump(rmsdval, prob_loc)
                
 
-               
+
+                            
                ebias = ebias + e         
                g = g + etmp*grad
+
                !$omp critical
-               write (1234,*) "nat zero called", rmsdval
+               write (prob_log_file_id,*) "RMSD = ", rmsdval, ";   metavar%nstruc is ", metavar%nstruc   
                !$omp end critical
+
             enddo
             !$omp enddo
             !$omp end parallel
@@ -171,7 +189,7 @@ module prob_module
             !$omp enddo
             !$omp end parallel
             deallocate( xyzdup )
-            print *, "nat nonzero called!!!!!"
+            write (prob_log_file_id,*) "nat nonzero called!!!!!"
          endif
          deallocate( xyzref, grad )         
 
@@ -189,16 +207,16 @@ module prob_module
       real(wp) :: bump
       real(wp) :: x, loc
       bump = 0.0_wp
-      if (x .lt. loc) bump = exp(1.0_wp / ((loc*x)**2 - 1.0_wp))
+      if (x .lt. 1.0_wp/loc) bump = exp(1.0_wp / ((loc*x)**2 - 1.0_wp))
    end function bump
 
-   function dbump(x, loc) !bump function with support on  (-1,1)
+   function dbump(x, loc) !derivative of bump function with support on  (-1,1)
       use xtb_mctc_accuracy, only : wp
       implicit none
       real(wp) :: dbump
       real(wp) :: x, loc
       dbump = 0.0_wp
-      if (x .lt. loc) dbump = -2 * x * loc**2/(loc**2 * x**2 - 1.0_wp)**2 * exp(1.0_wp / (loc**2 * x**2 - 1.0_wp))
+      if (x .lt. 1.0_wp/loc) dbump = -2.0_wp * x * loc**2/(loc**2 * x**2 - 1.0_wp)**2 * exp(1.0_wp / (loc**2 * x**2 - 1.0_wp))
    end function dbump
 
    function sinc(x) !sinc function as used in DSP

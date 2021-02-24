@@ -10,5 +10,5 @@ $metadyn
    save=100
    kpush=0.084
    alp=0.04
-   #atoms=2,1
+   #atoms=2,26
 $end
