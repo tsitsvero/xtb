@@ -1,11 +1,11 @@
 <map id="xtb_intgrad::sdqint" name="xtb_intgrad::sdqint">
-<area shape="rect" id="node1" title="computes the dipole and quadrupole integrals and performs screening to" alt="" coords="5,97,132,123"/>
-<area shape="rect" id="node2" href="$namespacextb__intgrad.html#a3123173ad7d8c3991074f793fdc9c593" title=" " alt="" coords="204,71,321,98"/>
-<area shape="rect" id="node3" href="$namespacextb__intgrad.html#aee9600380d10f057eefb0773b7fb2b06" title=" " alt="" coords="180,122,345,149"/>
-<area shape="rect" id="node4" href="$namespacextb__intgrad.html#aa938e4391a764ecf662013cd966899ba" title=" " alt="" coords="393,115,512,156"/>
-<area shape="rect" id="node5" href="$namespacextb__intgrad.html#a5bc6f86d12b5b4734f597a88800d8330" title=" " alt="" coords="574,5,693,47"/>
-<area shape="rect" id="node6" href="$namespacextb__intgrad.html#a1f9cf61176ecca277a73a81137c39a39" title=" " alt="" coords="560,71,707,98"/>
-<area shape="rect" id="node7" href="$namespacextb__intgrad.html#a49b854bf505ac013ac50d12edb2e0de5" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="563,122,704,149"/>
-<area shape="rect" id="node8" href="$namespacextb__intgrad.html#a61582fac6cd8cc05eb76d4ced531ef6e" title="calculates a partial overlap in one cartesian direction" alt="" coords="572,173,695,199"/>
-<area shape="rect" id="node9" href="$namespacextb__intgrad.html#a040b47e4b45c55028569fcad9704172a" title=" " alt="" coords="572,223,695,250"/>
+<area shape="rect" id="node1" title="computes the dipole and quadrupole integrals and performs screening to" alt="" coords="5,68,132,95"/>
+<area shape="rect" id="node2" href="$namespacextb__intgrad.html#a3123173ad7d8c3991074f793fdc9c593" title=" " alt="" coords="204,43,321,69"/>
+<area shape="rect" id="node3" href="$namespacextb__intgrad.html#a75f1b6ec8c7f75caeec5fac307179505" title=" " alt="" coords="180,93,345,120"/>
+<area shape="rect" id="node4" href="$namespacextb__intgrad.html#a1f9cf61176ecca277a73a81137c39a39" title=" " alt="" coords="393,5,540,32"/>
+<area shape="rect" id="node5" href="$namespacextb__intgrad.html#af483e162e73c1238a72bd8559f9b26e8" title=" " alt="" coords="407,57,526,98"/>
+<area shape="rect" id="node8" href="$namespacextb__intgrad.html#a49b854bf505ac013ac50d12edb2e0de5" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="396,123,537,149"/>
+<area shape="rect" id="node9" href="$namespacextb__intgrad.html#a61582fac6cd8cc05eb76d4ced531ef6e" title="calculates a partial overlap in one cartesian direction" alt="" coords="405,173,528,200"/>
+<area shape="rect" id="node6" href="$namespacextb__intgrad.html#a5bc6f86d12b5b4734f597a88800d8330" title=" " alt="" coords="590,27,709,69"/>
+<area shape="rect" id="node7" href="$namespacextb__intgrad.html#a040b47e4b45c55028569fcad9704172a" title=" " alt="" coords="588,93,711,120"/>
 </map>

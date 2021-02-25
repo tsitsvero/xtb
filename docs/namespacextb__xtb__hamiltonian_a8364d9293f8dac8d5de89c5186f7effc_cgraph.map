@@ -2,13 +2,13 @@
 <area shape="rect" id="node1" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="5,115,141,156"/>
 <area shape="rect" id="node2" href="$namespacextb__grad__core.html#afcd07cdba5580e023801c661c0dda52d" title=" " alt="" coords="189,42,356,69"/>
 <area shape="rect" id="node3" href="$namespacextb__intgrad.html#a3123173ad7d8c3991074f793fdc9c593" title=" " alt="" coords="214,93,331,119"/>
-<area shape="rect" id="node4" href="$namespacextb__intgrad.html#a84a16c374ef42e274a28bfac818995e7" title=" " alt="" coords="202,144,343,185"/>
+<area shape="rect" id="node4" href="$namespacextb__intgrad.html#a687c81581d68c7e2e2b798d472774195" title=" " alt="" coords="202,144,343,185"/>
 <area shape="rect" id="node12" href="$namespacextb__scc__core.html#a136cd39a28befead4338400b448fddc3" title="H0 off&#45;diag scaling." alt="" coords="201,210,344,237"/>
-<area shape="rect" id="node5" href="$namespacextb__intgrad.html#adb53ca5789261bb96d2c95507842a461" title=" " alt="" coords="413,115,532,156"/>
-<area shape="rect" id="node11" href="$namespacextb__intgrad.html#a3182051be33b106f6c819954040fdc1b" title="move gradient operator from center a to center b" alt="" coords="404,181,541,207"/>
-<area shape="rect" id="node6" href="$namespacextb__intgrad.html#a5bc6f86d12b5b4734f597a88800d8330" title=" " alt="" coords="603,5,722,47"/>
-<area shape="rect" id="node7" href="$namespacextb__intgrad.html#a1f9cf61176ecca277a73a81137c39a39" title=" " alt="" coords="589,71,736,98"/>
-<area shape="rect" id="node8" href="$namespacextb__intgrad.html#a49b854bf505ac013ac50d12edb2e0de5" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="592,122,733,149"/>
-<area shape="rect" id="node9" href="$namespacextb__intgrad.html#a61582fac6cd8cc05eb76d4ced531ef6e" title="calculates a partial overlap in one cartesian direction" alt="" coords="601,173,724,199"/>
-<area shape="rect" id="node10" href="$namespacextb__intgrad.html#a040b47e4b45c55028569fcad9704172a" title=" " alt="" coords="601,223,724,250"/>
+<area shape="rect" id="node5" href="$namespacextb__intgrad.html#a515a1507379a42ee41f4b3f24189fe4a" title=" " alt="" coords="418,35,537,76"/>
+<area shape="rect" id="node8" href="$namespacextb__intgrad.html#a1f9cf61176ecca277a73a81137c39a39" title=" " alt="" coords="404,101,551,127"/>
+<area shape="rect" id="node9" href="$namespacextb__intgrad.html#a49b854bf505ac013ac50d12edb2e0de5" title="returns center of product Gaussian from two Gaussians by GPT" alt="" coords="407,151,548,178"/>
+<area shape="rect" id="node10" href="$namespacextb__intgrad.html#a61582fac6cd8cc05eb76d4ced531ef6e" title="calculates a partial overlap in one cartesian direction" alt="" coords="416,202,539,229"/>
+<area shape="rect" id="node11" href="$namespacextb__intgrad.html#a3182051be33b106f6c819954040fdc1b" title="move gradient operator from center a to center b" alt="" coords="409,253,546,279"/>
+<area shape="rect" id="node6" href="$namespacextb__intgrad.html#a5bc6f86d12b5b4734f597a88800d8330" title=" " alt="" coords="601,5,719,47"/>
+<area shape="rect" id="node7" href="$namespacextb__intgrad.html#a040b47e4b45c55028569fcad9704172a" title=" " alt="" coords="599,71,721,98"/>
 </map>

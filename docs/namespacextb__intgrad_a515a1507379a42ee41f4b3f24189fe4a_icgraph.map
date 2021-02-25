@@ -1,0 +1,11 @@
+<map id="xtb_intgrad::build_dsdq_ints" name="xtb_intgrad::build_dsdq_ints">
+<area shape="rect" id="node1" title=" " alt="" coords="847,64,965,105"/>
+<area shape="rect" id="node2" href="$namespacextb__intgrad.html#a687c81581d68c7e2e2b798d472774195" title=" " alt="" coords="657,64,799,105"/>
+<area shape="rect" id="node3" href="$namespacextb__xtb__hamiltonian.html#a8364d9293f8dac8d5de89c5186f7effc" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="464,31,600,72"/>
+<area shape="rect" id="node9" href="$namespacextb__xtb__hamiltonian.html#a299eaa3877160d0aff3f63dc55b12fde" title="Computes the gradient of the dipole/qpole integral contribution." alt="" coords="455,96,609,137"/>
+<area shape="rect" id="node4" href="$namespacextb__scf.html#a7390c40a38032c3d210c39edecfa49ed" title=" " alt="" coords="319,71,407,98"/>
+<area shape="rect" id="node5" href="$namespacextb__xtb__calculator.html#a75c96263c235c99dfeeda3e865f9898c" title=" " alt="" coords="144,5,271,47"/>
+<area shape="rect" id="node6" href="$TESTSUITE_2gfn1_8f90.html#ab5cc37cef2d483d9d9cde17aa03c55a8" title=" " alt="" coords="155,71,259,98"/>
+<area shape="rect" id="node8" href="$TESTSUITE_2gfn2_8f90.html#af47afba0207cbca2dc950fb5e339ce03" title=" " alt="" coords="155,122,259,149"/>
+<area shape="rect" id="node7" href="$tests__peeq_8f90.html#a87ff5319e0d2e627a4f71d7df0d14891" title=" " alt="" coords="5,97,96,123"/>
+</map>

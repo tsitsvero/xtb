@@ -322,7 +322,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;   g(3,10)=(val(1,1)*val(2,2)*gra(3,2))</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="intgrad_8f90_source.html#l00373">xtb_intgrad::build_hshift2()</a>, <a class="el" href="intgrad_8f90_source.html#l00027">xtb_intgrad::lx</a>, <a class="el" href="intgrad_8f90_source.html#l00035">xtb_intgrad::ly</a>, <a class="el" href="intgrad_8f90_source.html#l00043">xtb_intgrad::lz</a>, and <a class="el" href="intgrad_8f90_source.html#l00404">xtb_intgrad::prod3()</a>.</p>
+<p class="reference">References <a class="el" href="intgrad_8f90_source.html#l00368">xtb_intgrad::build_hshift2()</a>, <a class="el" href="intgrad_8f90_source.html#l00027">xtb_intgrad::lx</a>, <a class="el" href="intgrad_8f90_source.html#l00035">xtb_intgrad::ly</a>, <a class="el" href="intgrad_8f90_source.html#l00043">xtb_intgrad::lz</a>, and <a class="el" href="intgrad_8f90_source.html#l00398">xtb_intgrad::prod3()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="hamiltonian__gpu_8f90_source.html#l00774">build_dsdqh0_gpu()</a>.</p>
 <div class="dynheader">
@@ -807,7 +807,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;   <span class="comment">!$acc&amp; hData%referenceOcc(:, :), hData%kCN(:, :), hData%electronegativity(:), hData%atomicRad(:), &amp;</span></div>
 <div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;   <span class="comment">!$acc&amp; hData%shellPoly(:, :), hData%pairParam(:, :), hData%kQShell(:, :), hData%kQAtom(:))</span></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="hamiltonian__gpu_8f90_source.html#l00091">build_dsdq_ints_gpu()</a>, <a class="el" href="grad__core_8f90_source.html#l00041">xtb_grad_core::dshellpoly()</a>, <a class="el" href="hamiltonian__gpu_8f90_source.html#l01172">dtrf2_gpu()</a>, <a class="el" href="convert_8f90_source.html#l00028">xtb_mctc_convert::evtoau</a>, <a class="el" href="scc__core_8f90_source.html#l00614">xtb_scc_core::h0scal()</a>, <a class="el" href="intgrad_8f90_source.html#l00062">xtb_intgrad::llao</a>, <a class="el" href="intgrad_8f90_source.html#l00063">xtb_intgrad::llao2</a>, <a class="el" href="intgrad_8f90_source.html#l00090">xtb_intgrad::olapp()</a>, <a class="el" href="mctc__constants_8f90_source.html#l00022">xtb_mctc_constants::pi</a>, and <a class="el" href="hamiltonian__gpu_8f90_source.html#l01275">shiftintg_gpu()</a>.</p>
+<p class="reference">References <a class="el" href="hamiltonian__gpu_8f90_source.html#l00091">build_dsdq_ints_gpu()</a>, <a class="el" href="grad__core_8f90_source.html#l00041">xtb_grad_core::dshellpoly()</a>, <a class="el" href="hamiltonian__gpu_8f90_source.html#l01172">dtrf2_gpu()</a>, <a class="el" href="convert_8f90_source.html#l00028">xtb_mctc_convert::evtoau</a>, <a class="el" href="scc__core_8f90_source.html#l00614">xtb_scc_core::h0scal()</a>, <a class="el" href="intgrad_8f90_source.html#l00083">xtb_intgrad::itt</a>, <a class="el" href="intgrad_8f90_source.html#l00062">xtb_intgrad::llao</a>, <a class="el" href="intgrad_8f90_source.html#l00063">xtb_intgrad::llao2</a>, <a class="el" href="intgrad_8f90_source.html#l00091">xtb_intgrad::olapp()</a>, <a class="el" href="mctc__constants_8f90_source.html#l00022">xtb_mctc_constants::pi</a>, and <a class="el" href="hamiltonian__gpu_8f90_source.html#l01275">shiftintg_gpu()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="scf__module_8F90_source.html#l00075">xtb_scf::scf()</a>.</p>
 <div class="dynheader">
@@ -1490,7 +1490,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;            ss = 0.0_wp</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;            dd2 = 0.0_wp</div>
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            qq = 0.0_wp</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <span class="keyword">call </span>get_multiints(icao,jcao,naoi,naoj,iptyp,jptyp,ra,ra,point, &amp;</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <span class="keyword">call </span>get_multiints(icao,jcao,naoi,naoj,ishtyp,jshtyp,ra,ra,point, &amp;</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;               &amp;               intcut,nprim,primcount,alp,cont,ss,dd2,qq)</div>
 <div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            <span class="comment">!transform from CAO to SAO</span></div>
 <div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;            <span class="comment">!call dtrf2(ss,ishtyp,jshtyp)</span></div>
@@ -1534,7 +1534,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160; </div>
 <div class="ttc" id="aconstrain__pot_8f90_html_ac62613d43f31c7bfa652ee80083b400b"><div class="ttname"><a href="constrain__pot_8f90.html#ac62613d43f31c7bfa652ee80083b400b">lin</a></div><div class="ttdeci">pure elemental integer function lin(i1, i2)</div><div class="ttdef"><b>Definition:</b> <a href="constrain__pot_8f90_source.html#l00078">constrain_pot.f90:79</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="intgrad_8f90_source.html#l01218">xtb_intgrad::build_sdq_ints_gpu()</a>, <a class="el" href="intgrad_8f90_source.html#l00246">xtb_intgrad::dtrf2()</a>, <a class="el" href="intgrad_8f90_source.html#l00899">xtb_intgrad::get_multiints()</a>, <a class="el" href="scc__core_8f90_source.html#l00614">xtb_scc_core::h0scal()</a>, <a class="el" href="constrain__pot_8f90_source.html#l00079">lin()</a>, <a class="el" href="intgrad_8f90_source.html#l00062">xtb_intgrad::llao</a>, <a class="el" href="intgrad_8f90_source.html#l00063">xtb_intgrad::llao2</a>, <a class="el" href="intgrad_8f90_source.html#l00027">xtb_intgrad::lx</a>, <a class="el" href="intgrad_8f90_source.html#l00035">xtb_intgrad::ly</a>, <a class="el" href="intgrad_8f90_source.html#l00043">xtb_intgrad::lz</a>, <a class="el" href="intgrad_8f90_source.html#l00090">xtb_intgrad::olapp()</a>, <a class="el" href="mctc__constants_8f90_source.html#l00022">xtb_mctc_constants::pi</a>, <a class="el" href="scc__core_8f90_source.html#l00698">xtb_scc_core::shellpoly()</a>, and <a class="el" href="intgrad_8f90_source.html#l00065">xtb_intgrad::trafo</a>.</p>
+<p class="reference">References <a class="el" href="intgrad_8f90_source.html#l01346">xtb_intgrad::build_sdq_ints_gpu()</a>, <a class="el" href="intgrad_8f90_source.html#l00243">xtb_intgrad::dtrf2()</a>, <a class="el" href="intgrad_8f90_source.html#l01017">xtb_intgrad::get_multiints()</a>, <a class="el" href="scc__core_8f90_source.html#l00614">xtb_scc_core::h0scal()</a>, <a class="el" href="intgrad_8f90_source.html#l00083">xtb_intgrad::itt</a>, <a class="el" href="constrain__pot_8f90_source.html#l00079">lin()</a>, <a class="el" href="intgrad_8f90_source.html#l00062">xtb_intgrad::llao</a>, <a class="el" href="intgrad_8f90_source.html#l00063">xtb_intgrad::llao2</a>, <a class="el" href="intgrad_8f90_source.html#l00027">xtb_intgrad::lx</a>, <a class="el" href="intgrad_8f90_source.html#l00035">xtb_intgrad::ly</a>, <a class="el" href="intgrad_8f90_source.html#l00043">xtb_intgrad::lz</a>, <a class="el" href="intgrad_8f90_source.html#l00091">xtb_intgrad::olapp()</a>, <a class="el" href="mctc__constants_8f90_source.html#l00022">xtb_mctc_constants::pi</a>, <a class="el" href="scc__core_8f90_source.html#l00698">xtb_scc_core::shellpoly()</a>, and <a class="el" href="intgrad_8f90_source.html#l00065">xtb_intgrad::trafo</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="scf__module_8F90_source.html#l00075">xtb_scf::scf()</a>.</p>
 <div class="dynheader">
@@ -2124,7 +2124,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 24 2021 08:58:21 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Feb 25 2021 05:54:17 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

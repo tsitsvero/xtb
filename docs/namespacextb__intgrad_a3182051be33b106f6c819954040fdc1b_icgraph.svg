@@ -48,7 +48,7 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 742;
 var viewHeight = 116;
-var sectionId = 'dynsection-23';
+var sectionId = 'dynsection-27';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
@@ -67,7 +67,7 @@ var sectionId = 'dynsection-23';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="namespacextb__intgrad.html#a84a16c374ef42e274a28bfac818995e7" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="namespacextb__intgrad.html#a687c81581d68c7e2e2b798d472774195" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="489,-33 489,-63 595,-63 595,-33 489,-33"/>
 <text text-anchor="start" x="497" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">xtb_intgrad::get_grad</text>
 <text text-anchor="middle" x="542" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">_multiint</text>

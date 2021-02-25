@@ -87,9 +87,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="contents">
 <div class="textblock"><p><a href="https://github.com/grimme-lab/xtb/blob/master/COPYING"><img src="https://img.shields.io/github/license/grimme-lab/xtb" alt="License" class="inline"/></a> <a href="https://github.com/grimme-lab/xtb/releases/latest"><img src="https://img.shields.io/github/v/release/grimme-lab/xtb" alt="Latest Version" class="inline"/></a> <a href="https://doi.org/10.1002/wcms.1493"><img src="https://img.shields.io/badge/DOI-10.1002%2Fwcms.1493-blue" alt="DOI" class="inline"/></a> <a href="https://github.com/grimme-lab/xtb/releases"><img src="https://img.shields.io/github/downloads/grimme-lab/xtb/total" alt="Github Downloads All Releases" class="inline"/></a></p>
 <p>This is the fork from offical repository of the <code>xtb</code> program package developed by the Grimme group in Bonn.</p>
-<div align="center"> <img src="./assets/logo/xtb.svg" alt="Extended Tight Binding" style="pointer-events: none;" width="220" class="inline"/> </div><p>.................................</p>
-<h1><a class="anchor" id="autotoc_md9"></a>
-Q uick compilation and run with Intel API</h1>
+<div align="center"> <img src="./assets/logo/xtb.svg" alt="Extended Tight Binding" style="pointer-events: none;" width="220" class="inline"/> </div><hr  />
+<p> .................................</p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Q uick compilation and run with Intel API</h2>
 <div class="fragment"><div class="line">. /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc &amp;&amp; </div>
 <div class="line">meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure</div>
 <div class="line"> </div>
@@ -111,14 +112,14 @@ Q uick compilation and run with Intel API</h1>
 <div class="line">terminator --working-directory=&quot;~/Desktop/xtb/bin&quot; --command=&quot;ulimit -s unlimited &amp;&amp; export OMP_STACKSIZE=2G &amp;&amp; export OMP_NUM_THREADS=10,1 &amp;&amp; export OMP_MAX_ACTIVE_LEVELS=1 &amp;&amp; export MKL_NUM_THREADS=10; source /opt/intel/oneapi/setvars.sh; source ~/coding/p38/bin/activate; ./xtb --coffee --prob; sleep 1000&quot; </div>
 <div class="line"> </div>
 <div class="line">./xtb --prob --md --input input.inp --coffee</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md10"></a>
-Installation</h1>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
+Installation</h2>
 <p><a href="https://github.com/grimme-lab/xtb/actions"><img src="https://img.shields.io/github/workflow/status/grimme-lab/xtb/CI" alt="Build Status" class="inline"/></a></p>
 <p>Statically linked binaries (Intel Compiler 18.0.2) can be found at the <a href="https://github.com/grimme-lab/xtb/releases/latest">latest release page</a>. There is also a version of the shared library, which requires the Math Kernel Library and additional Intel specific libraries to be installed. Bleeding edge releases of the latest source from this repository are available on the <a href="https://github.com/grimme-lab/xtb/releases/tag/bleed">continuous release tag</a>.</p>
 <p><code>xtb</code> is routinely compiled with Intel Parallel Studio 18 and newer on our clusters in Bonn. It is also possible to compile <code>xtb</code> with GCC (version 7.5 or newer), but we recommend to use binaries compiled with Intel. Successful builds on OSX with GCC via homebrew have been performed as well. The NVHPC compilers (version 20.9, 20.11) can be used to compile for CPU and GPU. To compile on Windows we recommend the MinGW toolchain (installable with <a href="https://msys2.org">MSYS2</a>) or, if a POSIX environment is preferred, <a href="https://cygwin.com">Cygwin</a>. It has been reported that <code>xtb</code> can be compiled using Intel Fortran on Windows as well, but official support is not yet established.</p>
 <p>This projects supports two build systems, meson and CMake. A short guide on the usage of each is given here, follow the linked instructions for a more detailed information (<a href="./meson/README.adoc">meson guide</a>, <a href="./cmake/README.adoc">CMake guide</a>).</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
-Meson</h2>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Meson</h3>
 <p>Using <a href="https://mesonbuild.com/">meson</a> as build system requires you to install a fairly new version like 0.51 or newer. To use the default backend of meson you have to install <a href="https://ninja-build.org/">ninja</a> version 1.7 or newer.</p>
 <div class="fragment"><div class="line">export FC=ifort CC=icc</div>
 <div class="line">meson setup build --buildtype release --optimization 2</div>
@@ -127,8 +128,8 @@ Meson</h2>
 <p>To install the <code>xtb</code> binaries to <code>/usr/local</code> use (might require <code>sudo</code>)</p>
 <div class="fragment"><div class="line">ninja -C build install</div>
 </div><!-- fragment --><p>For more information on the build with meson see the instructions <a href="./meson/README.adoc">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md12"></a>
-CMake</h2>
+<h3><a class="anchor" id="autotoc_md13"></a>
+CMake</h3>
 <p>The CMake build system requires both make and CMake to be installed, the latter has to be version 3.9 or newer.</p>
 <p>Building <code>xtb</code> with CMake works with the following chain of commands:</p>
 <div class="fragment"><div class="line">cmake -B build -DCMAKE_BUILD_TYPE=Release</div>
@@ -137,8 +138,8 @@ CMake</h2>
 </div><!-- fragment --><p>To install the <code>xtb</code> binaries to <code>/usr/local</code> use (might require <code>sudo</code>)</p>
 <div class="fragment"><div class="line">make -C build install</div>
 </div><!-- fragment --><p>For more detailed information on the build with CMake see the instructions <a href="./cmake/README.adoc">here</a>.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
-Conda</h2>
+<h3><a class="anchor" id="autotoc_md14"></a>
+Conda</h3>
 <p><a href="https://anaconda.org/conda-forge/xtb"><img src="https://img.shields.io/conda/vn/conda-forge/xtb.svg" alt="Conda Version" style="pointer-events: none;" class="inline"/></a></p>
 <p>Installing <code>xtb</code> from the <code>conda-forge</code> channel can be achieved by adding <code>conda-forge</code> to your channels with:</p>
 <div class="fragment"><div class="line">conda config --add channels conda-forge</div>
@@ -146,15 +147,15 @@ Conda</h2>
 <div class="fragment"><div class="line">conda install xtb</div>
 </div><!-- fragment --><p>It is possible to list all of the versions of <code>xtb</code> available on your platform with:</p>
 <div class="fragment"><div class="line">conda search xtb --channel conda-forge</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md14"></a>
-Documentation</h1>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md15"></a>
+Documentation</h2>
 <p><a href="https://xtb-docs.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/xtb-docs/badge/?version=latest" alt="Documentation Status" class="inline"/></a></p>
 <p>The <code>xtb</code> documentation is hosted at <a href="https://xtb-docs.readthedocs.io/en/latest/contents.html">read-the-docs</a>.</p>
-<h1><a class="anchor" id="autotoc_md15"></a>
-Contributing</h1>
-<p>Please read our <a class="el" href="md_CONTRIBUTING.html">contributing guidelines</a> before contributing to this project.</p>
 <h2><a class="anchor" id="autotoc_md16"></a>
-Contributors</h2>
+Contributing</h2>
+<p>Please read our <a class="el" href="md_CONTRIBUTING.html">contributing guidelines</a> before contributing to this project.</p>
+<h3><a class="anchor" id="autotoc_md17"></a>
+Contributors</h3>
 <p>We are developing this program to make our research possible. Many of the features that <code>xtb</code> has today have been added because there was a dire need for them and we had many contributors who made these features reality:</p>
 <ul>
 <li>P. Atkinson (<a href="https://github.com/patrickatkinson">@patrickatkinson</a>)</li>
@@ -182,14 +183,15 @@ Contributors</h2>
 <li>S. Spicher (<a href="https://github.com/sespic">@sespic</a>)</li>
 <li>M. Stahn (<a href="https://github.com/mtolston">@MtoLStoN</a>)</li>
 <li>T. Strunk (<a href="https://github.com/timostrunk">@timostrunk</a>)</li>
+<li>J. Stückrath (<a href="https://github.com/jbstueckrath">@jbstueckrath</a>)</li>
 <li>T. Rose (<a href="https://github.com/thomas3r">@Thomas3R</a>)</li>
 <li>J. Unsleber (<a href="https://github.com/nabbelbabbel">@nabbelbabbel</a>)</li>
 </ul>
 <p>Contributors are listed in alphabetical order. Some contributions predate the GitHub release of this project and are not visible in the repository commit history. For the contributor data from the commit history since then look <a href="https://github.com/grimme-lab/xtb/graphs/contributors">here</a>.</p>
-<h1><a class="anchor" id="autotoc_md17"></a>
-Citations</h1>
+<h2><a class="anchor" id="autotoc_md18"></a>
+Citations</h2>
 <p>General Reference to <code>xtb</code> and the implemented GFN methods:</p><ul>
-<li>C. Bannwarth, E. Caldeweyher, S. Ehlert, A. Hansen, P. Pracht, J. Seibert, S. Spicher, S. Grimme <em>WIREs Comput. Mol. Sci.</em>, <b>2020</b>, e01493. DOI: <a href="https://doi.org/10.1002/wcms.1493">10.1002/wcms.1493</a></li>
+<li>C. Bannwarth, E. Caldeweyher, S. Ehlert, A. Hansen, P. Pracht, J. Seibert, S. Spicher, S. Grimme <em>WIREs Comput. Mol. Sci.</em>, <b>2020</b>, 11, e01493. DOI: <a href="https://doi.org/10.1002/wcms.1493">10.1002/wcms.1493</a></li>
 </ul>
 <p>for GFN-xTB:</p><ul>
 <li>S. Grimme, C. Bannwarth, P. Shushkov, <em>J. Chem. Theory Comput.</em>, <b>2017</b>, 13, 1989-2009. DOI: <a href="https://dx.doi.org/10.1021/acs.jctc.7b00118">10.1021/acs.jctc.7b00118</a></li>
@@ -214,9 +216,13 @@ Citations</h1>
 <p>for metadynamics refer to:</p><ul>
 <li>S. Grimme, <em>J. Chem. Theory Comput.</em>, <b>2019</b>, 155, 2847-2862. DOI: <a href="https://dx.doi.org/10.1021/acs.jctc.9b00143">10.1021/acs.jctc.9b00143</a></li>
 </ul>
+<p>for SPH calculations refer to:</p><ul>
+<li>S. Spicher and S. Grimme, <em>J. Chem. Theory Comput.</em>, <b>2021</b>. DOI: <a href="https://doi.org/10.1021/acs.jctc.0c01306">10.1021/acs.jctc.0c01306</a> <br  />
+</li>
+</ul>
 <p>All references are available in <a href="./assets/references.bib">bibtex format</a>.</p>
-<h1><a class="anchor" id="autotoc_md18"></a>
-License</h1>
+<h2><a class="anchor" id="autotoc_md19"></a>
+License</h2>
 <p><code>xtb</code> is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
 <p><code>xtb</code> is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU Lesser General Public License for more details.</p>
 <p>Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in <code>xtb</code> by you, as defined in the GNU Lesser General Public license, shall be licensed as above, without any additional terms or conditions. </p>
@@ -224,7 +230,7 @@ License</h1>
 </div><!-- PageDoc -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 24 2021 08:58:14 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Feb 25 2021 05:54:09 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>

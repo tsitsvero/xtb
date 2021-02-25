@@ -123,10 +123,6 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:a88e7865d904c0f99f485a16db19d88aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e3625eb7bd9b7e395c110aacfe6eaeb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacextb__peeq.html#a9e3625eb7bd9b7e395c110aacfe6eaeb">xtb_peeq::pbc_build_sh0</a> (nShell, hData, selfEnergy, nat, at, basis, nbf, nao, xyz, trans, intcut, sint, h0)</td></tr>
 <tr class="separator:a9e3625eb7bd9b7e395c110aacfe6eaeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a287e8583f9e8cdee5b6e958662be4f9a"><td class="memItemLeft" align="right" valign="top">pure subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacextb__peeq.html#a287e8583f9e8cdee5b6e958662be4f9a">xtb_peeq::get_overlap</a> (icao, jcao, naoi, naoj, iptyp, jptyp, ri, rj, point, intcut, nprim, primcount, alp, cont, sint)</td></tr>
-<tr class="separator:a287e8583f9e8cdee5b6e958662be4f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fcfc4df44aaa9a0446dca518f96cf59"><td class="memItemLeft" align="right" valign="top">pure subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacextb__peeq.html#a0fcfc4df44aaa9a0446dca518f96cf59">xtb_peeq::get_grad_overlap</a> (icao, jcao, naoi, naoj, iptyp, jptyp, ri, rj, point, intcut, nprim, primcount, alp, cont, sdq, sdqg)</td></tr>
-<tr class="separator:a0fcfc4df44aaa9a0446dca518f96cf59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40797d7eda755bad4031e16951ae29b7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacextb__peeq.html#a40797d7eda755bad4031e16951ae29b7">xtb_peeq::ccm_build_dsh0</a> (nShell, hData, selfEnergy, dSEdcn, dSEdq, nat, basis, thr, nao, nbf, at, xyz, lattice, P, Pew, g, sigma, dHdcn, dHdq, wsc)</td></tr>
 <tr class="separator:a40797d7eda755bad4031e16951ae29b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a101bc81468c2cd4ddd3221efaa59b142"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacextb__peeq.html#a101bc81468c2cd4ddd3221efaa59b142">xtb_peeq::pbc_build_dsh0</a> (nShell, hData, selfEnergy, dSEdcn, dSEdq, nat, basis, thr, nao, nbf, at, xyz, trans, P, Pew, g, sigma, dHdcn, dHdq)</td></tr>
@@ -158,12 +154,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="peeq__module_8f90_source.html#l00798">798</a> of file <a class="el" href="peeq__module_8f90_source.html">peeq_module.f90</a>.</p>
-<div class="fragment"><div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;   <span class="keywordtype">integer</span>, <span class="keywordtype">intent(in)</span> :: iat</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;   <span class="keywordtype">logical</span> :: lsrb</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;   lsrb = iat &lt; 5 .or. iat &gt; 9</div>
+<p class="definition">Definition at line <a class="el" href="peeq__module_8f90_source.html#l00799">799</a> of file <a class="el" href="peeq__module_8f90_source.html">peeq_module.f90</a>.</p>
+<div class="fragment"><div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;   <span class="keywordtype">integer</span>, <span class="keywordtype">intent(in)</span> :: iat</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;   <span class="keywordtype">logical</span> :: lsrb</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;   lsrb = iat &lt; 5 .or. iat &gt; 9</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="peeq__module_8f90_source.html#l00755">xtb_peeq::build_srblist()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="peeq__module_8f90_source.html#l00756">xtb_peeq::build_srblist()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -176,7 +172,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 24 2021 08:58:13 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+Generated on Thu Feb 25 2021 05:54:08 for My Project by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
 </small></address>
 </body>
 </html>
