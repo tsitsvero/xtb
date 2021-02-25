@@ -36,6 +36,8 @@ bin
 build
 modules
 CODECHECK
+docs
+src/latex
 
 latex
 html_docs
