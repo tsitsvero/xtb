@@ -1035,7 +1035,7 @@ subroutine xtbMain(env, argParser)
 
    ! prob_mod closing the log file
    call date_and_time(values=dt)
-   write(prob_log_file_id,*) "Finished on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
+   write(prob_log_file_id,"(a14,i4,a1,i2.2,a1,i2.2,a1,i2.2,a1,i2.2)") ">>Finished on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
    close(prob_log_file_id) ! prob_module: close logger file
 
    ! ------------------------------------------------------------------------
@@ -1241,7 +1241,7 @@ subroutine parseArguments(env, args, inputFile, paramFile, accuracy, lgrad, &
          ! print *, "Okay... Kernel variables were set to ", prob_a, " and ", prob_l
          call date_and_time(values=dt)
          open(prob_log_file_id,file='~/Desktop/prob_logger.txt',action='write',position='append') 
-         write(prob_log_file_id,*) "Started on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
+         write(prob_log_file_id,"(a13,i4,a1,i2.2,a1,i2.2,a1,i2.2,a1,i2.2)") ">>Started on ",  dt(1), '/', dt(2), '/', dt(3), ' ',  dt(5), ':', dt(6)
          
 
 
