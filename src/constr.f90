@@ -340,6 +340,9 @@ subroutine constrhess(nat,at,xyz0,Hess)
    use xtb_constrainpot
    use xtb_fixparam
    use xtb_metadynamic
+
+   use prob_module ! prob_module code
+
    implicit none
    integer, intent(in)    :: nat
    integer, intent(in)    :: at(nat)
@@ -374,14 +377,26 @@ subroutine constrhess(nat,at,xyz0,Hess)
          call constrain_dist    (potset%dist,    nat,at,xyz,gr,e)
          call constrain_angle   (potset%angle,   nat,at,xyz,gr,e)
          call constrain_dihedral(potset%dihedral,nat,at,xyz,gr,e)
-         call metadynamic(metaset,nat,at,xyz,e,gr)
+         
+         if (prob_flag) then ! prob_module code
+            call prob_metadynamic(metaset,nat,at,xyz,e,gr)
+         else
+            call metadynamic(metaset,nat,at,xyz,e,gr)
+         end if
+         
          xyz(ic,ia)=xyz(ic,ia)-2.*step
          gl=0
          call constrpot(nat,at,xyz,gl,e)
          call constrain_dist    (potset%dist,    nat,at,xyz,gl,e)
          call constrain_angle   (potset%angle,   nat,at,xyz,gl,e)
          call constrain_dihedral(potset%dihedral,nat,at,xyz,gl,e)
-         call metadynamic(metaset,nat,at,xyz,e,gl)
+         
+         if (prob_flag) then ! prob_module code
+            call prob_metadynamic(metaset,nat,at,xyz,e,gl)
+         else
+            call metadynamic(metaset,nat,at,xyz,e,gl)
+         end if   
+            
          xyz(ic,ia)=xyz(ic,ia)+step
          do ja = 1, n
             do jc = 1, 3

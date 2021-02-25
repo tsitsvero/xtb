@@ -12,6 +12,35 @@ This is the fork from offical repository of the `xtb` program package developed 
 </div>
 
 
+=======
+.................................
+
+## Q uick compilation and run with Intel API
+
+```
+. /opt/intel/oneapi/setvars.sh; mkdir -p ~/Desktop/xtb;  export FC=ifort CC=icc && 
+meson setup build --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dprefix=~/Desktop/xtb --reconfigure
+
+ninja -C build install
+
+cd ~/Desktop/xtb/bin
+
+ulimit -s unlimited && export OMP_STACKSIZE=2G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10
+
+./xtb --coffee
+
+
+
+meson configure --clearcache newbuild &&
+mkdir -p ~/Desktop/xtb &&
+meson setup newbuild --buildtype release --optimization 2 -Dfortran_link_args=-qopenmp -Dla_backend=mkl -Dprefix=~/Desktop/xtb --reconfigure &&
+ninja -C newbuild install &&
+
+terminator --working-directory="~/Desktop/xtb/bin" --command="ulimit -s unlimited && export OMP_STACKSIZE=2G && export OMP_NUM_THREADS=10,1 && export OMP_MAX_ACTIVE_LEVELS=1 && export MKL_NUM_THREADS=10; source /opt/intel/oneapi/setvars.sh; source ~/coding/p38/bin/activate; ./xtb --coffee --prob; sleep 1000" 
+
+./xtb --prob --md --input input.inp --coffee
+```
+
 ## Installation
 
 [![Build Status](https://img.shields.io/github/workflow/status/grimme-lab/xtb/CI)](https://github.com/grimme-lab/xtb/actions)

@@ -23,6 +23,8 @@ module xtb_dynamic
    use xtb_intmodes, only : xyzgeo
    use xtb_metadynamic
 
+   use prob_module ! prob_module code
+
 contains
 !CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
@@ -250,6 +252,9 @@ subroutine md(env,mol,chk,calc, &
    restart=restart_md
    accu=accu_md
 
+   !prob_mod code to set metadyn to add bias on every prob_dump_mtd steps:
+   cdump0=prob_dump_mtd
+
    allocate(velo(3,mol%n),vel(3,mol%n),veln(3,mol%n),xyzo(3,mol%n),acc(3,mol%n),mass(mol%n))
 
    call neighbor(mol%n,mol%xyz,mol%at,nbo) ! neighbor list
@@ -446,7 +451,11 @@ subroutine md(env,mol,chk,calc, &
          endif
       !-------------------------------------------------------------------------
          emtd = 0.0d0
-         call metadynamic (metasetlocal,mol%n,mol%at,mol%xyz,emtd,grd)
+         if (prob_flag) then ! prob_module code
+            call prob_metadynamic (metasetlocal,mol%n,mol%at,mol%xyz,emtd,grd)
+         else 
+            call metadynamic (metasetlocal,mol%n,mol%at,mol%xyz,emtd,grd)
+         end if
          epot = epot + emtd
       endif
 

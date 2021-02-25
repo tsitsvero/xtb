@@ -81,7 +81,10 @@ srcs = []
 prog = []
 main = []
 
+
+
 subdir('src')
+
 
 srcs += 'symmetry/symmetry.f90'
 srcs += 'symmetry/symmetry_i.c'
@@ -97,113 +100,129 @@ incdir = include_directories('include')
 
 # create a static library from all sources,
 # this is the common base of all targets created for xtb
-xtb_common = static_library(
-  '_@0@'.format(meson.project_name()),
-  sources: srcs,
+# xtb_common = static_library(
+#   '_@0@'.format(meson.project_name()),
+#   sources: srcs,
+#   include_directories: incdir,
+#   dependencies: exe_deps,
+#   install: false,
+#   pic: true,
+# )
+
+# xtb_dep_static = declare_dependency(
+#   link_with: xtb_common,
+#   include_directories: [incdir, xtb_common.private_dir_include()],
+#   dependencies: exe_deps,
+#   version: meson.project_version(),
+# )
+
+# if fc.get_id() == 'pgi' or fc.get_id() == 'nvidia_hpc'
+#    warning('Shared library extension cannot be compiled with PGI')
+# else
+#    xtb_lib = library(
+#      meson.project_name(),
+#      version: meson.project_version(),
+#      dependencies: lib_deps,
+#      include_directories: incdir,
+#      link_whole: xtb_common,
+#      install: install,
+#    )
+
+#    xtb_dep = declare_dependency(
+#      link_with: xtb_lib,
+#      include_directories: incdir,
+#      dependencies: lib_deps,
+#      version: meson.project_version(),
+#    )
+# endif
+
+# xtb_exe = executable(
+#   meson.project_name(),
+#   sources: prog,
+#   dependencies: xtb_dep_static,
+#   link_language: 'fortran',
+#   install: install,
+# )
+
+# xtb_header = files('include/xtb.h')
+
+# prob_module addition
+subdir('prob_files')
+xtb_prob = executable(
+  'xtb',
+  sources: prob_srcs,
   include_directories: incdir,
-  dependencies: exe_deps,
-  install: false,
-  pic: true,
-)
-
-xtb_dep_static = declare_dependency(
-  link_with: xtb_common,
-  include_directories: [incdir, xtb_common.private_dir_include()],
-  dependencies: exe_deps,
-  version: meson.project_version(),
-)
-
-if fc.get_id() == 'pgi' or fc.get_id() == 'nvidia_hpc'
-   warning('Shared library extension cannot be compiled with PGI')
-else
-   xtb_lib = library(
-     meson.project_name(),
-     version: meson.project_version(),
-     dependencies: lib_deps,
-     include_directories: incdir,
-     link_whole: xtb_common,
-     install: install,
-   )
-
-   xtb_dep = declare_dependency(
-     link_with: xtb_lib,
-     include_directories: incdir,
-     dependencies: lib_deps,
-     version: meson.project_version(),
-   )
-endif
-
-xtb_exe = executable(
-  meson.project_name(),
-  sources: prog,
-  dependencies: xtb_dep_static,
   link_language: 'fortran',
-  install: install,
+  dependencies: [exe_deps, lib_deps, py_dep],
+  install: true,
 )
+configure_file(input: 'prob_files/pymodule.py', output: 'pymodule.py',      copy: true)
+configure_file(input: 'prob_files/input.inp', output: 'input.inp',      copy: true)
+configure_file(input: 'prob_files/helicene.xyz', output: 'helicene.xyz',      copy: true)
 
-xtb_header = files('include/xtb.h')
+warning('Meson will be build with prob_module extension')
 
 ## ========================================== ##
 ## INSTALL
 ## ========================================== ##
-if install
-  install_headers(xtb_header)
-endif
+# if install
+#   install_headers(xtb_header)
+# endif
 
-asciidoc = find_program('asciidoctor', required: false)
-if asciidoc.found()
-  xtb_man = []
-  xtb_man += configure_file(
-    command: [asciidoc, '-b', 'manpage', '@INPUT@', '-o', '@OUTPUT@'],
-    input: files('man/xtb.1.adoc'),
-    output: '@BASENAME@',
-  )
-  xtb_man += configure_file(
-    command: [asciidoc, '-b', 'manpage', '@INPUT@', '-o', '@OUTPUT@'],
-    input: files('man/xcontrol.7.adoc'),
-    output: '@BASENAME@',
-  )
-  if install
-    install_man(xtb_man)
-  endif
-endif
+# asciidoc = find_program('asciidoctor', required: false)
+# if asciidoc.found()
+#   xtb_man = []
+#   xtb_man += configure_file(
+#     command: [asciidoc, '-b', 'manpage', '@INPUT@', '-o', '@OUTPUT@'],
+#     input: files('man/xtb.1.adoc'),
+#     output: '@BASENAME@',
+#   )
+#   xtb_man += configure_file(
+#     command: [asciidoc, '-b', 'manpage', '@INPUT@', '-o', '@OUTPUT@'],
+#     input: files('man/xcontrol.7.adoc'),
+#     output: '@BASENAME@',
+#   )
+#   if install
+#     install_man(xtb_man)
+#   endif
+# endif
 
-xtb_parameter_files = [
-  'param_gfn0-xtb.txt',
-  'param_gfn2-xtb.txt',
-  'param_gfn1-xtb.txt',
-  'param_ipea-xtb.txt',
-  '.param_gfnff.xtb',
-]
+# xtb_parameter_files = [
+#   'param_gfn0-xtb.txt',
+#   'param_gfn2-xtb.txt',
+#   'param_gfn1-xtb.txt',
+#   'param_ipea-xtb.txt',
+#   '.param_gfnff.xtb',
+# ]
 
-if install
-  install_data(xtb_parameter_files)
-endif
+# if install
+#   install_data(xtb_parameter_files)
+# endif
 
-if install_modules
-  xtb_objs = []
-  foreach file: srcs
-    xtb_objs += '@0@.o'.format('_'.join(file.split('/')))
-  endforeach
-  install_subdir(meson.current_build_dir()/'@0@@sta'.format(meson.project_name()),
-                 install_dir: 'include',
-                 strip_directory: true,
-                 exclude_files: xtb_objs)
-endif
+# if install_modules
+#   xtb_objs = []
+#   foreach file: srcs
+#     xtb_objs += '@0@.o'.format('_'.join(file.split('/')))
+#   endforeach
+#   install_subdir(meson.current_build_dir()/'@0@@sta'.format(meson.project_name()),
+#                  install_dir: 'include',
+#                  strip_directory: true,
+#                  exclude_files: xtb_objs)
+# endif
 
-# additional misc. files
-if install
-  subdir('assets')
-endif
+# # additional misc. files
+# if install
+#   subdir('assets')
+# endif
 
-## ========================================== ##
-## TESTSUITE
-## ========================================== ##
-# make sure the correct library is loaded
-xtbenv = environment()
-xtbenv.prepend('LD_LIBRARY_PATH', meson.current_build_dir())
-xtbenv.prepend('PYTHONPATH', meson.current_source_dir() / 'python')
-xtbenv.set('XTBPATH', meson.current_source_dir())
+# ## ========================================== ##
+# ## TESTSUITE
+# ## ========================================== ##
+# # make sure the correct library is loaded
+# xtbenv = environment()
+# xtbenv.prepend('LD_LIBRARY_PATH', meson.current_build_dir())
+# xtbenv.prepend('PYTHONPATH', meson.current_source_dir() / 'python')
+# xtbenv.set('XTBPATH', meson.current_source_dir())
 
-# all tests are defined in a separate meson.build
-subdir('TESTSUITE')
+# # all tests are defined in a separate meson.build
+# subdir('TESTSUITE')

@@ -518,6 +518,8 @@ subroutine numhess_rmsd( &
    use xtb_fixparam
    use xtb_metadynamic
 
+   use prob_module ! prob_module code
+
    implicit none
    !> Dummy
    type(TEnvironment), intent(inout) :: env
@@ -555,14 +557,28 @@ subroutine numhess_rmsd( &
 
          gr = 0.0_wp
          ebias = 0.0_wp
-         call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gr)
+
+         if (prob_flag) then ! prob_module code
+            call prob_metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gr)
+         else
+            call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gr)
+         end if
+         
+         ! call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gr)
 
          tmol=mol
          tmol%xyz(ic,ia)=xyzsave(ic,ia)-step
 
          gl = 0.0_wp
          ebias = 0.0_wp
-         call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gl)
+
+         if (prob_flag) then ! prob_module code
+            call prob_metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gl)
+         else
+            call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gl)
+         end if
+
+         ! call metadynamic(metaset,tmol%n,tmol%at,tmol%xyz,ebias,gl)
 
          tmol%xyz(ic,ia)=xyzsave(ic,ia)
 

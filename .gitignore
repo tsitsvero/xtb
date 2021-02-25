@@ -39,6 +39,16 @@ CODECHECK
 docs
 src/latex
 
+latex
+html_docs
+docs
+newbuild
+builddir
+log.txt
+.vscode
+
+
+
 # files produces by the documentation
 man/*.pdf
 man/*.xml
@@ -67,3 +77,4 @@ __pycache__/
 python/dist
 python/build
 *.egg-info
+prob_files/prob_mod.f90

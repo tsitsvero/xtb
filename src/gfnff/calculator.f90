@@ -31,6 +31,9 @@ module xtb_gfnff_calculator
    use xtb_scanparam
    use xtb_sphereparam
    use xtb_metadynamic
+
+   use prob_module ! prob_module code
+
    use xtb_constrainpot
    use xtb_gfnff_param, only : make_chrg,gff_print
    use xtb_gfnff_data, only : TGFFData
@@ -157,8 +160,15 @@ subroutine singlepoint(self, env, mol, chk, printlevel, restart, &
    call constrain_pot(potset,mol%n,mol%at,mol%xyz,gradient,efix)
    call constrpot   (mol%n,mol%at,mol%xyz,gradient,efix)
    call cavity_egrad(mol%n,mol%at,mol%xyz,efix,gradient)
-   call metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
-   call metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+
+   if (prob_flag) then ! prob_module code
+      call prob_metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
+      call prob_metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+   else
+      call metadynamic (metaset,mol%n,mol%at,mol%xyz,efix,gradient)
+      call metadynamic (rmsdset,mol%n,mol%at,mol%xyz,efix,gradient)
+   end if
+   
 
    ! ------------------------------------------------------------------------
    !  fixing of certain atoms
