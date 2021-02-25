@@ -43,15 +43,16 @@ module prob_module
 
        prob_inv_l =  1.0d0/prob_l
 
-      !parameters for oscillating kernel:
+      !parameters for oscillating kernel 
+      !prob_kpush * Exp(-prob_alp*rmsd^2) * Cos(prob_freq * rmsdval):
        prob_kpush = 0.084_wp
-       prob_alp = 0.04_wp
-       prob_freq = 2.0_wp
+       prob_alp = 0.1_wp
+       prob_freq = 0.0_wp
 
 
        ! parameters for bump kernel:
-       prob_kpush_bump = 0.23_wp 
-       prob_loc = 0.5_wp
+       prob_kpush_bump = 0.228_wp 
+       prob_loc = 0.2_wp
 
 
       ! standard parameters when transformation happens around 3 ps:
@@ -59,8 +60,8 @@ module prob_module
       !  prob_alp = 0.04_wp
       !  prob_freq = 0.0_wp
 
-      ! corresponding parameters for bump kernel:
-      !  prob_kpush_bump = 0.23_wp 
+      ! approximately corresponding parameters for bump kernel:
+      !  prob_kpush_bump = 0.228_wp 
       !  prob_loc = 0.14_wp
 
        if(metavar%nstruc < 1 ) return
@@ -141,13 +142,13 @@ module prob_module
                ! etmp = -2.0_wp * metavar%width(iref) * e * rmsdval 
 
 
-               ! e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
-               ! etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
-               !          prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) 
+               e = (prob_kpush * cos(prob_freq*rmsdval)) * exp( -prob_alp*rmsdval**2 )
+               etmp =  -2.0_wp*prob_alp*prob_kpush*rmsdval*Cos(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) - & 
+                        prob_freq*prob_kpush*Sin(prob_freq*rmsdval) * exp(-prob_alp*rmsdval**2) 
 
 
-               e = prob_kpush_bump * bump(rmsdval, prob_loc)
-               etmp = prob_kpush_bump * dbump(rmsdval, prob_loc)
+               ! e = prob_kpush_bump * bump(rmsdval, prob_loc)
+               ! etmp = prob_kpush_bump * dbump(rmsdval, prob_loc)
                
 
 
